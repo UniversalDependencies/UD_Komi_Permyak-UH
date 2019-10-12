@@ -315,14 +315,14 @@
 # text_fi = Ei voitu valita Peter Smithiä eikä Mary Brownia.
 # text_olo = Ei voidu vallita Peter Smithua, eigo Mary Brownii.
 # text_mdf = Аф Петя Смит, аф Марья Браун ашесть кочкав.
-1	Эз	оз	AUX	_	_	3	aux:neg	_	GTtags=Prt1,3
-2	позь	позьны	AUX	_	Connegative=Yes	3	aux	_	GTtags=ConNeg
+1	Эз	оз	AUX	_	Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	3	aux:neg	_	GTtags=Prt1,3
+2	позь	позьны	VERB	_	Connegative=Yes	3	aux	_	GTtags=ConNeg
 3	бӧрйыны	бӧрйыны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf
-4	не	не	AUX	_	_	6	cc:preconj	_	_
+4	не	не	CCONJ	Polarity=Neg	_	6	cc:preconj	_	_
 5	Питер	Питер	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	GTtags=Prop,Sg,Nom
 6	Смитӧс	Смитӧс	PROPN	_	Case=Acc|Number=Sing	3	obj	_	GTtags=Prop,Sg,Acc|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	10	punct	_	_
-8	не	не	AUX	_	_	10	cc	_	_
+8	не	не	CCONJ	Polarity=Neg	_	10	cc	_	_
 9	Мери	Мери	PROPN	_	Case=Nom|Number=Sing	10	nmod	_	GTtags=Prop,Sg,Nom
 10	Браунӧс	Браунӧс	PROPN	_	Case=Acc|Number=Sing	6	conj	_	GTtags=Prop,Sg,Acc|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	3	punct	_	_
@@ -369,7 +369,7 @@
 4	,	,	PUNCT	CLB	_	8	punct	_	_
 5	кӧр	кӧр	SCONJ	_	_	8	mark	_	_
 6	тэ	тэ	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	GTtags=Pers,Sg2,Nom
-7	верман	верман	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	8	aux	_	GTtags=Ind,Prs,Sg2
+7	верман	верман	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	8	aux	_	GTtags=Ind,Prs,Sg2
 8	локны	локны	VERB	_	VerbForm=Inf	3	ccomp	_	GTtags=Inf|SpaceAfter=No
 9	?	?	PUNCT	CLB	_	3	punct	_	_
 
@@ -416,7 +416,7 @@
 # text_olo = Hänel olis pidänyh olla prichoskua luadimas, ga häi erähien syylöin periä ei voinnuh sinä piän.
 # text_mdf = Сондеенза эрявсть тиемс шяяренза, аньцек ся шиня сонь ашель мялец.
 1	Сылӧ	сія	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obl	_	GTtags=Pers,Sg3,Dat
-2	коліс	ковны	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	4	aux	_	GTtags=Ind,Prt1,Sg3
+2	коліс	ковны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	4	aux	_	GTtags=Ind,Prt1,Sg3
 3	басӧка	басӧка	ADV	_	_	4	advmod	_	_
 4	лӧсьӧтны	лӧсьӧтны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf
 5	юрсисӧ	юрси	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	GTtags=Sg,Acc,PxSg3|SpaceAfter=No
@@ -426,7 +426,7 @@
 9	сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	det	_	GTtags=Pers,Sg3,Nom
 10	лунӧ	лун	NOUN	_	Case=Ill|Number=Sing	14	obl	_	GTtags=Sg,Ill
 11	сылӧ	сія	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	14	obl	_	GTtags=Pers,Sg3,Dat
-12	эз	оз	AUX	_	_	14	aux:neg	_	GTtags=Prt1,3
+12	эз	оз	AUX	_	Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	14	aux:neg	_	GTtags=Prt1,3
 13	вӧв	вӧвны	AUX	_	Connegative=Yes	14	cop	_	GTtags=ConNeg
 14	охота	охота	NOUN	_	Case=Nom|Number=Sing	4	conj	_	GTtags=Sg,Nom
 15	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	GTtags=Pers,Sg3,Acc
@@ -442,8 +442,8 @@
 # text_mdf = Мондейне сон ашезь сатов, сяс мес ласьксь пяк вишкста.
 1	Ме	ме	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	GTtags=Pers,Sg1,Nom
 2	эг	оз	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Prt1	5	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg1
-3	вермы	вермы	AUX	_	Connegative=Yes	5	aux	_	GTtags=ConNeg
-4	сійӧ	сія	PRON	_	 Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	GTtags=Pers,Sg3,Acc
+3	вермы	вермы	VERB	_	Connegative=Yes	5	aux	_	GTtags=ConNeg
+4	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	GTtags=Pers,Sg3,Acc
 5	вӧтны	вӧтны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	сідз	сідз	ADV	_	_	8	fixed	_	_
@@ -463,7 +463,7 @@
 # text_mdf = Мондейне сон ашезь сатов, сяс мес ласьксь пяк вишкста.
 1	Ме	ме	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	GTtags=Pers,Sg1,Nom
 2	эг	оз	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Prt1	5	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg1
-3	вермы	вермы	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres	5	aux	_	GTtags=Ind,Prs,ConNeg
+3	вермы	вермы	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres	5	aux	_	GTtags=Ind,Prs,ConNeg
 4	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	GTtags=Pers,Sg3,Acc
 5	вӧтны	вӧтны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	GTtags=CLB
