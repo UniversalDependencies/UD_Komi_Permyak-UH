@@ -315,7 +315,7 @@
 # text_fi = Ei voitu valita Peter Smithiä eikä Mary Brownia.
 # text_olo = Ei voidu vallita Peter Smithua, eigo Mary Brownii.
 # text_mdf = Аф Петя Смит, аф Марья Браун ашесть кочкав.
-1	Эз	оз	AUX	_	Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	3	aux:neg	_	GTtags=Prt1,3
+1	Эз	оз	AUX	_	Person=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	3	aux:neg	_	GTtags=Prt1,3
 2	позь	позьны	VERB	_	Connegative=Yes	3	aux	_	GTtags=ConNeg
 3	бӧрйыны	бӧрйыны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf
 4	не	не	CCONJ	Polarity=Neg	_	6	cc:preconj	_	_
@@ -426,7 +426,7 @@
 9	сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	det	_	GTtags=Pers,Sg3,Nom
 10	лунӧ	лун	NOUN	_	Case=Ill|Number=Sing	14	obl	_	GTtags=Sg,Ill
 11	сылӧ	сія	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	14	obl	_	GTtags=Pers,Sg3,Dat
-12	эз	оз	AUX	_	Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	14	aux:neg	_	GTtags=Prt1,3
+12	эз	оз	AUX	_	Person=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	14	aux:neg	_	GTtags=Prt1,3
 13	вӧв	вӧвны	AUX	_	Connegative=Yes	14	cop	_	GTtags=ConNeg
 14	охота	охота	NOUN	_	Case=Nom|Number=Sing	4	conj	_	GTtags=Sg,Nom
 15	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	GTtags=Pers,Sg3,Acc
@@ -446,8 +446,8 @@
 4	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	GTtags=Pers,Sg3,Acc
 5	вӧтны	вӧтны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
-7	сідз	сідз	ADV	_	_	8	fixed	_	_
-8	кыдз	кыдз	ADV	_	_	12	mark	_	_
+7	сідз	сідз	ADV	_	_	12	mark	_	_
+8	кыдз	кыдз	ADV	_	_	7	fixed	_	_
 9	сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	GTtags=Pers,Sg3,Nom
 10	ӧддьӧн	ӧддьӧн	ADV	_	_	12	advmod	_	_
 11	чожа	чожа	ADV	_	_	12	advmod	_	_
