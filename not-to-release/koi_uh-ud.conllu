@@ -9,7 +9,7 @@
 1	Ныв	ныв	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	GTtags=Sg,Nom
 2	гижис	гижны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,Sg3
 3	ёртыслӧ	ёрт	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	GTtags=Sg,Dat,PxSg3
-4	гижӧт	гижӧт	NOUN	_	Case=Nom|Number=Sing	2	obj	_	GTtags=Sg,Nom|SpaceAfter=No
+4	гижӧт	гижӧт	NOUN	_	Case=Acc|Number=Sing	2	obj	_	GTtags=Sg,Nom|SpaceAfter=No
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:2a
