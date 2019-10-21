@@ -9,7 +9,7 @@
 1	Ныв	ныв	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	GTtags=Sg,Nom
 2	гижис	гижны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,Sg3
 3	ёртыслӧ	ёрт	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	GTtags=Sg,Dat,PxSg3
-4	гижӧт	гижӧт	NOUN	_	Case=Acc|Number=Sing	2	obj	_	GTtags=Sg,Nom|SpaceAfter=No
+4	гижӧт	гижӧт	NOUN	_	Case=Nom|Number=Sing	2	obj	_	GTtags=Sg,Nom|SpaceAfter=No
 5	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:2a
@@ -89,7 +89,7 @@
 3	овны	овны	AUX	_	VerbForm=Inf	4	cop	_	GTtags=Inf
 4	куриттӧг	куритны	VERB	_	Case=Car|VerbForm=Conv	2	xcomp	_	GTtags=Conv,Car
 5	да	да	CCONJ	_	_	7	cc	_	_
-6	вина	вина	NOUN	_	Case=Acc|Number=Sing	7	obj	_	GTtags=Sg,Nom
+6	вина	вина	NOUN	_	Case=Nom|Number=Sing	7	obj	_	GTtags=Sg,Nom
 7	ютӧг	юны	VERB	_	Case=Car|VerbForm=Conv	4	conj	_	GTtags=Conv,Car|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
@@ -141,7 +141,7 @@
 2	тшӧктіс	тшӧктыны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,Sg3
 3	айкаыслӧ	айка	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	GTtags=Sg,Dat,PxSg3
 4	миссьӧтны	миссьӧтны	VERB	_	VerbForm=Inf	2	xcomp	_	GTtags=Inf
-5	машина	машина	NOUN	_	Case=Acc|Number=Sing	4	obj	_	GTtags=Sg,Nom|SpaceAfter=No
+5	машина	машина	NOUN	_	Case=Nom|Number=Sing	4	obj	_	GTtags=Sg,Nom|SpaceAfter=No
 6	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:7a
@@ -283,12 +283,12 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	Питер	Питер	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	2	conj	_	GTtags=Prop,Sg,Nom
 6	–	–	PUNCT	_	_	5	punct	_	_
-7	эзысь	эзысь	NOUN	_	Case=Acc|Number=Sing	5	orphan	_	GTtags=Sg,Nom|SpaceAfter=No
+7	эзысь	эзысь	NOUN	_	Case=Nom|Number=Sing	5	orphan	_	GTtags=Sg,Nom|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	10	punct	_	_
 9	а	а	CCONJ	_	_	10	cc	_	_
 10	Джейн	Джейн	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	2	conj	_	GTtags=Prop,Sg,Nom
 11	–	–	PUNCT	_	_	10	punct	_	_
-12	зарни	зарни	NOUN	_	Case=Acc|Number=Sing	10	orphan	_	GTtags=Sg,Nom|SpaceAfter=No
+12	зарни	зарни	NOUN	_	Case=Nom|Number=Sing	10	orphan	_	GTtags=Sg,Nom|SpaceAfter=No
 13	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:10
@@ -381,14 +381,14 @@
 # text_mdf = Сон рамась машина, а брадоц  аньцек велосипед.
 1	Сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	босьтіс	босьтны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,Sg3
-3	машина	машина	NOUN	_	Case=Acc|Number=Sing	2	obj	_	GTtags=Sg,Nom|SpaceAfter=No
+3	машина	машина	NOUN	_	Case=Nom|Number=Sing	2	obj	_	GTtags=Sg,Nom|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	7	punct	_	_
 5	а	а	CCONJ	_	_	7	cc	_	_
 6	сылӧн	сія	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod	_	GTtags=Pers,Sg3,Gen
 7	воныс	вон	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	GTtags=Sg,Nom,PxSg3
 8	–	–	PUNCT	_	_	7	punct	_	_
 9	дзир	дзир	ADV	_	_	7	orphan	_	GTtags=Sg,Nom
-10	велосипед	велосипед	NOUN	_	Case=Acc|Number=Sing	7	orphan	_	GTtags=Sg,Nom|SpaceAfter=No
+10	велосипед	велосипед	NOUN	_	Case=Nom|Number=Sing	7	orphan	_	GTtags=Sg,Nom|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:16
