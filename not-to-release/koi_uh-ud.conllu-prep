@@ -1,135 +1,79 @@
 # sent_id = FadeevTP_0000:1
 # text = Окаліс Митя кыкнаннысӧ да пуксьӧтіс пызан сайӧ.
-"<Окаліс>"
-        "окавны" V Ind Prt1 Sg3
-"<Митя>"
-        "Митя" N Prop Prop Sem/Mal Sg Nom
-"<кыкнаннысӧ>"
-        "кык" Num Coll Der/MWN N Sg PxPl3 Acc
-"<да>"
-        "да" CC
-"<пуксьӧтіс>"
-        "пуксьӧтны" V Ind Prt1 Sg3
-"<пызан>"
-        "пызан" N Sg Nom
-"<сайӧ>"
-        "сай" N Sg Nom PxSg1
-"<.>"
-        "." CLB
+1	Окаліс	окавны	VERB	_	Ind|Prt1|Sg3	0	root	_	_
+2	Митя	Митя	PROPN	_	Prop|Prop|Sem/Mal|Sg|Nom	1	nsubj	_	_
+3	кыкнаннысӧ	кык	PRON	_	Coll|Der/MWN|N|Sg|PxPl3|Acc	1	obj	_	_
+4	да	да	CCONJ	_	_	5	cc	_	_
+5	пуксьӧтіс	пуксьӧтны	VERB	_	Ind|Prt1|Sg3	1	conj	_	_
+6	пызан	пызан	NOUN	_	Sg|Nom	5	obl	_	_
+7	сайӧ	сай	ADP	_	Sg|Nom|PxSg1	6	case	_	_
+8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = FadeevTP_0000:2
 # text = Кыкнан том семьялӧ квартираэсӧ сетісӧ ӧтдруг.
-"<Кыкнан>"
-        "кык" Num Coll A"bs"
-"<том>"
-        "том" N Sg Nom
-"<семьялӧ>"
-        "семья" N Src/F Sg Dat
-"<квартираэсӧ>"
-        "квартира" N Pl Acc PxSg3
-"<сетісӧ>"
-        "сетны" V Ind Prt1 Pl3
-"<ӧтдруг>"
-        "ӧтдруг" Adv
-"<.>"
-        "." CLB
+1	Кыкнан	кык	DET	_	Coll|Cmpl	3	det	_	_
+2	том	том	ADJ	_	Sg|Nom	3	amod	_	_
+3	семьялӧ	семья	NOUN	_	Src/F|Sg|Dat	5	obl	_	_
+4	квартираэсӧ	квартира	NOUN	_	Pl|Acc|PxSg3	5	obj	_	_
+5	сетісӧ	сетны	VERB	_	Ind|Prt1|Pl3	0	root	_	_
+6	ӧтдруг	ӧтдруг	ADV	_	_	5	advmod:tmod	_	_
+7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = FadeevTP_0000:3
 # text = Кыкӧн нія иньдӧтчисӧ петанін ладорӧ.
-"<Кыкӧн>"
-        "кык" Num Card Distr
-"<нія>"
-        "сія" Pron Pers Pl3 Nom
-"<иньдӧтчисӧ>"
-        "иньдӧтчыны" V Ind Prt1 Pl3
-"<петанін>"
-        "петанін" N Sg Nom
-"<ладорӧ>"
-        "ладор" N Sg Ill
-"<.>"
-        "." CLB
+1	Кыкӧн	кык	NUM	_	Card|Distr	3	advcl	_	_
+2	нія	сія	PRON	_	Pers|Pl3|Nom	3	nsubj	_	_
+3	иньдӧтчисӧ	иньдӧтчыны	VERB	_	Ind|Prt1|Pl3	0	root	_	_
+4	петанін	петанін	NOUN	_	Sg|Nom	5	nmod	_	_
+5	ладорӧ	ладор	NOUN	_	Sg|Ill	3	obl	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FadeevTP_0000:4
 # text = Ӧні ті кыкӧнӧсь.
-"<Ӧні>"
-        "ӧні" Adv 
-"<ті>"
-        "тэ" Pron Pers Pl2 Nom
-"<кыкӧнӧсь>"
-        "кыкӧнӧсь" Num Card Distr Pred Prs Pl3
-"<.>"
-        "." CLB
+1	Ӧні	ӧні	ADV	_	_	3	advmod:tmod	_	_
+2	ті	тэ	PRON	_	Pers|Pl2|Nom	3	nsubj:cop	_	_
+3	кыкӧнӧсь	кыкӧнӧсь	NUM	_	Card|Distr|Pred|Prs|Pl3	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FadeevTP_0000:5
 # text = Сы бӧрсянь вуджӧны порогсӧ эшӧ кыка.
-"<Сы>"
-        "сія" Pron Pers Sg3
-"<бӧрсянь>"
-        "бӧрсянь" Adp Po Spat Sg Egr
-"<вуджӧны>"
-        "вуджны" V Ind Prs Pl3
-"<порогсӧ>"
-        "порог" N Sg Acc PxSg3
-"<эшӧ>"
-        "эшӧ" Adv
-"<кыка>"
-        "кыка" Num Pred
-"<.>"
-        "." CLB
+1	Сы	сія	PRON	_	Pers|Sg3	3	obl:tmod	_	_
+2	бӧрсянь	бӧрсянь	ADP	_	Po|Spat|Sg|Egr	1	case	_	_
+3	вуджӧны	вуджны	VERB	_	Ind|Prs|Pl3	0	root	_	_
+4	порогсӧ	порог	NOUN	_	Sg|Acc|PxSg3	3	obj	_	_
+5	эшӧ	эшӧ	ADV	_	_	3	advmod:tmod	_	_
+6	кыка	кыка	NUM	_	Pred	3	obl	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FedoseevSA_0000:1
 # text = Куимӧдз луныс сымда нюжаліс, что эз тӧд, мый бердӧ кутчыны, кытчӧ воштісьны.
-"<Куимӧдз>"
-        "Куим" A Ord Sg Nom
-"<луныс>"
-        "лун" N Sg Nom PxSg3
-"<сымда>"
-        "сымда" Adv
-"<нюжаліс>"
-        "нюжавны" V Ind Prt1 Sg3
-"<,>"
-        "," CLB
-"<что>"
-        "что" CS
-"<эз>"
-        "оз" V Neg Ind Prt1 Sg3
-"<тӧд>"
-        "тӧдны" V ConNeg Sg
-"<,>"
-        "," CLB
-"<мый>"
-        "мый" Pron Sem/NonHum Nom Rel
-"<бердӧ>"
-        "бердӧ" Adp Po Spat Sg Ill
-"<кутчыны>"
-        "кутчыны" V Inf
-"<,>"
-        "," CLB
-"<кытчӧ>"
-        "кытчӧ" Adv Interr Spat Ill
-"<воштісьны>"
-        "воштісьны" V Inf
-"<.>"
-        "." CLB
+1	Куимӧдз	Куим	ADJ	_	Ord|Sg|Nom	2	amod	_	_
+2	луныс	лун	NOUN	_	Sg|Nom|PxSg3	4	obl:tmod	_	_
+3	сымда	сымда	ADV	_	_	4	advmod	_	_
+4	нюжаліс	нюжавны	VERB	_	Ind|Prt1|Sg3	0	root	_	_
+5	,	,	PUNCT	CLB	_	8	punct	_	_
+6	что	что	SCONJ	_	_	8	mark	_	_
+7	эз	оз	AUX	_	Neg|Ind|Prt1|Sg3	8	aux:neg	_	_
+8	тӧд	тӧдны	VERB	_	ConNeg|Sg	4	ccomp	_	_
+9	,	,	PUNCT	CLB	_	12	punct	_	_
+10	мый	мый	PRON	_	Sem/NonHum|Nom|Rel	12	obl	_	_
+11	бердӧ	бердӧ	ADP	_	Po|Spat|Sg|Ill	10	case	_	_
+12	кутчыны	кутчыны	VERB	_	Inf	8	ccomp	_	_
+13	,	,	PUNCT	CLB	_	15	punct	_	_
+14	кытчӧ	кытчӧ	ADV	_	Interr|Spat|Ill	15	advmod	_	_
+15	воштісьны	воштісьны	VERB	_	Inf	8	conj	_	_
+16	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = FedoseevSA_0000:2
 # text = Кагаыс — зоночка, чужӧма витӧдз ни.
-"<Кагаыс>"
-        "кага" N Sg Nom PxSg3
-"<—>"
-        "—" PUNCT
-"<зоночка>"
-        "зоночка" N Sg Nom
-"<,>"
-        "," CLB
-"<чужӧма>"
-        "чужны" V Ind Prt2 Sg3
-"<витӧдз>"
-        "витӧдз" A Ord Sg Nom
-"<ни>"
-        "ни" Adv
-"<.>"
-        "." CLB
+1	Кагаыс	кага	NOUN	_	Sg|Nom|PxSg3	3	nsubj	_	_
+2	—	—	PUNCT	_	_	3	punct	_	_
+3	зоночка	зоночка	NOUN	_	Sg|Nom	0	root	_	_
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	чужӧма	чужны	VERB	_	Ind|Prt2|Sg3	3	conj	_	_
+6	витӧдз	витӧдз	ADJ	_	Ord|Sg|Nom	5	nsubj	_	_
+7	ни	ни	ADV	_	_	5	advmod:tmod	_	_
+8	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = KaniukovVI_0000:1
 # text = Мукӧд лунас вовліс гортас кыкисьӧн-куимисьӧн и чожа сылӧн лук гряддэс кушамисӧ.
