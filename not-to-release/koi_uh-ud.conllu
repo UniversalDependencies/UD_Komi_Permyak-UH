@@ -550,7 +550,7 @@
 # sent_id = FadeevTP_1965:1
 # text = Окаліс Митя кыкнаннысӧ да пуксьӧтіс пызан сайӧ.
 1	Окаліс	окавны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,Sg3
-2	Митя	Митя	PROPN	_	Case=Nom|Number=Sing|Sem/Mal	1	nsubj	_	GTtags=Prop,Prop,Sem/Mal,Sg,Nom
+2	Митя	Митя	PROPN	_	Case=Nom|Number=Sing	1	nsubj	_	GTtags=Prop,Prop,Sem/Mal,Sg,Nom
 3	кыкнаннысӧ	кык	PRON	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Tot	1	obj	_	GTtags=Coll,Der/MWN,N,Sg,PxPl3,Acc
 4	да	да	CCONJ	_	_	5	cc	_	_
 5	пуксьӧтіс	пуксьӧтны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Prt1	1	conj	_	GTtags=Ind,Prt1,Sg3
@@ -560,9 +560,9 @@
 
 # sent_id = FadeevTP_1970:2
 # text = Кыкнан том семьялӧ квартираэсӧ сетісӧ ӧтдруг.
-1	Кыкнан	кык	DET	_	Cmpl|PronType=Tot	3	det	_	GTtags=Coll,Cmpl
+1	Кыкнан	кык	DET	_	PronType=Tot	3	det	_	GTtags=Coll,Cmpl
 2	том	том	ADJ	_	Case=Nom|Number=Sing	3	amod	_	GTtags=Sg,Nom
-3	семьялӧ	семья	NOUN	_	Src/F|Case=Dat|Number=Sing	5	obl	_	GTtags=Src/F,Sg,Dat
+3	семьялӧ	семья	NOUN	_	Case=Dat|Number=Sing	5	obl	_	GTtags=Src/F,Sg,Dat
 4	квартираэсӧ	квартира	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	GTtags=Pl,Acc,PxSg3
 5	сетісӧ	сетны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,Pl3
 6	ӧтдруг	ӧтдруг	ADV	_	_	5	advmod:tmod	_	SpaceAfter=No
@@ -570,7 +570,7 @@
 
 # sent_id = FadeevTP_1989:3
 # text = Кыкӧн нія иньдӧтчисӧ петанін ладорӧ.
-1	Кыкӧн	кык	NUM	_	NumType=Card|NumType=Dist	3	advcl	_	GTtags=Card,Distr
+1	Кыкӧн	кык	NUM	_	NumType=Dist	3	advcl	_	GTtags=Card,Distr
 2	нія	сія	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	GTtags=Pers,Pl3,Nom
 3	иньдӧтчисӧ	иньдӧтчыны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,Pl3
 4	петанін	петанін	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	GTtags=Sg,Nom
@@ -581,7 +581,7 @@
 # text = Ӧні ті кыкӧнӧсь.
 1	Ӧні	ӧні	ADV	_	_	3	advmod:tmod	_	_
 2	ті	тэ	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj:cop	_	GTtags=Pers,Pl2,Nom
-3	кыкӧнӧсь	кыкӧнӧсь	NUM	_	Number=Plur|NumType=Card|NumType=Dist|Person=3|Pred|Tense=Pres	0	root	_	SpaceAfter=No
+3	кыкӧнӧсь	кыкӧнӧсь	NUM	_	Number=Plur|NumType=Dist|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FadeevTP_1990:5
@@ -591,7 +591,7 @@
 3	вуджӧны	вуджны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Pl3
 4	порогсӧ	порог	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	GTtags=Sg,Acc,PxSg3
 5	эшӧ	эшӧ	ADV	_	_	3	advmod:tmod	_	_
-6	кыка	кыка	NUM	_	Pred	3	obl	_	SpaceAfter=No
+6	кыка	кыка	NUM	_	Number=Sing	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FedoseevSA_1985:1
@@ -643,12 +643,12 @@
 # text_orig = ви·с'тала тай, бур ола·н ӧ·тикӧ эг адздзы·л.
 # text = Висьтала тай, бур олан ӧтикӧ эг адззыв.
 # text_ru = Говорю ведь, хорошей жизни совершенно (я) не видела.
-1	Висьтала	висьтавны	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	_	_	_	GTtags=Ind,Prs,Sg1
+1	Висьтала	висьтавны	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg1
 2	тай	тай	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	CLB	_	8	punct	_	_
 4	бур	бур	ADJ	_	Case=Nom|Number=Sing	5	amod	_	GTtags=Sg,Nom
 5	олан	олан	NOUN	_	Case=Nom|Number=Sing	8	obj	_	GTtags=Sg,Nom
-6	ӧтикӧ	ӧтик	ADV	_	Case=Ill|Derivation=MWN|Number=Sing|NumType=Card	8	advmod	_	GTtags=Card,Der/MWN,N,Sg,Ill
+6	ӧтикӧ	ӧтик	ADV	_	Case=Ill|Number=Sing|NumType=Card	8	advmod	_	GTtags=Card,Der/MWN,N,Sg,Ill
 7	эг	оз	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Prt1	8	aux:neg	_	GTtags=Neg,Ind,Prt1,Pl1
 8	адззыв	адззывны	VERB	_	Connegative=Yes	1	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	1	punct	_	_
@@ -658,7 +658,7 @@
 # text = Челядь нёляӧсь.
 # text_ru = Детей четверо.
 1	Челядь	челядь	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	GTtags=Sg,Nom
-2	нёляӧсь	нёляӧсь	NUM	_	Number=Plur|Pred	0	root	_	SpaceAfter=No
+2	нёляӧсь	нёляӧсь	NUM	_	Number=Plur	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = ShadrinI_0000:Dioma:12:1
