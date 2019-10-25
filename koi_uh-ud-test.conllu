@@ -661,7 +661,7 @@
 2	нёляӧсь	нёляӧсь	NUM	_	Number=Plur	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	CLB	_	2	punct	_	_
 
-# sent_id = ShadrinI_0000:Dioma:12:1
+# sent_id = ShadrinI_1959:Dioma:12:1
 # text = Дёма да Лида мунісӧ ордчӧн кык квартал и ӧтамӧдлӧ только кыкисьӧн шыасисӧ.
 1	Дёма	Дёма	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	GTtags=Prop,Sem/Mal,Sg,Nom
 2	да	да	CCONJ	_	_	3	cc	_	_
@@ -676,4 +676,46 @@
 11	кыкисьӧн	кыкисьӧн	ADV	_	NumType=MultDist	12	advmod	_	GTtags=Mult,Distr
 12	шыасисӧ	шыасьны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	conj	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = MininIA_1968:PanytUjisTolisj:1
+# text = — А пизьсö председательыс кöр сетас? — натьтö, дасöтiсь ни талун юалiс Санко.
+1	—	—	PUNCT	_	_	6	punct	_	_
+2	А	а	CCONJ	_	_	6	cc	_	_
+3	пизьсö	пизьсö	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obj	_	GTtags=Sg,Acc,PxSg3
+4	председательыс	председатель	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	GTtags=Sg,Nom,PxSg3
+5	кöр	кӧр	ADV	_	_	6	advmod:tmod	_	_
+6	сетас	сетны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	CLB	_	6	punct	_	_
+8	—	—	PUNCT	_	_	14	punct	_	_
+9	натьтö	натьтö	ADV	_	_	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	CLB	_	9	punct	_	_
+11	дасöтiсь	дасöтiсь	ADV	_	Case=Ela|NumType=OrdMult	14	advmod:tmod	_	GTtags=Ord,Ela,Mult
+12	ни	ни	ADV	_	_	11	advmod:tmod	_	_
+13	талун	талун	ADV	_	_	14	advmod:tmod	_	_
+14	юалiс	юавны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	parataxis	_	GTtags=Ind,Prt1,Sg3
+15	Санко	Санко	PROPN	_	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = MininIA_1988:KydzShynjnjaloApostol:1
+# text = — Сiя ойнас нёштöма шыннялiс, — натьтö, дасöтiсь ни юöртiс старуха и эз содты сэсся öтiк кыв.
+1	—	—	PUNCT	_	_	5	punct	_	_
+2	Сiя	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	GTtags=Pers,Sg3,Nom
+3	ойнас	ой	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	GTtags=Sg,Ins,PxSg3
+4	нёштöма	нёштӧма	ADV	_	_	5	advmod	_	_
+5	шыннялiс	шыннявны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	CLB	_	12	punct	_	_
+7	—	—	PUNCT	_	_	8	punct	_	_
+8	натьтö	натьтö	ADV	_	_	12	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	CLB	_	8	punct	_	_
+10	дасöтiсь	дасöтiсь	ADV	_	Case=Ela|NumType=OrdMult	12	advmod:tmod	_	GTtags=Ord,Ela,Mult
+11	ни	ни	ADV	_	_	12	advmod:tmod	_	_
+12	юöртiс	юӧртны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	parataxis	_	GTtags=Ind,Prt1,Sg3
+13	старуха	старуха	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	GTtags=Sg,Nom
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	эз	оз	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	16	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg3
+16	содты	содтыны	VERB	_	Connegative=Yes	12	conj	_	GTtags=ConNeg
+17	сэсся	сэсся	ADV	_	_	16	advmod:tmod	_	_
+18	öтiк	ӧтік	NUM	_	Case=Nom|Number=Sing|NumType=Card	19	nummod	_	GTtags=Card,Sg,Nom
+19	кыв	кыв	NOUN	_	Case=Nom|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	CLB	_	5	punct	_	_
 
