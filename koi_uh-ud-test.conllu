@@ -404,7 +404,7 @@
 4	кутчисисӧ	кутчисьны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Pl3
 5	да	да	CCONJ	_	_	6	cc	_	_
 6	петісӧ	петны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	conj	_	GTtags=Ind,Prt1,Pl3
-7	жырись	жыр	NOUN	_	Case=Ela|Number=Sing	6	obl	_	GTtags=Sg,Ela|SpaceAfter=No
+7	жырись	жыр	NOUN	_	Case=Ela|Number=Sing	6	obl:lmod	_	GTtags=Sg,Ela|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:17
@@ -448,8 +448,8 @@
 7	сідз	сідз	ADV	_	_	12	mark	_	_
 8	кыдз	кыдз	ADV	_	_	7	fixed	_	_
 9	сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	GTtags=Pers,Sg3,Nom
-10	ӧддьӧн	ӧддьӧн	ADV	_	_	12	advmod	_	_
-11	чожа	чожа	ADV	_	_	12	advmod	_	_
+10	ӧддьӧн	ӧддьӧн	ADV	_	_	12	advmod:tmod	_	_
+11	чожа	чожа	ADV	_	_	12	advmod:tmod	_	_
 12	котӧртіс	котӧртны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	ccomp	_	GTtags=Ind,Prt1,Sg3|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -497,7 +497,7 @@
 # text_mdf = Сон кассь Парижса. Парижсь – тя Франциять ине ошец.
 1	Сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	быдмис	быдмыны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
-3	Парижын	Париж	PROPN	_	Case=Ine|Number=Sing	2	obl	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
+3	Парижын	Париж	PROPN	_	Case=Ine|Number=Sing	2	obl:lmod	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Франция	Франция	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	GTtags=Prop,Sg,Nom
 6	юркарын	юркар	NOUN	_	Case=Ine|Number=Sing	3	appos	_	GTtags=Sg,Ine|SpaceAfter=No
@@ -511,7 +511,7 @@
 # text_mdf = Сон кассь Парижса. Парижсь – тя Франциять ине ошец.
 1	Сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	быдмис	быдмыны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
-3	Парижын	Париж	PROPN	_	Case=Ine|Number=Sing	2	obl	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
+3	Парижын	Париж	PROPN	_	Case=Ine|Number=Sing	2	obl:lmod	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Франциялӧн	Франция	PROPN	_	Case=Gen|Number=Sing	6	nmod	_	GTtags=Prop,Sg,Gen
 6	юркарын	юркар	NOUN	_	Case=Ine|Number=Sing	3	appos	_	GTtags=Sg,Ine|SpaceAfter=No
@@ -521,8 +521,8 @@
 # text = Только ылын веськытлань, самӧй горизонт вылын, лэбтіcиcӧ кык ыджыт коричневӧй кымӧp.
 # text_rus = Только далеко вправо, на самом горизонте, расплывались два огромных коричневых облака.
 1	Только	только	ADV	_	_	3	advmod	_	_
-2	ылын	ылын	ADV	_	AdvType=Loc|Case=Ine	3	advmod	_	GTtags=Spat,Ine
-3	веськытлань	веськыт	ADJ	_	Case=Apr|Number=Sing	9	obl	_	SpaceAfter=No
+2	ылын	ылын	ADV	_	AdvType=Loc|Case=Ine	3	advmod:lmod	_	GTtags=Spat,Ine
+3	веськытлань	веськыт	ADJ	_	Case=Apr|Number=Sing	9	obl:lmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	самӧй	самӧй	ADV	_	_	6	advmod	_	_
 6	горизонт	горизонт	NOUN	_	Case=Nom|Number=Sing	3	appos	_	GTtags=Sg,Nom
@@ -539,8 +539,8 @@
 # text = Быд лaдopcянь Ворошилов дынӧ ӧні кoтӧpтіcӧ oтиp.
 # text_rus = Со всех сторон к Ворошилову бежали теперь люди.
 1	Быд	быд	DET	_	Case=Nom|Number=Sing	2	det	_	GTtags=Sg,Nom
-2	лaдopcянь	лaдopcянь	NOUN	_	Case=Egr|Number=Sing	6	obl	_	GTtags=Sg,Egr
-3	Ворошилов	Ворошилов	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	6	obl	_	GTtags=Prop,Sem/Sur,Sem/Mal,Sg,Nom
+2	лaдopcянь	лaдopcянь	NOUN	_	Case=Egr|Number=Sing	6	obl:lmod	_	GTtags=Sg,Egr
+3	Ворошилов	Ворошилов	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	6	obl:lmod	_	GTtags=Prop,Sem/Sur,Sem/Mal,Sg,Nom
 4	дынӧ	дынӧ	ADP	_	AdpType=Post|AdvType=Loc|Case=Ill|Number=Sing	3	case	_	GTtags=Po,Spat,Sg,Ill
 5	ӧні	ӧні	ADV	_	_	6	advmod:tmod	_	_
 6	кoтӧpтіcӧ	кoтӧpтіcӧ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Pl3
@@ -554,7 +554,7 @@
 3	кыкнаннысӧ	кык	PRON	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Tot	1	obj	_	GTtags=Coll,Der/MWN,N,Sg,PxPl3,Acc
 4	да	да	CCONJ	_	_	5	cc	_	_
 5	пуксьӧтіс	пуксьӧтны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	conj	_	GTtags=Ind,Prt1,Sg3
-6	пызан	пызан	NOUN	_	Case=Nom|Number=Sing	5	obl	_	GTtags=Sg,Nom
+6	пызан	пызан	NOUN	_	Case=Nom|Number=Sing	5	obl:lmod	_	GTtags=Sg,Nom
 7	сайӧ	сай	ADP	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -574,7 +574,7 @@
 2	нія	сія	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	GTtags=Pers,Pl3,Nom
 3	иньдӧтчисӧ	иньдӧтчыны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Pl3
 4	петанін	петанін	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	GTtags=Sg,Nom
-5	ладорӧ	ладор	NOUN	_	Case=Ill|Number=Sing	3	obl	_	SpaceAfter=No
+5	ладорӧ	ладор	NOUN	_	Case=Ill|Number=Sing	3	obl:lmod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = FadeevTP_1993:4
@@ -605,11 +605,11 @@
 7	эз	оз	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	8	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg3
 8	тӧд	тӧдны	VERB	_	Connegative=Yes|Number=Sing	4	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	12	punct	_	_
-10	мый	мый	PRON	_	Case=Nom|PronType=Rel	12	obl	_	GTtags=Sem/NonHum,Nom,Rel
+10	мый	мый	PRON	_	Case=Nom|PronType=Rel	12	obl:lmod	_	GTtags=Sem/NonHum,Nom,Rel
 11	бердӧ	бердӧ	ADP	_	AdpType=Post|AdvType=Loc|Case=Ill|Number=Sing	10	case	_	GTtags=Po,Spat,Sg,Ill
 12	кутчыны	кутчыны	VERB	_	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	15	punct	_	_
-14	кытчӧ	кытчӧ	ADV	_	AdvType=Loc|Case=Ill|PronType=Int	15	advmod	_	GTtags=Interr,Spat,Ill
+14	кытчӧ	кытчӧ	ADV	_	AdvType=Loc|Case=Ill|PronType=Int	15	advmod:lmod	_	GTtags=Interr,Spat,Ill
 15	воштісьны	воштісьны	VERB	_	VerbForm=Inf	8	conj	_	SpaceAfter=No
 16	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -629,7 +629,7 @@
 1	Мукӧд	мукӧд	DET	_	Case=Nom|Number=Sing	2	det	_	GTtags=Sg,Nom
 2	лунас	лун	NOUN	_	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl:tmod	_	GTtags=Sg,Ill,PxSg3
 3	вовліс	вовлыны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
-4	гортас	горт	NOUN	_	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	GTtags=Sg,Ill,PxSg3
+4	гортас	горт	NOUN	_	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl:lmod	_	GTtags=Sg,Ill,PxSg3
 5	кыкисьӧн-куимисьӧн	кыкисьӧн-куимисьӧн	ADV	_	NumType=MultDist	3	advmod	_	GTtags=Mult,Distr
 6	и	и	CCONJ	_	_	11	cc	_	_
 7	чожа	чожа	ADV	_	_	11	advmod	_	_
@@ -700,7 +700,7 @@
 # text = — Сiя ойнас нёштöма шыннялiс, — натьтö, дасöтiсь ни юöртiс старуха и эз содты сэсся öтiк кыв.
 1	—	—	PUNCT	_	_	5	punct	_	_
 2	Сiя	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	GTtags=Pers,Sg3,Nom
-3	ойнас	ой	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	GTtags=Sg,Ins,PxSg3
+3	ойнас	ой	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl:lmod	_	GTtags=Sg,Ins,PxSg3
 4	нёштöма	нёштӧма	ADV	_	_	5	advmod	_	_
 5	шыннялiс	шыннявны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	CLB	_	12	punct	_	_
