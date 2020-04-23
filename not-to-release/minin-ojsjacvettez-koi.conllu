@@ -1,0 +1,510 @@
+# sent_id = Minin:OjsjaCvettez:3.2
+# text = Кӧть сибалӧ ни рыт, а июльскӧй шонді сё эшӧ пӧжӧ жалейттӧг, визывтӧ ньылӧм.
+# text_kpv = Кӧть матысмӧ нин рыт, а июль тӧлысся шонді пыр на пӧжӧ жалиттӧг, киссьӧ пӧсь.
+1	Кӧть	кӧть	_	CS	_	_	_	_	_
+2	сибалӧ	сибавны	_	V	Ind|Prs|Sg3	_	_	_	GTtags=V,Ind,Prs,Sg3
+3	ни	ни	_	CC	_	_	_	_	_
+4	рыт	рыт	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+5	,	,	_	CLB	_	_	_	_	_
+6	а	а	_	CC	_	_	_	_	_
+7	июльскӧй	июльскӧй	_	A	_	_	_	_	_
+8	шонді	шонді	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+9	сё	сё	_	Adv	AdA	_	_	_	GTtags=Adv,AdA
+10	эшӧ	эшӧ	_	Adv	_	_	_	_	_
+11	пӧжӧ	пӧжны	_	V	IV|Ind|Prs|Sg3	_	_	_	GTtags=V,IV,Ind,Prs,Sg3
+12	жалейттӧг	жалейтны	_	V	IV|Der/тӧг|Car|Ger	_	_	_	GTtags=V,IV,Der/тӧг,Car,Ger
+13	,	,	_	CLB	_	_	_	_	_
+14	визывтӧ	визывтны	_	V	IV|Ind|Prs|Sg3	_	_	_	GTtags=V,IV,Ind,Prs,Sg3
+15	ньылӧм	ньылӧм	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+16	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:4.1
+# text = А юрын думаэз кокнитӧсь, гажаӧсь.
+# text_kpv = А юрын думъяс кыпыдӧсь, гажаӧсь.
+1-4	А	_	_	_	_	_	_	_	_
+1	А	а	_	Adv	_	_	_	_	_
+2	_	а	_	CC	_	_	_	_	_
+3	_	а	_	Interj	_	_	_	_	_
+4	_	а	_	Pcle	_	_	_	_	_
+5-6	юрын	_	_	_	_	_	_	_	_
+5	юрын	юр	_	N	Sem/Inanim|Sg|Ine	_	_	_	_
+6	ын	юр	_	N	Sg|Ine	_	_	_	_
+7	думаэз	дум	_	N	Sg|Der|Der/ProprietiveMod|A|Der|Der/MWN|N|Pl|Nom	_	_	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
+8	кокнитӧсь	кокнит	_	A	Cop|Pl	_	_	_	GTtags=A,Cop,Pl
+9	,	,	_	CLB	_	_	_	_	_
+10-12	гажаӧсь	_	_	_	_	_	_	_	_
+10	гажаӧсь	гаж	_	N	Sem/Inanim|Sg|Der|Der/ProprietiveMod|A|Cop|Pl	_	_	_	_
+11	аӧсь	гаж	_	N	Sg|Der|Der/ProprietiveMod|A|Cop|Pl	_	_	_	_
+12	аӧсь	гажа	_	A	Cop|Pl	_	_	_	_
+13	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:4.2
+# text = Мортлӧ пыр овлӧ долыт, кӧр сія локтас сэтшӧм пельӧсокӧ, кӧда чужтӧ памятяс приятнӧй касьтылӧм.
+# text_kpv = Мортлы пыр овлӧ долыд, кор сійӧ выльысь воӧ важ тӧдсаинӧ, коді паметяд чужтӧ приятнӧй казьтылӧм.
+1	Мортлӧ	морт	_	N	Sem/Ani|Sg|Dat	_	_	_	GTtags=N,Sem/Ani,Sg,Dat
+2	пыр	пыр	_	Adv	_	_	_	_	_
+3	овлӧ	овлыны	_	V	IV|Ind|Prs|Sg3	_	_	_	GTtags=V,IV,Ind,Prs,Sg3
+4	долыт	долыт	_	A	_	_	_	_	_
+5	,	,	_	CLB	_	_	_	_	_
+6	кӧр	кӧр	_	Adv	_	_	_	_	_
+7	сія	сія	_	Pron	Pers|Sg3|Nom	_	_	_	GTtags=Pron,Pers,Sg3,Nom
+8	локтас	локны	_	V	Ind|Fut|Sg3	_	_	_	GTtags=V,Ind,Fut,Sg3
+9	сэтшӧм	сэтшӧм	_	Adn	Dem	_	_	_	GTtags=Adn,Dem
+10	пельӧсокӧ	пельӧс	_	N	Der/Ок|Der/Dimin|N|Sg|Ill	_	_	_	GTtags=N,Der/Ок,Der/Dimin,N,Sg,Ill
+11	,	,	_	CLB	_	_	_	_	_
+12	кӧда	кӧда	_	Pron	Rel|Sg|Nom	_	_	_	GTtags=Pron,Rel,Sg,Nom
+13	чужтӧ	чужтыны	_	V	TV|Ind|Prs|Sg3	_	_	_	GTtags=V,TV,Ind,Prs,Sg3
+14	памятяс	памятяс	_	_	_	_	_	_	_
+15	приятнӧй	приятнӧй	_	A	_	_	_	_	_
+16	касьтылӧм	касьтылӧм	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+17	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:4.4
+# text =  Мӧйму, эта жӧ кадӧ, неделяся дыржык ветлӧті эна местаэзӧт, узьлі, кытӧн шедас: кӧз увтын, ю дорын, киссьӧм сарайын, быд лун кошши тшаккез да ягӧд, чериалі.
+# text_kpv = Кольӧм во вежонысь дырджык ветлӧдлі тайӧ жӧ местаясӧдыс, узьлі кӧні веськалӧ: коз улын, ю дорын, тыртӧм сарайын, быд лун тшак да вотӧс воті, чери кыйи.
+1	Мӧйму	мӧйму	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+2	,	,	_	CLB	_	_	_	_	_
+3	эта	эта	_	Det	_	_	_	_	_
+4	жӧ	жӧ	_	Pcle	_	_	_	_	_
+5	кадӧ	кад	_	N	Sem/Inanim|Sg|Ill	_	_	_	GTtags=N,Sem/Inanim,Sg,Ill
+6	,	,	_	CLB	_	_	_	_	_
+7	неделяся	неделяся	_	A	_	_	_	_	_
+8	дыржык	дыр	_	Adv	Der/жык|Comp	_	_	_	GTtags=Adv,Der/жык,Comp
+9	ветлӧті	ветлӧтны	_	V	IV|Ind|Prt1|Sg1	_	_	_	GTtags=V,IV,Ind,Prt1,Sg1
+10	эна	эна	_	Pcle	_	_	_	_	_
+11	местаэзӧт	места	_	N	Pl|Prl	_	_	_	GTtags=N,Pl,Prl
+12	,	,	_	CLB	_	_	_	_	_
+13	узьлі	узьлыны	_	V	IV|Ind|Prt1|Sg1	_	_	_	GTtags=V,IV,Ind,Prt1,Sg1
+14	,	,	_	CLB	_	_	_	_	_
+15	кытӧн	кытӧн	_	Pron	Spat|Ine|Interr	_	_	_	GTtags=Pron,Spat,Ine,Interr
+16	шедас	шедны	_	V	IV|Ind|Fut|Sg3	_	_	_	GTtags=V,IV,Ind,Fut,Sg3
+17	:	:	_	CLB	_	_	_	_	_
+18	кӧз	кӧз	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+19-20	увтын	_	_	_	_	_	_	_	_
+19	увтын	увт	_	N	Sg|Ine	_	_	_	_
+20	ын	увтын	_	Adv	_	_	_	_	_
+21	,	,	_	CLB	_	_	_	_	_
+22	ю дорын	ю дор	_	N	Sg|Ine	_	_	_	GTtags=N,Sg,Ine
+23	,	,	_	CLB	_	_	_	_	_
+24	киссьӧм	киссьӧм	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+25	сарайын	сарай	_	N	Sg|Ine	_	_	_	GTtags=N,Sg,Ine
+26	,	,	_	CLB	_	_	_	_	_
+27	быд	быд	_	Pron	Qnt	_	_	_	GTtags=Pron,Qnt
+28	лун	лун	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+29	кошши	кошшыны	_	V	TV|Ind|Prt1|Sg1	_	_	_	GTtags=V,TV,Ind,Prt1,Sg1
+30	тшаккез	тшак	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
+31	да	да	_	CC	_	_	_	_	_
+32	ягӧд	ягӧд	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+33	,	,	_	CLB	_	_	_	_	_
+34	чериалі	чериавны	_	V	Ind|Prt1|Sg1	_	_	_	GTtags=V,Ind,Prt1,Sg1
+35	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:6.1
+# text = Ме татӧн не ӧтнам.
+# text_kpv = Тані ме абу ӧтнам.
+1	Ме	ме	_	Pron	Pers|Sg1|Nom	_	_	_	GTtags=Pron,Pers,Sg1,Nom
+2	татӧн	татӧн	_	Adv	_	_	_	_	_
+3	не	не	_	Pcle	_	_	_	_	_
+4	ӧтнам	ӧтнам	_	Adv	_	_	_	_	_
+5	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:6.2 
+# text = Ордчӧн мекӧт пукалӧ сьӧд тошока и гардчӧмкодь уссэза мужик.
+# text_kpv = Мекӧд орччӧн пукалӧ сьӧд тошка да тӧрӧканлӧн кодь кузь уска мужик.
+1	Ордчӧн	ордчӧн	_	Adv	_	_	_	_	_
+2	мекӧт	ме	_	Pron	Pers|Sg1|Com	_	_	_	GTtags=Pron,Pers,Sg1,Com
+3	пукалӧ	пукавны	_	V	TV|Ind|Prs|Sg3	_	_	_	GTtags=V,TV,Ind,Prs,Sg3
+4	сьӧд	сьӧд	_	A	_	_	_	_	_
+5	тошока	тошока	_	N	Sg|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
+6	и	и	_	CC	_	_	_	_	_
+7	гардчӧмкодь	гардчыны	_	V	IV|Ind|Prt2|Sg3|Der|Der/CompMod	_	_	_	GTtags=V,IV,Ind,Prt2,Sg3,Der,Der/CompMod
+8	уссэза	ус	_	N	Pl|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Pl,Der,Der/ProprietiveMod,A
+9	мужик	мужик	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+10	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:11.5
+# text = Талун, кӧр пантасим ю дорас, сія медперво кыскис бадь кусттэз коласісь ыджыт лагун и нюжӧтіс меным.
+# text_kpv = Талун, кор аддзысим ю дорын, бадь кустъяс пӧвстысь сійӧ перйис ыджыд лагун да мыччис меным
+1	Талун	талун	_	Adv	_	_	_	_	_
+2	,	,	_	CLB	_	_	_	_	_
+3	кӧр	кӧр	_	Adv	_	_	_	_	_
+4	пантасим	пантасьны	_	V	IV|Ind|Prt1|Pl1	_	_	_	GTtags=V,IV,Ind,Prt1,Pl1
+5	ю	ю	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+6	дорас	дор	_	N	Sg|Ine|PxSg3	_	_	_	GTtags=N,Sg,Ine,PxSg3
+7	,	,	_	CLB	_	_	_	_	_
+8	сія	сія	_	Pron	Pers|Sg3|Nom	_	_	_	GTtags=Pron,Pers,Sg3,Nom
+9	медперво	медперво	_	Adv	_	_	_	_	_
+10	кыскис	кыскыны	_	V	Ind|Prt1|Sg3	_	_	_	GTtags=V,Ind,Prt1,Sg3
+11	бадь	бадь	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+12	кусттэз	куст	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
+13	коласісь	колас	_	N	Sg|Ela	_	_	_	GTtags=N,Sg,Ela
+14	ыджыт	ыджыт	_	A	_	_	_	_	_
+15	лагун	лагун	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+16	и	и	_	CC	_	_	_	_	_
+17	нюжӧтіс	нюжӧтны	_	V	IV|Ind|Prt1|Sg3	_	_	_	GTtags=V,IV,Ind,Prt1,Sg3
+18	меным	ме	_	Pron	Pers|Sg1|Dat	_	_	_	GTtags=Pron,Pers,Sg1,Dat
+19	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:13.3
+# text = Дядя Митя видзӧтіс, кыдз пиньӧвтчисӧ менам аннэзӧ, и шынняліс довольнӧя.
+# text_kpv = Дядя Митя аддзыліс, кыдзи кезйӧдлӧ менӧ, да шпынняліс.
+1	Дядя	дядя	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+2	Митя	Митя	_	N	Prop|Sem/Ant|Sg|Nom	_	_	_	GTtags=N,Prop,Sem/Ant,Sg,Nom
+3	видзӧтіс	видзӧтны	_	V	IV|Ind|Prt1|Sg3	_	_	_	GTtags=V,IV,Ind,Prt1,Sg3
+4	,	,	_	CLB	_	_	_	_	_
+5	кыдз	кыдз	_	Adv	Manner|Rel	_	_	_	GTtags=Adv,Manner,Rel
+6	пиньӧвтчисӧ	пиньӧвтчыны	_	V	IV|Ind|Prt1|Pl3	_	_	_	GTtags=V,IV,Ind,Prt1,Pl3
+7	менам	ме	_	Pron	Pers|Sg1|Gen	_	_	_	GTtags=Pron,Pers,Sg1,Gen
+8	аннэзӧ	ан	_	N	Pl|Nom|PxSg1	_	_	_	GTtags=N,Pl,Nom,PxSg1
+9	,	,	_	CLB	_	_	_	_	_
+10	и	и	_	CC	_	_	_	_	_
+11	шынняліс	шыннявны	_	V	Ind|Prt1|Sg3	_	_	_	GTtags=V,Ind,Prt1,Sg3
+12	довольнӧя	довольнӧй	_	A	Der|Der/A|Adv	_	_	_	GTtags=A,Der,Der/A,Adv
+13	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:17.3
+# text = Ме, вонӧ, тожӧ эд овны ог вермы Льӧмваыстӧг.
+# text_kpv = Ме, вокӧ, ог жӧ вермы овны Льӧмватӧгыс.
+1	Ме	ме	_	Pron	Pers|Sg1|Nom	_	_	_	GTtags=Pron,Pers,Sg1,Nom
+2	,	,	_	CLB	_	_	_	_	_
+3	вонӧ	вон	_	N	Sem/Ani|Sg|Nom|PxSg1	_	_	_	GTtags=N,Sem/Ani,Sg,Nom,PxSg1
+4	,	,	_	CLB	_	_	_	_	_
+5	тожӧ	тожӧ	_	Adv	_	_	_	_	_
+6	эд	оз	_	V	Neg|Ind|Prt1|Pl2	_	_	_	GTtags=V,Neg,Ind,Prt1,Pl2
+7	овны	овны	_	V	IV|Inf	_	_	_	GTtags=V,IV,Inf
+8	ог	оз	_	V	Neg|Ind|Prs|Sg1	_	_	_	GTtags=V,Neg,Ind,Prs,Sg1
+9	вермы	вермыны	_	V	IV|ConNeg	_	_	_	GTtags=V,IV,ConNeg
+10	Льӧмваыстӧг	Льӧмва	_	N	Prop|Sem/Plc|Sg|Car|PxSg3|So/PC	_	_	_	GTtags=N,Prop,Sem/Plc,Sg,Car,PxSg3,So/PC
+11	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:18.1
+# text = Веськытланьын, кытӧн тыдалӧны шутёммез и видзоккез, пыдын лог дорын сулалӧны куим пӧліньтчӧм керку, кынымкӧ сарай и крышави муӧ пырӧм важ баня.
+# text_kpv = Веськыдвылын, кӧні тыдалӧны пожӧмъяс да видзторъяс, лог дорын пыдын сулалӧны куим пӧлыньтчӧм керка, кымынкӧ сарай да вевтӧдзыс муӧ вӧйӧм важ пывсян.
+1	Веськытланьын	Веськытланьын	_	_	_	_	_	_	_
+2	,	,	_	CLB	_	_	_	_	_
+3	кытӧн	кытӧн	_	Pron	Spat|Ine|Interr	_	_	_	GTtags=Pron,Spat,Ine,Interr
+4	тыдалӧны	тыдавны	_	V	IV|Ind|Prs|Pl3	_	_	_	GTtags=V,IV,Ind,Prs,Pl3
+5	шутёммез	шутём	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
+6	и	и	_	CC	_	_	_	_	_
+7	видзоккез	видз	_	N	Sem/Inanim|Der/Ок|Der/Dimin|N|Pl|Nom	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Pl,Nom
+8	,	,	_	CLB	_	_	_	_	_
+9	пыдын	пыдын	_	Adv	Ine	_	_	_	GTtags=Adv,Ine
+10	лог	лог	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+11	дорын	дорын	_	Adp	Po|Spat|Sg|Ine	_	_	_	GTtags=Adp,Po,Spat,Sg,Ine
+12	сулалӧны	сулавны	_	V	IV|Ind|Prs|Pl3	_	_	_	GTtags=V,IV,Ind,Prs,Pl3
+13	куим	куим	_	Num	Card|Cmpl	_	_	_	GTtags=Num,Card,Cmpl
+14	пӧліньтчӧм	пӧліньтчыны	_	V	IV|Ind|Prt2|Sg3	_	_	_	GTtags=V,IV,Ind,Prt2,Sg3
+15	керку	керку	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+16	,	,	_	CLB	_	_	_	_	_
+17	кынымкӧ	кынымкӧ	_	Adv	_	_	_	_	_
+18	сарай	сарай	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+19	и	и	_	CC	_	_	_	_	_
+20	крышави	крышави	_	_	_	_	_	_	_
+21	муӧ	му	_	N	Sem/Inanim|Sg|Ill	_	_	_	GTtags=N,Sem/Inanim,Sg,Ill
+22-24	пырӧм	_	_	_	_	_	_	_	_
+22	пырӧм	пырны	_	V	IV|Ind|Prt2|Sg3	_	_	_	_
+23	_	пырны	_	V	TV|Ind|Prt2|Sg3	_	_	_	_
+24	_	пырӧм	_	A	Prc	_	_	_	_
+25	важ	важ	_	A	_	_	_	_	_
+26	баня	баня	_	_	_	_	_	_	_
+27	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:20.1
+# text = Меным охота тӧдны, мыля сылӧ важ селитьбаыс син одзӧ оз ков, и юася
+# text_kpv = Меным окота лои тӧдны, мыйла сылы сэтшӧм мустӧм важ оланіныс, да юалі
+1	Меным	ме	_	Pron	Pers|Sg1|Dat	_	_	_	GTtags=Pron,Pers,Sg1,Dat
+2	охота	охота	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+3	тӧдны	тӧдны	_	V	IV|Inf	_	_	_	GTtags=V,IV,Inf
+4	,	,	_	CLB	_	_	_	_	_
+5	мыля	мыля	_	Adv	_	_	_	_	_
+6	сылӧ	сія	_	Pron	Pers|Sg3|Dat	_	_	_	GTtags=Pron,Pers,Sg3,Dat
+7	важ	важ	_	A	_	_	_	_	_
+8	селитьбаыс	селитьба	_	N	Sg|Nom|PxSg3	_	_	_	GTtags=N,Sg,Nom,PxSg3
+9	син	син	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+10	одзӧ	одзӧ	_	Adp	Po|Spat|Sg|Ill	_	_	_	GTtags=Adp,Po,Spat,Sg,Ill
+11	оз	оз	_	V	Neg|Ind|Prs|Sg3	_	_	_	GTtags=V,Neg,Ind,Prs,Sg3
+12	ков	ковны	_	V	IV|ConNeg	_	_	_	GTtags=V,IV,ConNeg
+13	,	,	_	CLB	_	_	_	_	_
+14	и	и	_	CC	_	_	_	_	_
+15	юася	юасьны	_	V	IV|Ind|Prs|Sg1	_	_	_	GTtags=V,IV,Ind,Prs,Sg1
+
+# sent_id = Minin:OjsjaCvettez:25.1
+# text = Ми вуджим Гырка логсӧ, сибӧтчим дорись керкуокыс дынӧ.
+# text_kpv = Ми вуджим Гырка логсӧ, локтім меддор керка дінас.
+1	Ми	ме	_	Pron	Pers|Pl1|Nom	_	_	_	GTtags=Pron,Pers,Pl1,Nom
+2	вуджим	вуджны	_	V	TV|Ind|Prt1|Pl1	_	_	_	GTtags=V,TV,Ind,Prt1,Pl1
+3	Гырка	Гырка	_	N	Prop|Sg|Nom	_	_	_	GTtags=N,Prop,Sg,Nom
+4	логсӧ	лог	_	N	Sg|Acc|PxSg3	_	_	_	GTtags=N,Sg,Acc,PxSg3
+5	,	,	_	CLB	_	_	_	_	_
+6	сибӧтчим	сибӧтчыны	_	V	IV|Ind|Prt1|Pl1	_	_	_	GTtags=V,IV,Ind,Prt1,Pl1
+7	дорись	дорны	_	V	IV|Der/ісь|ActPrsPtc|Sg|Nom	_	_	_	GTtags=V,IV,Der/ісь,ActPrsPtc,Sg,Nom
+8	керкуокыс	керку	_	N	Sem/Inanim|Der/Ок|Der/Dimin|N|Sg|Nom|PxSg3	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Sg,Nom,PxSg3
+9	дынӧ	дынӧ	_	Adp	Po|Spat|Sg|Ill	_	_	_	GTtags=Adp,Po,Spat,Sg,Ill
+10	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:25.2
+# text = Вӧлі сія лажмытик, пӧввезӧн дорӧм ӧшына, крышатӧм.
+# text_kpv = Сійӧ вӧлі вевттӧм, ляпкыдик, ӧшиньяссӧ пӧвйӧн тупкӧма.
+1-4	Вӧлі	_	_	_	_	_	_	_	_
+1	Вӧлі	вӧвны	_	V	Err/Orth|IV|Ind|Prt1|Sg1	_	_	_	_
+2	_	вӧвны	_	V	Err/Orth|TV|Ind|Prt1|Sg1	_	_	_	_
+3	_	вӧвны	_	V	IV|Ind|Prt1|Sg1	_	_	_	_
+4	_	вӧвны	_	V	TV|Ind|Prt1|Sg1	_	_	_	_
+5	сія	сія	_	Pron	Pers|Sg3|Nom	_	_	_	GTtags=Pron,Pers,Sg3,Nom
+6	лажмытик	лажмытик	_	_	_	_	_	_	_
+7	,	,	_	CLB	_	_	_	_	_
+8-10	пӧввезӧн	_	_	_	_	_	_	_	_
+8	пӧввезӧн	пӧв	_	N	Pl|Ins	_	_	_	_
+9	везӧн	пӧв+Hom1	_	N	Pl|Ins	_	_	_	_
+10	_	пӧв+Hom2	_	N	Pl|Ins	_	_	_	_
+11	дорӧм	дорӧм	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+12	ӧшына	ӧшын	_	N	Sg|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
+13	,	,	_	CLB	_	_	_	_	_
+14	крышатӧм	крышатӧм	_	_	_	_	_	_	_
+15	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:27.2
+# text = Сэсся петкӧтіс гидсис сісь пӧв торрез, кынымкӧ бырӧм отопки, ӧзтіс кыдззез увтӧ би.
+# text_kpv = Сэсся картасьыс петкӧдіс сісь пӧв торъяс да кыдзьяс улӧ пестіс би.
+1-2	Сэсся	_	_	_	_	_	_	_	_
+1	Сэсся	сэсся	_	Adv	_	_	_	_	_
+2	_	сэсся	_	CS	Conj	_	_	_	_
+3-5	петкӧтіс	_	_	_	_	_	_	_	_
+3	петкӧтіс	петкӧтны	_	V	IV|Ind|Prt1|Sg3	_	_	_	_
+4	_	петкӧтны	_	V	Ind|Prt1|Sg3	_	_	_	_
+5	_	петкӧтны	_	V	TV|Ind|Prt1|Sg3	_	_	_	_
+6-7	гидсис	_	_	_	_	_	_	_	_
+6	гидсис	гид	_	N	Sem/Inanim|Sg|Ela|PxSg3	_	_	_	_
+7	сис	гид	_	N	Sg|Ela|PxSg3	_	_	_	_
+8	сісь	сісь	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+9-11	пӧв	_	_	_	_	_	_	_	_
+9	пӧв	пӧв	_	N	Sg|Nom	_	_	_	_
+10	_	пӧв+Hom1	_	N	Sg|Nom	_	_	_	_
+11	_	пӧв+Hom2	_	N	Sg|Nom	_	_	_	_
+12	торрез	тор	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
+13	,	,	_	CLB	_	_	_	_	_
+14	кынымкӧ	кынымкӧ	_	Adv	_	_	_	_	_
+15	бырӧм	бырӧм	_	A	Prc	_	_	_	GTtags=A,Prc
+16	отопки	отопки	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+17	,	,	_	CLB	_	_	_	_	_
+18-20	ӧзтіс	_	_	_	_	_	_	_	_
+18	ӧзтіс	ӧзтыны	_	V	IV|Ind|Prt1|Sg3	_	_	_	_
+19	_	ӧзтыны	_	V	Ind|Prt1|Sg3	_	_	_	_
+20	_	ӧзтыны	_	V	TV|Ind|Prt1|Sg3	_	_	_	_
+21-22	кыдззез	_	_	_	_	_	_	_	_
+21	кыдззез	кыдз	_	N	Pl|Nom	_	_	_	_
+22	зез	кыдз+Hom1	_	N	Sem/Inanim|Pl|Nom	_	_	_	_
+23	увтӧ	увт	_	N	Sg|Nom|PxSg1	_	_	_	GTtags=N,Sg,Nom,PxSg1
+24-25	би	_	_	_	_	_	_	_	_
+24	би	би	_	N	Sem/Inanim|Sg|Nom	_	_	_	_
+25	_	би	_	N	Sg|Nom	_	_	_	_
+26	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:28.6
+# text = А вот эна кык керкуын олісӧ воннэз: Нетулика Сеня да Тулика Прокоп.
+# text_kpv = А вот тайӧ керкаясас олісны кык вок — Нетулика Сеня да Тулика Прокоп.
+1-4	А	_	_	_	_	_	_	_	_
+1	А	а	_	Adv	_	_	_	_	_
+2	_	а	_	CC	_	_	_	_	_
+3	_	а	_	Interj	_	_	_	_	_
+4	_	а	_	Pcle	_	_	_	_	_
+5-10	вот	_	_	_	_	_	_	_	_
+5	вот	вот	_	Adv	_	_	_	_	_
+6	_	вот	_	Interj	_	_	_	_	_
+7	_	вот	_	N	Sg|Nom	_	_	_	_
+8	_	вот+Hom1	_	N	Sem/Inanim|Sg|Nom	_	_	_	_
+9	_	вот+Hom2	_	N	Sem/Inanim|Sg|Nom	_	_	_	_
+10	_	вотны	_	V	Imprt|Sg2	_	_	_	_
+11	эна	эна	_	_	_	_	_	_	_
+12-13	кык	_	_	_	_	_	_	_	_
+12	кык	кык	_	Card	Cmpl	_	_	_	_
+13	_	кык	_	Num	Card|Cmpl	_	_	_	_
+14-15	керкуын	_	_	_	_	_	_	_	_
+14	керкуын	керку	_	N	Sem/Inanim|Sg|Ine	_	_	_	_
+15	ын	керку	_	N	Sg|Ine	_	_	_	_
+16-17	олісӧ	_	_	_	_	_	_	_	_
+16	олісӧ	овны	_	V	IV|Ind|Prt1|Pl3	_	_	_	_
+17	_	овны	_	V	TV|Ind|Prt1|Pl3	_	_	_	_
+18-19	воннэз	_	_	_	_	_	_	_	_
+18	воннэз	вон	_	N	Pl|Nom	_	_	_	_
+19	нэз	вон	_	N	Sem/Ani|Pl|Nom	_	_	_	_
+20	:	:	_	CLB	_	_	_	_	_
+21	Нетулика	Нетулика	_	_	_	_	_	_	_
+22	Сеня	Сень	_	N	Prop|Sem/Sur|Sg|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Prop,Sem/Sur,Sg,Der,Der/ProprietiveMod,A
+23-25	да	_	_	_	_	_	_	_	_
+23	да	да	_	CC	_	_	_	_	_
+24	_	да	_	CS	_	_	_	_	_
+25	_	да	_	Pcle	_	_	_	_	_
+26	Тулика	Тулика	_	_	_	_	_	_	_
+27	Прокоп	Прокоп	_	N	Prop|Sem/Sur|Sg|Nom	_	_	_	GTtags=N,Prop,Sem/Sur,Sg,Nom
+28	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:31.1
+# text = А мукӧдпырся семьяэзӧ пыравліс и гаж.
+# text_kpv = Корсюрӧ семьяяс и нимкодясьлісны.
+1-4	А	_	_	_	_	_	_	_	_
+1	А	а	_	Adv	_	_	_	_	_
+2	_	а	_	CC	_	_	_	_	_
+3	_	а	_	Interj	_	_	_	_	_
+4	_	а	_	Pcle	_	_	_	_	_
+5	мукӧдпырся	мукӧдпырся	_	_	_	_	_	_	_
+6-7	семьяэзӧ	_	_	_	_	_	_	_	_
+6	семьяэзӧ	семья	_	N	Src/F|Pl|Ill	_	_	_	_
+7	эзӧ	семья	_	N	Src/F|Pl|Nom|PxSg1	_	_	_	_
+8-9	пыравліс	_	_	_	_	_	_	_	_
+8	пыравліс	пыравлыны	_	V	IV|Ind|Prt1|Sg3	_	_	_	_
+9	_	пыравлыны	_	V	TV|Ind|Prt1|Sg3	_	_	_	_
+10-12	и	_	_	_	_	_	_	_	_
+10	и	и	_	CC	_	_	_	_	_
+11	_	и	_	CS	_	_	_	_	_
+12	_	и	_	Pcle	_	_	_	_	_
+13-14	гаж	_	_	_	_	_	_	_	_
+13	гаж	гаж	_	N	Sem/Inanim|Sg|Nom	_	_	_	_
+14	_	гаж	_	N	Sg|Nom	_	_	_	_
+15	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:34.1
+# text = — Кытшӧм талун луныс? — ылӧстӧма юаліс сія.
+# text_kpv = — Кутшӧм талун луныс? — йӧйсямӧн юаліс сійӧ.
+1	—	—	_	PUNCT	_	_	_	_	_
+2-3	Кытшӧм	_	_	_	_	_	_	_	_
+2	Кытшӧм	кытшӧм	_	Pron	A|Interr	_	_	_	_
+3	_	кытшӧм	_	Pron	A|Rel	_	_	_	_
+4	талун	талун	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
+5-7	луныс	_	_	_	_	_	_	_	_
+5	луныс	лу	_	N	Sg|Nom|PxPl3	_	_	_	_
+6	ныс	лун	_	N	Sem/Inanim|Sg|Nom|PxSg3	_	_	_	_
+7	ыс	лун	_	N	Sg|Nom|PxSg3	_	_	_	_
+8	?	?	_	CLB	_	_	_	_	_
+9	—	—	_	PUNCT	_	_	_	_	_
+10-15	ылӧстӧма	_	_	_	_	_	_	_	_
+10	ылӧстӧма	ылӧс	_	N	Sg|Der|Der/PrivMod|A|Der|Der/A|Adv	_	_	_	_
+11	тӧма	ылӧстны	_	V	IV|Ind|Prt2|Sg1	_	_	_	_
+12	_	ылӧстны	_	V	IV|Ind|Prt2|Sg3	_	_	_	_
+13	_	ылӧстны	_	V	TV|Ind|Prt2|Sg1	_	_	_	_
+14	_	ылӧстны	_	V	TV|Ind|Prt2|Sg3	_	_	_	_
+15	_	ылӧстӧм	_	A	Der|Der/A|Adv	_	_	_	_
+16-22	юаліс	_	_	_	_	_	_	_	_
+16	юаліс	юавны	_	V	Err/Orth|IV|Ind|Prt1|Sg3	_	_	_	_
+17	_	юавны	_	V	Err/Orth|TV|Ind|Prt1|Sg3	_	_	_	_
+18	_	юавны	_	V	IV|Ind|Prt1|Sg3	_	_	_	_
+19	_	юавны	_	V	Ind|Prt1|Sg3	_	_	_	_
+20	_	юавны	_	V	TV|Ind|Prt1|Sg3	_	_	_	_
+21	_	юны	_	V	IV|Der/Al|Ind|Prt1|Sg3	_	_	_	_
+22	_	юны	_	V	TV|Der/Al|Ind|Prt1|Sg3	_	_	_	_
+23	сія	сія	_	Pron	Pers|Sg3|Nom	_	_	_	GTtags=Pron,Pers,Sg3,Nom
+24	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:41.5
+# text = А медӧддьӧнсӧ повзьӧтчӧ середа ойӧ.
+# text_kpv = А медъёна повзьӧдчӧ среда войӧ.
+1-4	А	_	_	_	_	_	_	_	_
+1	А	а	_	Adv	_	_	_	_	_
+2	_	а	_	CC	_	_	_	_	_
+3	_	а	_	Interj	_	_	_	_	_
+4	_	а	_	Pcle	_	_	_	_	_
+5	медӧддьӧнсӧ	медӧддьӧнсӧ	_	_	_	_	_	_	_
+6-9	повзьӧтчӧ	_	_	_	_	_	_	_	_
+6	повзьӧтчӧ	повзьӧтчыны	_	V	IV|Imprt|Pl2	_	_	_	_
+7	_	повзьӧтчыны	_	V	IV|Ind|Prs|Sg3	_	_	_	_
+8	_	повзьӧтчыны	_	V	Imprt|Pl2	_	_	_	_
+9	_	повзьӧтчыны	_	V	Ind|Prs|Sg3	_	_	_	_
+10	середа	середа	_	_	_	_	_	_	_
+11-12	ойӧ	_	_	_	_	_	_	_	_
+11	ойӧ	ой	_	N	Sg|Ill	_	_	_	_
+12	ӧ	ой	_	N	Sg|Nom|PxSg1	_	_	_	_
+13	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:48.2
+# text = Пукси ойнас берег дорас, вуграся.
+# text_kpv = Войнас пукси берег дорас, вуграся.
+1-2	Пукси	_	_	_	_	_	_	_	_
+1	Пукси	пуксьыны	_	V	IV|Ind|Prt1|Sg1	_	_	_	_
+2	_	пуксьыны	_	V	TV|Ind|Prt1|Sg1	_	_	_	_
+3	ойнас	ой	_	N	Sg|Ins|PxSg3	_	_	_	GTtags=N,Sg,Ins,PxSg3
+4-5	берег дорас	_	_	_	_	_	_	_	_
+4	берег	берег дор	_	дор	N|Sg|Ill|PxSg3	_	_	_	_
+5	дорас	берег дор	_	дор	N|Sg|Ine|PxSg3	_	_	_	_
+6	,	,	_	CLB	_	_	_	_	_
+7-8	вуграся	_	_	_	_	_	_	_	_
+7	вуграся	вуграсьны	_	V	IV|Ind|Prs|Sg1	_	_	_	_
+8	_	вуграсьны	_	V	Ind|Prs|Sg1	_	_	_	_
+9	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:55.3
+# text = Морт тэ, адзза, простӧй, честнӧй, а честнӧй дынӧ, может, и петас сія.
+# text_kpv = Мортыс тэ, аддза, прӧстӧй, честнӧй, а честнӧй дінад, гашкӧ, и петас сійӧ.
+1-2	Морт	_	_	_	_	_	_	_	_
+1	Морт	морт	_	N	Sem/Ani|Sg|Nom	_	_	_	_
+2	_	морт	_	N	Sg|Nom	_	_	_	_
+3	тэ	тэ	_	Pron	Pers|Sg2|Nom	_	_	_	GTtags=Pron,Pers,Sg2,Nom
+4	,	,	_	CLB	_	_	_	_	_
+5-6	адзза	_	_	_	_	_	_	_	_
+5	адзза	адззыны	_	V	IV|Ind|Prs|Sg1	_	_	_	_
+6	_	адззыны	_	V	TV|Ind|Prs|Sg1	_	_	_	_
+7	,	,	_	CLB	_	_	_	_	_
+8	простӧй	простӧй	_	A	_	_	_	_	_
+9	,	,	_	CLB	_	_	_	_	_
+10	честнӧй	честнӧй	_	A	_	_	_	_	_
+11	,	,	_	CLB	_	_	_	_	_
+12	а	а	_	CC	_	_	_	_	_
+13	честнӧй	честнӧй	_	A	_	_	_	_	_
+14-18	дынӧ	_	_	_	_	_	_	_	_
+14	дынӧ	дын+Hom1	_	N	Sem/Inanim|Sg|Ill	_	_	_	_
+15	_	дын+Hom1	_	N	Sem/Inanim|Sg|Nom|PxSg1	_	_	_	_
+16	_	дын+Hom2	_	N	Sem/Inanim|Sg|Ill	_	_	_	_
+17	_	дын+Hom2	_	N	Sem/Inanim|Sg|Nom|PxSg1	_	_	_	_
+18	_	дынӧ	_	Adp	Po|Spat|Sg|Ill	_	_	_	_
+19	,	,	_	CLB	_	_	_	_	_
+20	может	может	_	Adv	_	_	_	_	_
+21	,	,	_	CLB	_	_	_	_	_
+22-23	и	_	_	_	_	_	_	_	_
+22	и	и	_	CC	_	_	_	_	_
+23	_	и	_	CS	_	_	_	_	_
+24-26	петас	_	_	_	_	_	_	_	_
+24	петас	петас	_	N	Sg|Nom	_	_	_	_
+25	_	петны	_	V	IV|Ind|Fut|Sg3	_	_	_	_
+26	_	петны	_	V	TV|Ind|Fut|Sg3	_	_	_	_
+27	сія	сія	_	Pron	Pers|Sg3|Nom	_	_	_	GTtags=Pron,Pers,Sg3,Nom
+28	.	.	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:58.1
+# text = — Мый татӧн оз гленитчы?
+# text_kpv = — Мый тані оз во сьӧлӧм вылад?
+1	—	—	_	PUNCT	_	_	_	_	_
+2-4	Мый	_	_	_	_	_	_	_	_
+2	Мый	мый	_	CS	_	_	_	_	_
+3	_	мый	_	Pron	Sem/NonHum|Nom|Interr	_	_	_	_
+4	_	мый	_	Pron	Sem/NonHum|Nom|Rel	_	_	_	_
+5	татӧн	татӧн	_	Adv	_	_	_	_	_
+6	оз	оз	_	V	Neg|Ind|Prs|Sg3	_	_	_	GTtags=V,Neg,Ind,Prs,Sg3
+7	гленитчы	гленитчыны	_	V	IV|ConNeg	_	_	_	GTtags=V,IV,ConNeg
+8	?	?	_	CLB	_	_	_	_	_
+
+# sent_id = Minin:OjsjaCvettez:59.2
+# text = Томмес менӧ озӧ вежӧртӧ, а пӧриссес — кокаласӧ...
+# text_kpv = Томъяс менӧ оз гӧгӧрвоны, а пӧрысьяс — кокаласны...
+1-2	Томмес	_	_	_	_	_	_	_	_
+1	Томмес	том	_	N	Pl|Nom|PxSg3	_	_	_	_
+2	_	том+Hom2	_	N	Sem/Inanim|Pl|Nom|PxSg3	_	_	_	_
+3	менӧ	ме	_	Pron	Pers|Sg1|Acc	_	_	_	GTtags=Pron,Pers,Sg1,Acc
+4	озӧ	оз	_	V	Neg|Ind|Prs|Pl3	_	_	_	GTtags=V,Neg,Ind,Prs,Pl3
+5-8	вежӧртӧ	_	_	_	_	_	_	_	_
+5	вежӧртӧ	вежӧр	_	N	Sem/Inanim|Sg|Acc|PxSg2	_	_	_	_
+6	тӧ	вежӧр	_	N	Sg|Acc|PxSg2	_	_	_	_
+7	тӧ	вежӧртны	_	V	IV|Ind|Prs|Sg3	_	_	_	_
+8	_	вежӧртны	_	V	TV|Ind|Prs|Sg3	_	_	_	_
+9	,	,	_	CLB	_	_	_	_	_
+10	а	а	_	CC	_	_	_	_	_
+11-13	пӧриссес	_	_	_	_	_	_	_	_
+11	пӧриссес	пӧрны	_	V	Der/ісь|ActPrsPtc|Pl|Nom|PxSg3	_	_	_	_
+12	_	пӧрны	_	V	IV|Der/ісь|ActPrsPtc|Pl|Nom|PxSg3	_	_	_	_
+13	_	пӧрны	_	V	TV|Der/ісь|ActPrsPtc|Pl|Nom|PxSg3	_	_	_	_
+14	—	—	_	PUNCT	_	_	_	_	_
+15-17	кокаласӧ	_	_	_	_	_	_	_	_
+15	кокаласӧ	кокны	_	V	Der/Al|Ind|Fut|Pl3	_	_	_	_
+16	_	кокны	_	V	IV|Der/Al|Ind|Fut|Pl3	_	_	_	_
+17	_	кокны	_	V	TV|Der/Al|Ind|Fut|Pl3	_	_	_	_
+18	...	...	_	CLB	_	_	_	_	_
+
+
