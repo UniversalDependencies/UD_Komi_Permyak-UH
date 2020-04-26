@@ -41,7 +41,7 @@
 7	сія	сія	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	GTtags=Pron,Pers,Sg3,Nom
 8	локтас	локны	VERB	V	Mood=Ind|Fut|Number=Sing|Person=3	4	advcl:tmod	_	GTtags=V,Ind,Fut,Sg3
 9	сэтшӧм	сэтшӧм	ADJ	Adn	PronType=Dem	10	amod	_	GTtags=Adn,Dem
-10	пельӧсокӧ	пельӧс	NOUN	N	Case=Ill|Derivation=Ок|Derivation=Dimin|Number=Sing	8	obl:lmod	_	GTtags=N,Der/Ок,Der/Dimin,N,Sg,Ill|SpaceAfter=No
+10	пельӧсокӧ	пельӧс	NOUN	N	Case=Ill|Derivation=Dimin|Number=Sing	8	obl:lmod	_	GTtags=N,Der/Dimin,Der/Dimin,N,Sg,Ill|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	13	punct	_	GTtags=CLB
 12	кӧда	кӧда	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	13	nsubj	_	GTtags=Pron,Rel,Sg,Nom
 13	чужтӧ	чужтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=2	10	acl:relcl	_	GTtags=V,TV,Ind,Prs,Sg3
@@ -176,7 +176,7 @@
 4	тыдалӧны	тыдавны	_	V	IV|Ind|Prs|Pl3	_	_	_	GTtags=V,IV,Ind,Prs,Pl3
 5	шутёммез	шутём	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
 6	и	и	_	CC	_	_	_	_	GTtags=CC
-7	видзоккез	видз	_	N	Animacy=Inan|Der/Ок|Der/Dimin|N|Pl|Nom	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Pl,Nom
+7	видзоккез	видз	_	N	Animacy=Inan|Derivation=Dimin|Der/Dimin|N|Pl|Nom	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Pl,Nom
 8	,	,	_	CLB	_	_	_	_	GTtags=CLB
 9	пыдын	пыдын	_	Adv	Ine	_	_	_	GTtags=Adv,Ine
 10	лог	лог	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
@@ -225,7 +225,7 @@
 5	,	,	_	CLB	_	_	_	_	GTtags=CLB
 6	сибӧтчим	сибӧтчыны	_	V	IV|Ind|Prt1|Pl1	_	_	_	GTtags=V,IV,Ind,Prt1,Pl1
 7	дорись	дорны	_	V	IV|Der/ісь|ActPrsPtc|Sg|Nom	_	_	_	GTtags=V,IV,Der/ісь,ActPrsPtc,Sg,Nom
-8	керкуокыс	керку	_	N	Animacy=Inan|Der/Ок|Der/Dimin|N|Sg|Nom|PxSg3	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Sg,Nom,PxSg3
+8	керкуокыс	керку	_	N	Animacy=Inan|Derivation=Dimin|Der/Dimin|N|Sg|Nom|PxSg3	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Sg,Nom,PxSg3
 9	дынӧ	дынӧ	_	Adp	Po|Spat|Sg|Ill	_	_	_	GTtags=Adp,Po,Spat,Sg,Ill
 10	.	.	_	CLB	_	_	_	_	GTtags=CLB
 
