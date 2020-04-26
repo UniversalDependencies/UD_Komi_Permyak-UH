@@ -62,7 +62,7 @@
 7	неделяся	неделяся	NOUN	A	_	8	nmod	_	GTtags=A
 8	дыржык	дыр	ADV	Adv	Degree=Cmp|Derivation=Zhyk	9	advmod:tmod	_	GTtags=Adv,Der/жык,Comp
 9	ветлӧті	ветлӧтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Sg1
-10	эна	эна	PART	Pcle	_	11	det	_	GTtags=Pcle
+10	эна	эна	PRON	Pron	_	11	det	_	GTtags=Pcle
 11	местаэзӧт	места	NOUN	N	Case=Prl|Number=Plur	9	obl:lmod	_	GTtags=N,Pl,Prl|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	13	punct	_	GTtags=CLB
 13	узьлі	узьлыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=1	9	conj	_	GTtags=V,IV,Ind,Prt1,Sg1|SpaceAfter=No
@@ -74,7 +74,7 @@
 19	увтын	увт	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=Sg,Ine|SpaceAfter=No
 20	,	,	PUNCT	CLB	_	22	punct	_	GTtags=CLB
 21	ю	ю	NOUN	N	Case=Ine|Number=Sing	22	nmod	_	GTtags=N,Sg,Ine
-22	дорын	_	NOUN	_	_	15	conj	_	_
+22	дорын	_	NOUN	_	_	15	conj	_	SpaceAfter=No
 23	,	,	PUNCT	CLB	_	25	punct	_	GTtags=CLB
 24	киссьӧм	киссьӧм	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	25	advcl	_	GTtags=N,Sem/Inanim,Sg,Nom
 25	сарайын	сарай	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=N,Sg,Ine|SpaceAfter=No
