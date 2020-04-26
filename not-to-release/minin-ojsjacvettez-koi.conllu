@@ -9,7 +9,7 @@
 6	а	а	CCONJ	CC	_	11	cc	_	GTtags=CC
 7	июльскӧй	июльскӧй	ADJ	A	_	8	amod	_	GTtags=A
 8	шонді	шонді	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	GTtags=N,Sg,Nom
-9	сё	сё	ADV	Adv	AdvType=Degree	11	advmod	_	GTtags=Adv,AdA
+9	сё	сё	ADV	Adv	AdvType=Deg	11	advmod	_	GTtags=Adv,AdA
 10	эшӧ	эшӧ	ADV	Adv	_	11	advmod:tmod	_	GTtags=Adv
 11	пӧжӧ	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	0	root	_	GTtags=V,IV,Ind,Prs,Sg3
 12	жалейттӧг	жалейтны	VERB	V	Case=Car|Derivation=тӧг|Valency=1|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
@@ -23,7 +23,7 @@
 # text_kpv = А юрын думъяс кыпыдӧсь, гажаӧсь.
 1	А	а	CCONJ	CC	_	4	cc	_	GTtags=CC
 2	юрын	юр	NOUN	N	Case=Ine|Number=Sing	4	obl:lmod	_	GTtags=N,Sg,Ine
-3	думаэз	дум	NOUN	N	Case=Nom|Derivation=MWN|Der|Number=Sing|Der|Derivation=ProprietiveMod|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
+3	думаэз	дум	NOUN	N	Case=Nom|Derivation=MWN|Number=Sing|Derivation=ProprietiveMod|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
 4	кокнитӧсь	кокнит	ADJ	A	Cop|Number=Plur	0	root	_	GTtags=A,Cop,Pl|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	GTtags=CLB
 6	гажаӧсь	гажа	ADJ	A	Cop|Number=Plur	4	conj	_	GTtags=A,Cop,Pl|SpaceAfter=No
@@ -32,7 +32,7 @@
 # sent_id = Minin:OjsjaCvettez:4.2
 # text = Мортлӧ пыр овлӧ долыт, кӧр сія локтас сэтшӧм пельӧсокӧ, кӧда чужтӧ памятяс приятнӧй касьтылӧм.
 # text_kpv = Мортлы пыр овлӧ долыд, кор сійӧ выльысь воӧ важ тӧдсаинӧ, коді паметяд чужтӧ приятнӧй казьтылӧм.
-1	Мортлӧ	морт	NOUN	N	Sem/Ani|Case=Dat|Number=Sing	4	obl	_	GTtags=N,Sem/Ani,Sg,Dat
+1	Мортлӧ	морт	NOUN	N	Animacy=Anim|Case=Dat|Number=Sing	4	obl	_	GTtags=N,Sem/Ani,Sg,Dat
 2	пыр	пыр	ADV	Adv	_	4	advmod:tmod	_	GTtags=Adv
 3	овлӧ	овлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	4	cop	_	GTtags=V,IV,Ind,Prs,Sg3
 4	долыт	долыт	ADJ	A	_	0	root	_	GTtags=A|SpaceAfter=No
@@ -60,14 +60,14 @@
 5	кадӧ	кад	NOUN	N	Sem/Inanim|Case=Ill|Number=Sing	1	appos	_	GTtags=N,Sem/Inanim,Sg,Ill|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	GTtags=CLB
 7	неделяся	неделяся	NOUN	A	_	8	nmod	_	GTtags=A
-8	дыржык	дыр	ADV	Adv	Derivation=жык|Degree=Cmp	9	advmod:tmod	_	GTtags=Adv,Der/жык,Comp
+8	дыржык	дыр	ADV	Adv	Degree=Cmp|Derivation=Zhyk	9	advmod:tmod	_	GTtags=Adv,Der/жык,Comp
 9	ветлӧті	ветлӧтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Sg1
 10	эна	эна	PART	Pcle	_	11	det	_	GTtags=Pcle
 11	местаэзӧт	места	NOUN	N	Case=Prl|Number=Plur	9	obl:lmod	_	GTtags=N,Pl,Prl|SpaceAfter=No
 12	,	,	PUNCT	CLB	_	13	punct	_	GTtags=CLB
 13	узьлі	узьлыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=1	9	conj	_	GTtags=V,IV,Ind,Prt1,Sg1|SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	GTtags=CLB
-15	кытӧн	кытӧн	PRON	Pron	Spat|Case=Ine|PronType=Int	13	obl:lmod	_	GTtags=Pron,Spat,Ine,Interr
+15	кытӧн	кытӧн	PRON	Pron	Case=Ine|PronType=Int	13	obl:lmod	_	GTtags=Pron,Spat,Ine,Interr
 16	шедас	шедны	VERB	V	Mood=Ind|Fut|Number=Sing|Person=3|Valency=1	15	fixed	_	GTtags=V,IV,Ind,Fut,Sg3|SpaceAfter=No
 17	:	:	PUNCT	CLB	_	15	punct	_	GTtags=CLB
 18	кӧз	кӧз	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	GTtags=N,Sg,Nom
@@ -76,7 +76,7 @@
 21	ю	ю дор	NOUN	N	Case=Ine|Number=Sing	22	nmod	_	GTtags=N,Sg,Ine|SpaceAfter=No
 22	дорын	_	NOUN	_	_	15	conj	_	_
 23	,	,	PUNCT	CLB	_	25	punct	_	GTtags=CLB
-24	киссьӧм	киссьӧм	NOUN	N	Sem/Inanim|Case=Nom|Number=Sing	25	advcl	_	GTtags=N,Sem/Inanim,Sg,Nom
+24	киссьӧм	киссьӧм	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	25	advcl	_	GTtags=N,Sem/Inanim,Sg,Nom
 25	сарайын	сарай	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=N,Sg,Ine|SpaceAfter=No
 26	,	,	PUNCT	CLB	_	29	punct	_	GTtags=CLB
 27	быд	быд	PRON	Pron	_	28	det	_	GTtags=Pron,Qnt
@@ -84,7 +84,7 @@
 29	кошши	кошшыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=2	9	conj	_	GTtags=V,TV,Ind,Prt1,Sg1
 30	тшаккез	тшак	NOUN	N	Case=Nom|Number=Plur	29	obj	_	GTtags=N,Pl,Nom
 31	да	да	CCONJ	CC	_	32	cc	_	GTtags=CC
-32	ягӧд	ягӧд	NOUN	N	Sem/Inanim|Case=Nom|Number=Sing	30	conj	_	GTtags=N,Sem/Inanim,Sg,Nom|SpaceAfter=No
+32	ягӧд	ягӧд	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	30	conj	_	GTtags=N,Sem/Inanim,Sg,Nom|SpaceAfter=No
 33	,	,	PUNCT	CLB	_	34	punct	_	GTtags=CLB
 34	чериалі	чериавны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1	9	conj	_	GTtags=V,Ind,Prt1,Sg1|SpaceAfter=No
 35	.	.	PUNCT	CLB	_	9	punct	_	GTtags=CLB
@@ -105,10 +105,10 @@
 2	мекӧт	ме	PRON	Pron	Case=Com|Number=Sing|Person=1|PronType=Prs	1	nmod	_	GTtags=Pron,Pers,Sg1,Com
 3	пукалӧ	пукавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=2	0	root	_	GTtags=V,TV,Ind,Prs,Sg3
 4	сьӧд	сьӧд	ADJ	A	_	5	amod	_	GTtags=A
-5	тошока	тошока	NOUN	N	Derivation=ProprietiveMod|Der|Number=Sing	9	amod	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
+5	тошока	тошока	NOUN	N	Derivation=ProprietiveMod|Number=Sing	9	amod	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
 6	и	и	CCONJ	CC	_	8	cc	_	GTtags=CC
-7	гардчӧмкодь	гардчыны	VERB	V	Derivation=CompMod|Der|Mood=Ind|Number=Sing|Person=3|Tense=Prt2|Valency=1	8	advcl	_	GTtags=V,IV,Ind,Prt2,Sg3,Der,Der/CompMod
-8	уссэза	ус	NOUN	N	Derivation=ProprietiveMod|Der|Number=Plur	5	conj	_	GTtags=N,Pl,Der,Der/ProprietiveMod,A
+7	гардчӧмкодь	гардчыны	VERB	V	Derivation=CompMod|Mood=Ind|Number=Sing|Person=3|Tense=Prt2|Valency=1	8	advcl	_	GTtags=V,IV,Ind,Prt2,Sg3,Der,Der/CompMod
+8	уссэза	ус	NOUN	N	Derivation=ProprietiveMod|Number=Plur	5	conj	_	GTtags=N,Pl,Der,Der/ProprietiveMod,A
 9	мужик	мужик	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
 10	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 
@@ -125,7 +125,7 @@
 8	сія	сія	_	Pron	Pers|Sg3|Nom	_	_	_	GTtags=Pron,Pers,Sg3,Nom
 9	медперво	медперво	_	Adv	_	_	_	_	GTtags=Adv
 10	кыскис	кыскыны	_	V	Ind|Prt1|Sg3	_	_	_	GTtags=V,Ind,Prt1,Sg3
-11	бадь	бадь	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+11	бадь	бадь	_	N	Animacy=Inan|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
 12	кусттэз	куст	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
 13	коласісь	колас	_	N	Sg|Ela	_	_	_	GTtags=N,Sg,Ela
 14	ыджыт	ыджыт	_	A	_	_	_	_	GTtags=A
@@ -149,7 +149,7 @@
 9	,	,	_	CLB	_	_	_	_	GTtags=CLB
 10	и	и	_	CC	_	_	_	_	GTtags=CC
 11	шынняліс	шыннявны	_	V	Ind|Prt1|Sg3	_	_	_	GTtags=V,Ind,Prt1,Sg3
-12	довольнӧя	довольнӧй	_	A	Der|Der/A|Adv	_	_	_	GTtags=A,Der,Der/A,Adv
+12	довольнӧя	довольнӧй	_	A	Der/A|Adv	_	_	_	GTtags=A,Der,Der/A,Adv
 13	.	.	_	CLB	_	_	_	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:17.3
@@ -157,7 +157,7 @@
 # text_kpv = Ме, вокӧ, ог жӧ вермы овны Льӧмватӧгыс.
 1	Ме	ме	_	Pron	Pers|Sg1|Nom	_	_	_	GTtags=Pron,Pers,Sg1,Nom
 2	,	,	_	CLB	_	_	_	_	GTtags=CLB
-3	вонӧ	вон	_	N	Sem/Ani|Sg|Nom|PxSg1	_	_	_	GTtags=N,Sem/Ani,Sg,Nom,PxSg1
+3	вонӧ	вон	_	N	Animacy=Anim|Sg|Nom|PxSg1	_	_	_	GTtags=N,Sem/Ani,Sg,Nom,PxSg1
 4	,	,	_	CLB	_	_	_	_	GTtags=CLB
 5	тожӧ	тожӧ	_	Adv	_	_	_	_	GTtags=Adv
 6	эд	оз	_	V	Neg|Ind|Prt1|Pl2	_	_	_	GTtags=V,Neg,Ind,Prt1,Pl2
@@ -172,25 +172,25 @@
 # text_kpv = Веськыдвылын, кӧні тыдалӧны пожӧмъяс да видзторъяс, лог дорын пыдын сулалӧны куим пӧлыньтчӧм керка, кымынкӧ сарай да вевтӧдзыс муӧ вӧйӧм важ пывсян.
 1	Веськытланьын	Веськытланьын	_	_	_	_	_	_	GTtags=_
 2	,	,	_	CLB	_	_	_	_	GTtags=CLB
-3	кытӧн	кытӧн	_	Pron	Spat|Ine|Interr	_	_	_	GTtags=Pron,Spat,Ine,Interr
+3	кытӧн	кытӧн	_	Pron	Ine|Interr	_	_	_	GTtags=Pron,Spat,Ine,Interr
 4	тыдалӧны	тыдавны	_	V	IV|Ind|Prs|Pl3	_	_	_	GTtags=V,IV,Ind,Prs,Pl3
 5	шутёммез	шутём	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
 6	и	и	_	CC	_	_	_	_	GTtags=CC
-7	видзоккез	видз	_	N	Sem/Inanim|Der/Ок|Der/Dimin|N|Pl|Nom	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Pl,Nom
+7	видзоккез	видз	_	N	Animacy=Inan|Der/Ок|Der/Dimin|N|Pl|Nom	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Pl,Nom
 8	,	,	_	CLB	_	_	_	_	GTtags=CLB
 9	пыдын	пыдын	_	Adv	Ine	_	_	_	GTtags=Adv,Ine
 10	лог	лог	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-11	дорын	дорын	_	Adp	Po|Spat|Sg|Ine	_	_	_	GTtags=Adp,Po,Spat,Sg,Ine
+11	дорын	дор	NOUN	N	Sg|Ine	_	_	_	GTtags=Adp,Po,Spat,Sg,Ine
 12	сулалӧны	сулавны	_	V	IV|Ind|Prs|Pl3	_	_	_	GTtags=V,IV,Ind,Prs,Pl3
 13	куим	куим	_	Num	Card|Cmpl	_	_	_	GTtags=Num,Card,Cmpl
 14	пӧліньтчӧм	пӧліньтчыны	_	V	IV|Ind|Prt2|Sg3	_	_	_	GTtags=V,IV,Ind,Prt2,Sg3
-15	керку	керку	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+15	керку	керку	_	N	Animacy=Inan|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
 16	,	,	_	CLB	_	_	_	_	GTtags=CLB
 17	кынымкӧ	кынымкӧ	_	Adv	_	_	_	_	GTtags=Adv
 18	сарай	сарай	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
 19	и	и	_	CC	_	_	_	_	GTtags=CC
 20	крышави	крышави	_	_	_	_	_	_	GTtags=_
-21	муӧ	му	_	N	Sem/Inanim|Sg|Ill	_	_	_	GTtags=N,Sem/Inanim,Sg,Ill
+21	муӧ	му	_	N	Animacy=Inan|Sg|Ill	_	_	_	GTtags=N,Sem/Inanim,Sg,Ill
 22	пырӧм	пырны	_	V	IV|Ind|Prt2|Sg3	_	_	_	GTtags=V,IV,Ind,Prt2,Sg3
 23	важ	важ	_	A	_	_	_	_	GTtags=A
 24	баня	баня	_	_	_	_	_	_	GTtags=_
@@ -207,7 +207,7 @@
 6	сылӧ	сія	_	Pron	Pers|Sg3|Dat	_	_	_	GTtags=Pron,Pers,Sg3,Dat
 7	важ	важ	_	A	_	_	_	_	GTtags=A
 8	селитьбаыс	селитьба	_	N	Sg|Nom|PxSg3	_	_	_	GTtags=N,Sg,Nom,PxSg3
-9	син	син	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+9	син	син	_	N	Animacy=Inan|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
 10	одзӧ	одзӧ	_	Adp	Po|Spat|Sg|Ill	_	_	_	GTtags=Adp,Po,Spat,Sg,Ill
 11	оз	оз	_	V	Neg|Ind|Prs|Sg3	_	_	_	GTtags=V,Neg,Ind,Prs,Sg3
 12	ков	ковны	_	V	IV|ConNeg	_	_	_	GTtags=V,IV,ConNeg
@@ -225,7 +225,7 @@
 5	,	,	_	CLB	_	_	_	_	GTtags=CLB
 6	сибӧтчим	сибӧтчыны	_	V	IV|Ind|Prt1|Pl1	_	_	_	GTtags=V,IV,Ind,Prt1,Pl1
 7	дорись	дорны	_	V	IV|Der/ісь|ActPrsPtc|Sg|Nom	_	_	_	GTtags=V,IV,Der/ісь,ActPrsPtc,Sg,Nom
-8	керкуокыс	керку	_	N	Sem/Inanim|Der/Ок|Der/Dimin|N|Sg|Nom|PxSg3	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Sg,Nom,PxSg3
+8	керкуокыс	керку	_	N	Animacy=Inan|Der/Ок|Der/Dimin|N|Sg|Nom|PxSg3	_	_	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Sg,Nom,PxSg3
 9	дынӧ	дынӧ	_	Adp	Po|Spat|Sg|Ill	_	_	_	GTtags=Adp,Po,Spat,Sg,Ill
 10	.	.	_	CLB	_	_	_	_	GTtags=CLB
 
@@ -237,8 +237,8 @@
 3	лажмытик	лажмытик	_	_	_	_	_	_	GTtags=_
 4	,	,	_	CLB	_	_	_	_	GTtags=CLB
 5	пӧввезӧн	пӧв	_	N	Pl|Ins	_	_	_	GTtags=N,Pl,Ins
-6	дорӧм	дорӧм	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
-7	ӧшына	ӧшын	_	N	Sg|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
+6	дорӧм	дорӧм	_	N	Animacy=Inan|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+7	ӧшына	ӧшын	_	N	Sg|Der/ProprietiveMod|A	_	_	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
 8	,	,	_	CLB	_	_	_	_	GTtags=CLB
 9	крышатӧм	крышатӧм	_	_	_	_	_	_	GTtags=_
 10	.	.	_	CLB	_	_	_	_	GTtags=CLB
@@ -249,7 +249,7 @@
 1	Сэсся	сэсся	_	Adv	_	_	_	_	GTtags=Adv
 2	петкӧтіс	петкӧтны	_	V	TV|Ind|Prt1|Sg3	_	_	_	GTtags=V,TV,Ind,Prt1,Sg3
 3	гидсис	гид	_	N	Sg|Ela|PxSg3	_	_	_	GTtags=N,Sg,Ela,PxSg3
-4	сісь	сісь	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
+4	сісь	сісь	_	N	Animacy=Inan|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
 5	пӧв	пӧв	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
 6	торрез	тор	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
 7	,	,	_	CLB	_	_	_	_	GTtags=CLB
@@ -275,7 +275,7 @@
 7	воннэз	вон	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
 8	:	:	_	CLB	_	_	_	_	GTtags=CLB
 9	Нетулика	Нетулика	_	_	_	_	_	_	GTtags=_
-10	Сеня	Сень	_	N	Prop|Sem/Sur|Sg|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Prop,Sem/Sur,Sg,Der,Der/ProprietiveMod,A
+10	Сеня	Сень	_	N	Prop|Sem/Sur|Sg|Der/ProprietiveMod|A	_	_	_	GTtags=N,Prop,Sem/Sur,Sg,Der,Der/ProprietiveMod,A
 11	да	да	_	CC	_	_	_	_	GTtags=CC
 12	Тулика	Тулика	_	_	_	_	_	_	GTtags=_
 13	Прокоп	Прокоп	_	N	Prop|Sem/Sur|Sg|Nom	_	_	_	GTtags=N,Prop,Sem/Sur,Sg,Nom
