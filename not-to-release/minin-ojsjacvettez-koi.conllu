@@ -23,7 +23,7 @@
 # text_kpv = А юрын думъяс кыпыдӧсь, гажаӧсь.
 1	А	а	CCONJ	CC	_	4	cc	_	GTtags=CC
 2	юрын	юр	NOUN	N	Case=Ine|Number=Sing	4	obl:lmod	_	GTtags=N,Sg,Ine
-3	думаэз	дум	NOUN	N	Case=Nom|Derivation=MWN|Number=Sing|Derivation=ProprietiveMod|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
+3	думаэз	дума	NOUN	N	Case=Nom|Number=Sing|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
 4	кокнитӧсь	кокнит	ADJ	A	Cop|Number=Plur	0	root	_	GTtags=A,Cop,Pl|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	GTtags=CLB
 6	гажаӧсь	гажа	ADJ	A	Cop|Number=Plur	4	conj	_	GTtags=A,Cop,Pl|SpaceAfter=No
