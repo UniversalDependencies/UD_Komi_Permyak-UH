@@ -233,9 +233,9 @@
 # sent_id = Minin:OjsjaCvettez:25.2
 # text = Вӧлі сія лажмытик, пӧввезӧн дорӧм ӧшына, крышатӧм.
 # text_kpv = Сійӧ вӧлі вевттӧм, ляпкыдик, ӧшиньяссӧ пӧвйӧн тупкӧма.
-1	Вӧлі	вӧвны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Prt1|Valency=1	_	_	_	GTtags=V,IV,Ind,Prt1,Sg3
-2	сія	сія	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	GTtags=Pron,Pers,Sg3,Nom
-3	лажмытик	лажмытик	_	_	_	_	_	_	SpaceAfter=No
+1	Вӧлі	вӧвны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Prt1|Valency=1	3	aux	_	GTtags=V,IV,Ind,Prt1,Sg3
+2	сія	сія	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	GTtags=Pron,Pers,Sg3,Nom
+3	лажмытик	лажмытик	_	_	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	_	_	_	GTtags=CLB
 5	пӧввезӧн	пӧв	NOUN	N	Number=Plur|Ins	_	_	_	GTtags=N,Pl,Ins
 6	дорӧм	дорӧм	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
@@ -247,15 +247,15 @@
 # sent_id = Minin:OjsjaCvettez:27.2
 # text = Сэсся петкӧтіс гидсис сісь пӧв торрез, кынымкӧ бырӧм отопки, ӧзтіс кыдззез увтӧ би.
 # text_kpv = Сэсся картасьыс петкӧдіс сісь пӧв торъяс да кыдзьяс улӧ пестіс би.
-1	Сэсся	сэсся	ADV	Adv	_	_	_	_	GTtags=Adv
-2	петкӧтіс	петкӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Prt1|Valency=2	_	_	_	GTtags=V,TV,Ind,Prt1,Sg3
-3	гидсис	гид	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	GTtags=N,Sg,Ela,PxSg3
+1	Сэсся	сэсся	ADV	Adv	_	2	advmod	_	GTtags=Adv
+2	петкӧтіс	петкӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Prt1|Valency=2	0	root	_	GTtags=V,TV,Ind,Prt1,Sg3
+3	гидсис	гид	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	GTtags=N,Sg,Ela,PxSg3
 4	сісь	сісь	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
-5	пӧв	пӧв	NOUN	N	Case=Nom|Number=Sing	_	_	_	GTtags=N,Sg,Nom
+5	пӧв	пӧв	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	GTtags=N,Sg,Nom
 6	торрез	тор	NOUN	N	Case=Nom|Number=Plur	_	_	_	GTtags=N,Pl,Nom|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	_	_	_	GTtags=CLB
-8	кынымкӧ	кынымкӧ	ADV	Adv	_	_	_	_	GTtags=Adv
-9	бырӧм	бырӧм	ADJ	A	Prc	_	_	_	GTtags=A,Prc
+8	кынымкӧ	кынымкӧ	ADV	Adv	_	10	_	_	GTtags=Adv
+9	бырӧм	бырӧм	ADJ	A	Prc	10	amod	_	GTtags=A,Prc
 10	отопки	отопки	NOUN	N	Case=Nom|Number=Sing	_	_	_	GTtags=N,Sg,Nom|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	_	_	_	GTtags=CLB
 12	ӧзтіс	ӧзтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Prt1|Valency=1	_	_	_	GTtags=V,IV,Ind,Prt1,Sg3
@@ -267,30 +267,30 @@
 # sent_id = Minin:OjsjaCvettez:28.6
 # text = А вот эна кык керкуын олісӧ воннэз: Нетулика Сеня да Тулика Прокоп.
 # text_kpv = А вот тайӧ керкаясас олісны кык вок — Нетулика Сеня да Тулика Прокоп.
-1	А	а	CCONJ	CC	_	_	_	_	GTtags=CC
-2	вот	вот	ADV	Adv	_	_	_	_	GTtags=Adv
-3	эна	эна	_	_	_	_	_	_	_
-4	кык	кык	NUM	Num	Cmpl|NumType=Card	_	_	_	GTtags=Num,Card,Cmpl
-5	керкуын	керку	NOUN	N	Case=Ine|Number=Sing	_	_	_	GTtags=N,Sg,Ine
-6	олісӧ	овны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Prt1|Valency=1	_	_	_	GTtags=V,IV,Ind,Prt1,Pl3
-7	воннэз	вон	NOUN	N	Case=Nom|Number=Plur	_	_	_	GTtags=N,Pl,Nom|SpaceAfter=No
+1	А	а	CCONJ	CC	_	6	cc	_	GTtags=CC
+2	вот	вот	ADV	Adv	_	6	advmod	_	GTtags=Adv
+3	эна	эна	_	_	_	4	det	_	_
+4	кык	кык	NUM	Num	Cmpl|NumType=Card	5	nummod	_	GTtags=Num,Card,Cmpl
+5	керкуын	керку	NOUN	N	Case=Ine|Number=Sing	6	obl	_	GTtags=N,Sg,Ine
+6	олісӧ	овны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Prt1|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Pl3
+7	воннэз	вон	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	GTtags=N,Pl,Nom|SpaceAfter=No
 8	:	:	PUNCT	CLB	_	_	_	_	GTtags=CLB
 9	Нетулика	Нетулика	_	_	_	_	_	_	_
-10	Сеня	Сень	NOUN	N	Derivation=ProprietiveMod|Number=Sing|Sem/Sur	_	_	_	GTtags=N,Prop,Sem/Sur,Sg,Der,Der/ProprietiveMod,A
-11	да	да	CCONJ	CC	_	_	_	_	GTtags=CC
+10	Сеня	Сень	NOUN	N	Derivation=ProprietiveMod|Number=Sing|Sem/Sur	9	flat:name	_	GTtags=N,Prop,Sem/Sur,Sg,Der,Der/ProprietiveMod,A
+11	да	да	CCONJ	CC	_	12	cc	_	GTtags=CC
 12	Тулика	Тулика	_	_	_	_	_	_	_
-13	Прокоп	Прокоп	NOUN	N	Case=Nom|Number=Sing|Sem/Sur	_	_	_	GTtags=N,Prop,Sem/Sur,Sg,Nom|SpaceAfter=No
+13	Прокоп	Прокоп	NOUN	N	Case=Nom|Number=Sing|Sem/Sur	12	flat:name	_	GTtags=N,Prop,Sem/Sur,Sg,Nom|SpaceAfter=No
 14	.	.	PUNCT	CLB	_	_	_	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:31.1
 # text = А мукӧдпырся семьяэзӧ пыравліс и гаж.
 # text_kpv = Корсюрӧ семьяяс и нимкодясьлісны.
-1	А	а	CCONJ	CC	_	_	_	_	GTtags=CC
-2	мукӧдпырся	мукӧдпырся	_	_	_	_	_	_	_
-3	семьяэзӧ	семья	NOUN	N	Src/F|Case=Ill|Number=Plur	_	_	_	GTtags=N,Src/F,Pl,Ill
-4	пыравліс	пыравлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Prt1|Valency=1	_	_	_	GTtags=V,IV,Ind,Prt1,Sg3
-5	и	и	PART	Pcle	_	_	_	_	GTtags=Pcle
-6	гаж	гаж	NOUN	N	Case=Nom|Number=Sing	_	_	_	GTtags=N,Sg,Nom|SpaceAfter=No
+1	А	а	CCONJ	CC	_	4	cc	_	GTtags=CC
+2	мукӧдпырся	мукӧдпырся	_	_	_	4	advmod	_	_
+3	семьяэзӧ	семья	NOUN	N	Src/F|Case=Ill|Number=Plur	4	obl	_	GTtags=N,Src/F,Pl,Ill
+4	пыравліс	пыравлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Prt1|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Sg3
+5	и	и	PART	Pcle	_	4	advmod	_	GTtags=Pcle
+6	гаж	гаж	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	_	_	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:34.1
