@@ -12,7 +12,7 @@
 9	сё	сё	ADV	Adv	AdvType=Deg	11	advmod	_	GTtags=Adv,AdA
 10	эшӧ	эшӧ	ADV	Adv	_	11	advmod:tmod	_	GTtags=Adv
 11	пӧжӧ	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	0	root	_	GTtags=V,IV,Ind,Prs,Sg3
-12	жалейттӧг	жалейтны	VERB	V	Case=Car|Derivation=тӧг|Valency=1|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
+12	жалейттӧг	жалейтны	VERB	V	Case=Car|Derivation=Tog|Valency=1|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	GTtags=CLB
 14	визывтӧ	визывтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	11	conj	_	GTtags=V,IV,Ind,Prs,Sg3
 15	ньылӧм	ньылӧм	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
@@ -24,9 +24,9 @@
 1	А	а	CCONJ	CC	_	4	cc	_	GTtags=CC
 2	юрын	юр	NOUN	N	Case=Ine|Number=Sing	4	obl:lmod	_	GTtags=N,Sg,Ine
 3	думаэз	дума	NOUN	N	Case=Nom|Number=Sing|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
-4	кокнитӧсь	кокнит	ADJ	A	Cop|Number=Plur	0	root	_	GTtags=A,Cop,Pl|SpaceAfter=No
+4	кокнитӧсь	кокнит	ADJ	A	Number=Plur	0	root	_	GTtags=A,Cop,Pl|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	GTtags=CLB
-6	гажаӧсь	гажа	ADJ	A	Cop|Number=Plur	4	conj	_	GTtags=A,Cop,Pl|SpaceAfter=No
+6	гажаӧсь	гажа	ADJ	A	Number=Plur	4	conj	_	GTtags=A,Cop,Pl|SpaceAfter=No
 7	.	.	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:4.2
@@ -73,7 +73,7 @@
 18	кӧз	кӧз	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	GTtags=N,Sg,Nom
 19	увтын	увт	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=Sg,Ine|SpaceAfter=No
 20	,	,	PUNCT	CLB	_	22	punct	_	GTtags=CLB
-21	ю	ю дор	NOUN	N	Case=Ine|Number=Sing	22	nmod	_	GTtags=N,Sg,Ine|SpaceAfter=No
+21	ю	ю	NOUN	N	Case=Ine|Number=Sing	22	nmod	_	GTtags=N,Sg,Ine
 22	дорын	_	NOUN	_	_	15	conj	_	_
 23	,	,	PUNCT	CLB	_	25	punct	_	GTtags=CLB
 24	киссьӧм	киссьӧм	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	25	advcl	_	GTtags=N,Sem/Inanim,Sg,Nom
