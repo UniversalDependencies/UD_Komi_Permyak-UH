@@ -1,117 +1,116 @@
 # sent_id = Minin:OjsjaCvettez:3.2
 # text = Кӧть сибалӧ ни рыт, а июльскӧй шонді сё эшӧ пӧжӧ жалейттӧг, визывтӧ ньылӧм.
 # text_kpv = Кӧть матысмӧ нин рыт, а июль тӧлысся шонді пыр на пӧжӧ жалиттӧг, киссьӧ пӧсь.
-1	Кӧть	кӧть	_	CS	_	_	_	_	GTtags=CS
-2	сибалӧ	сибавны	_	V	Ind|Prs|Sg3	_	_	_	GTtags=V,Ind,Prs,Sg3
-3	ни	ни	_	CC	_	_	_	_	GTtags=CC
-4	рыт	рыт	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-5	,	,	_	CLB	_	_	_	_	GTtags=CLB
-6	а	а	_	CC	_	_	_	_	GTtags=CC
-7	июльскӧй	июльскӧй	_	A	_	_	_	_	GTtags=A
-8	шонді	шонді	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-9	сё	сё	_	Adv	AdA	_	_	_	GTtags=Adv,AdA
-10	эшӧ	эшӧ	_	Adv	_	_	_	_	GTtags=Adv
-11	пӧжӧ	пӧжны	_	V	IV|Ind|Prs|Sg3	_	_	_	GTtags=V,IV,Ind,Prs,Sg3
-12	жалейттӧг	жалейтны	_	V	IV|Der/тӧг|Car|Ger	_	_	_	GTtags=V,IV,Der/тӧг,Car,Ger
-13	,	,	_	CLB	_	_	_	_	GTtags=CLB
-14	визывтӧ	визывтны	_	V	IV|Ind|Prs|Sg3	_	_	_	GTtags=V,IV,Ind,Prs,Sg3
-15	ньылӧм	ньылӧм	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-16	.	.	_	CLB	_	_	_	_	GTtags=CLB
+1	Кӧть	кӧть	SCONJ	CS	_	2	mark	_	GTtags=CS
+2	сибалӧ	сибавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	advcl	_	GTtags=V,Ind,Prs,Sg3
+3	ни	ни	ADV	CC	_	2	advmod:tmod	_	GTtags=CC
+4	рыт	рыт	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	11	punct	_	GTtags=CLB
+6	а	а	CCONJ	CC	_	11	cc	_	GTtags=CC
+7	июльскӧй	июльскӧй	ADJ	A	_	8	amod	_	GTtags=A
+8	шонді	шонді	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	GTtags=N,Sg,Nom
+9	сё	сё	ADV	Adv	AdvType=Degree	11	advmod	_	GTtags=Adv,AdA
+10	эшӧ	эшӧ	ADV	Adv	_	11	advmod:tmod	_	GTtags=Adv
+11	пӧжӧ	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	0	root	_	GTtags=V,IV,Ind,Prs,Sg3
+12	жалейттӧг	жалейтны	VERB	V	Case=Car|Derivation=тӧг|Valency=1|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
+13	,	,	PUNCT	CLB	_	14	punct	_	GTtags=CLB
+14	визывтӧ	визывтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	11	conj	_	GTtags=V,IV,Ind,Prs,Sg3
+15	ньылӧм	ньылӧм	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
+16	.	.	PUNCT	CLB	_	11	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:4.1
 # text = А юрын думаэз кокнитӧсь, гажаӧсь.
 # text_kpv = А юрын думъяс кыпыдӧсь, гажаӧсь.
-1	А	а	_	CC	_	_	_	_	GTtags=CC
-2	юрын	юр	_	N	Sg|Ine	_	_	_	GTtags=N,Sg,Ine
-3	думаэз	дум	_	N	Sg|Der|Der/ProprietiveMod|A|Der|Der/MWN|N|Pl|Nom	_	_	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
-4	кокнитӧсь	кокнит	_	A	Cop|Pl	_	_	_	GTtags=A,Cop,Pl
-5	,	,	_	CLB	_	_	_	_	GTtags=CLB
-6	гажаӧсь	гажа	_	A	Cop|Pl	_	_	_	GTtags=A,Cop,Pl
-7	.	.	_	CLB	_	_	_	_	GTtags=CLB
+1	А	а	CCONJ	CC	_	4	cc	_	GTtags=CC
+2	юрын	юр	NOUN	N	Case=Ine|Number=Sing	4	obl:lmod	_	GTtags=N,Sg,Ine
+3	думаэз	дум	NOUN	N	Case=Nom|Derivation=MWN|Der|Number=Sing|Der|Derivation=ProprietiveMod|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
+4	кокнитӧсь	кокнит	ADJ	A	Cop|Number=Plur	0	root	_	GTtags=A,Cop,Pl|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	6	punct	_	GTtags=CLB
+6	гажаӧсь	гажа	ADJ	A	Cop|Number=Plur	4	conj	_	GTtags=A,Cop,Pl|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:4.2
 # text = Мортлӧ пыр овлӧ долыт, кӧр сія локтас сэтшӧм пельӧсокӧ, кӧда чужтӧ памятяс приятнӧй касьтылӧм.
 # text_kpv = Мортлы пыр овлӧ долыд, кор сійӧ выльысь воӧ важ тӧдсаинӧ, коді паметяд чужтӧ приятнӧй казьтылӧм.
-1	Мортлӧ	морт	_	N	Sem/Ani|Sg|Dat	_	_	_	GTtags=N,Sem/Ani,Sg,Dat
-2	пыр	пыр	_	Adv	_	_	_	_	GTtags=Adv
-3	овлӧ	овлыны	_	V	IV|Ind|Prs|Sg3	_	_	_	GTtags=V,IV,Ind,Prs,Sg3
-4	долыт	долыт	_	A	_	_	_	_	GTtags=A
-5	,	,	_	CLB	_	_	_	_	GTtags=CLB
-6	кӧр	кӧр	_	Adv	_	_	_	_	GTtags=Adv
-7	сія	сія	_	Pron	Pers|Sg3|Nom	_	_	_	GTtags=Pron,Pers,Sg3,Nom
-8	локтас	локны	_	V	Ind|Fut|Sg3	_	_	_	GTtags=V,Ind,Fut,Sg3
-9	сэтшӧм	сэтшӧм	_	Adn	Dem	_	_	_	GTtags=Adn,Dem
-10	пельӧсокӧ	пельӧс	_	N	Der/Ок|Der/Dimin|N|Sg|Ill	_	_	_	GTtags=N,Der/Ок,Der/Dimin,N,Sg,Ill
-11	,	,	_	CLB	_	_	_	_	GTtags=CLB
-12	кӧда	кӧда	_	Pron	Rel|Sg|Nom	_	_	_	GTtags=Pron,Rel,Sg,Nom
-13	чужтӧ	чужтыны	_	V	TV|Ind|Prs|Sg3	_	_	_	GTtags=V,TV,Ind,Prs,Sg3
-14	памятяс	памятяс	_	_	_	_	_	_	GTtags=_
-15	приятнӧй	приятнӧй	_	A	_	_	_	_	GTtags=A
-16	касьтылӧм	касьтылӧм	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
-17	.	.	_	CLB	_	_	_	_	GTtags=CLB
+1	Мортлӧ	морт	NOUN	N	Sem/Ani|Case=Dat|Number=Sing	4	obl	_	GTtags=N,Sem/Ani,Sg,Dat
+2	пыр	пыр	ADV	Adv	_	4	advmod:tmod	_	GTtags=Adv
+3	овлӧ	овлыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=1	4	cop	_	GTtags=V,IV,Ind,Prs,Sg3
+4	долыт	долыт	ADJ	A	_	0	root	_	GTtags=A|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	8	punct	_	GTtags=CLB
+6	кӧр	кӧр	ADV	Adv	_	8	mark	_	GTtags=Adv
+7	сія	сія	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	GTtags=Pron,Pers,Sg3,Nom
+8	локтас	локны	VERB	V	Mood=Ind|Fut|Number=Sing|Person=3	4	advcl:tmod	_	GTtags=V,Ind,Fut,Sg3
+9	сэтшӧм	сэтшӧм	ADJ	Adn	PronType=Dem	10	amod	_	GTtags=Adn,Dem
+10	пельӧсокӧ	пельӧс	NOUN	N	Case=Ill|Derivation=Ок|Derivation=Dimin|Number=Sing	8	obl:lmod	_	GTtags=N,Der/Ок,Der/Dimin,N,Sg,Ill|SpaceAfter=No
+11	,	,	PUNCT	CLB	_	13	punct	_	GTtags=CLB
+12	кӧда	кӧда	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	13	nsubj	_	GTtags=Pron,Rel,Sg,Nom
+13	чужтӧ	чужтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=2	10	acl:relcl	_	GTtags=V,TV,Ind,Prs,Sg3
+14	памятяс	памятяс	NOUN	_	_	13	obl:lmod	_	_
+15	приятнӧй	приятнӧй	ADJ	A	_	16	amod	_	GTtags=A
+16	касьтылӧм	касьтылӧм	NOUN	N	Sem/Inanim|Case=Nom|Number=Sing	13	obj	_	GTtags=N,Sem/Inanim,Sg,Nom|SpaceAfter=No
+17	.	.	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:4.4
 # text =  Мӧйму, эта жӧ кадӧ, неделяся дыржык ветлӧті эна местаэзӧт, узьлі, кытӧн шедас: кӧз увтын, ю дорын, киссьӧм сарайын, быд лун кошши тшаккез да ягӧд, чериалі.
 # text_kpv = Кольӧм во вежонысь дырджык ветлӧдлі тайӧ жӧ местаясӧдыс, узьлі кӧні веськалӧ: коз улын, ю дорын, тыртӧм сарайын, быд лун тшак да вотӧс воті, чери кыйи.
-1	Мӧйму	мӧйму	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-2	,	,	_	CLB	_	_	_	_	GTtags=CLB
-3	эта	эта	_	Det	_	_	_	_	GTtags=Det
-4	жӧ	жӧ	_	Pcle	_	_	_	_	GTtags=Pcle
-5	кадӧ	кад	_	N	Sem/Inanim|Sg|Ill	_	_	_	GTtags=N,Sem/Inanim,Sg,Ill
-6	,	,	_	CLB	_	_	_	_	GTtags=CLB
-7	неделяся	неделяся	_	A	_	_	_	_	GTtags=A
-8	дыржык	дыр	_	Adv	Der/жык|Comp	_	_	_	GTtags=Adv,Der/жык,Comp
-9	ветлӧті	ветлӧтны	_	V	IV|Ind|Prt1|Sg1	_	_	_	GTtags=V,IV,Ind,Prt1,Sg1
-10	эна	эна	_	Pcle	_	_	_	_	GTtags=Pcle
-11	местаэзӧт	места	_	N	Pl|Prl	_	_	_	GTtags=N,Pl,Prl
-12	,	,	_	CLB	_	_	_	_	GTtags=CLB
-13	узьлі	узьлыны	_	V	IV|Ind|Prt1|Sg1	_	_	_	GTtags=V,IV,Ind,Prt1,Sg1
-14	,	,	_	CLB	_	_	_	_	GTtags=CLB
-15	кытӧн	кытӧн	_	Pron	Spat|Ine|Interr	_	_	_	GTtags=Pron,Spat,Ine,Interr
-16	шедас	шедны	_	V	IV|Ind|Fut|Sg3	_	_	_	GTtags=V,IV,Ind,Fut,Sg3
-17	:	:	_	CLB	_	_	_	_	GTtags=CLB
-18	кӧз	кӧз	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-19-20	увтын	_	_	_	_	_	_	_	_
-19	увтын	увт	_	N	Sg|Ine	_	_	_	_
-20	ын	увтын	_	Adv	_	_	_	_	_
-21	,	,	_	CLB	_	_	_	_	GTtags=CLB
-22	ю дорын	ю дор	_	N	Sg|Ine	_	_	_	GTtags=N,Sg,Ine
-23	,	,	_	CLB	_	_	_	_	GTtags=CLB
-24	киссьӧм	киссьӧм	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
-25	сарайын	сарай	_	N	Sg|Ine	_	_	_	GTtags=N,Sg,Ine
-26	,	,	_	CLB	_	_	_	_	GTtags=CLB
-27	быд	быд	_	Pron	Qnt	_	_	_	GTtags=Pron,Qnt
-28	лун	лун	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-29	кошши	кошшыны	_	V	TV|Ind|Prt1|Sg1	_	_	_	GTtags=V,TV,Ind,Prt1,Sg1
-30	тшаккез	тшак	_	N	Pl|Nom	_	_	_	GTtags=N,Pl,Nom
-31	да	да	_	CC	_	_	_	_	GTtags=CC
-32	ягӧд	ягӧд	_	N	Sem/Inanim|Sg|Nom	_	_	_	GTtags=N,Sem/Inanim,Sg,Nom
-33	,	,	_	CLB	_	_	_	_	GTtags=CLB
-34	чериалі	чериавны	_	V	Ind|Prt1|Sg1	_	_	_	GTtags=V,Ind,Prt1,Sg1
-35	.	.	_	CLB	_	_	_	_	GTtags=CLB
+1	Мӧйму	мӧйму	ADV	Adv	_	9	advmod:tmod	_	GTtags=N,Sg,Nom|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	5	punct	_	GTtags=CLB
+3	эта	эта	DET	Det	_	5	det	_	GTtags=Det
+4	жӧ	жӧ	PART	Pcle	_	3	advmod	_	GTtags=Pcle
+5	кадӧ	кад	NOUN	N	Sem/Inanim|Case=Ill|Number=Sing	1	appos	_	GTtags=N,Sem/Inanim,Sg,Ill|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	GTtags=CLB
+7	неделяся	неделяся	NOUN	A	_	8	nmod	_	GTtags=A
+8	дыржык	дыр	ADV	Adv	Derivation=жык|Degree=Cmp	9	advmod:tmod	_	GTtags=Adv,Der/жык,Comp
+9	ветлӧті	ветлӧтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=1	0	root	_	GTtags=V,IV,Ind,Prt1,Sg1
+10	эна	эна	PART	Pcle	_	11	det	_	GTtags=Pcle
+11	местаэзӧт	места	NOUN	N	Case=Prl|Number=Plur	9	obl:lmod	_	GTtags=N,Pl,Prl|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	13	punct	_	GTtags=CLB
+13	узьлі	узьлыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=1	9	conj	_	GTtags=V,IV,Ind,Prt1,Sg1|SpaceAfter=No
+14	,	,	PUNCT	CLB	_	15	punct	_	GTtags=CLB
+15	кытӧн	кытӧн	PRON	Pron	Spat|Case=Ine|PronType=Int	13	obl:lmod	_	GTtags=Pron,Spat,Ine,Interr
+16	шедас	шедны	VERB	V	Mood=Ind|Fut|Number=Sing|Person=3|Valency=1	15	fixed	_	GTtags=V,IV,Ind,Fut,Sg3|SpaceAfter=No
+17	:	:	PUNCT	CLB	_	15	punct	_	GTtags=CLB
+18	кӧз	кӧз	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	GTtags=N,Sg,Nom
+19	увтын	увт	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=Sg,Ine|SpaceAfter=No
+20	,	,	PUNCT	CLB	_	22	punct	_	GTtags=CLB
+21	ю	ю дор	NOUN	N	Case=Ine|Number=Sing	22	nmod	_	GTtags=N,Sg,Ine|SpaceAfter=No
+22	дорын	_	NOUN	_	_	15	conj	_	_
+23	,	,	PUNCT	CLB	_	25	punct	_	GTtags=CLB
+24	киссьӧм	киссьӧм	NOUN	N	Sem/Inanim|Case=Nom|Number=Sing	25	advcl	_	GTtags=N,Sem/Inanim,Sg,Nom
+25	сарайын	сарай	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=N,Sg,Ine|SpaceAfter=No
+26	,	,	PUNCT	CLB	_	29	punct	_	GTtags=CLB
+27	быд	быд	PRON	Pron	_	28	det	_	GTtags=Pron,Qnt
+28	лун	лун	NOUN	N	Case=Nom|Number=Sing	29	obl:tmod	_	GTtags=N,Sg,Nom
+29	кошши	кошшыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=2	9	conj	_	GTtags=V,TV,Ind,Prt1,Sg1
+30	тшаккез	тшак	NOUN	N	Case=Nom|Number=Plur	29	obj	_	GTtags=N,Pl,Nom
+31	да	да	CCONJ	CC	_	32	cc	_	GTtags=CC
+32	ягӧд	ягӧд	NOUN	N	Sem/Inanim|Case=Nom|Number=Sing	30	conj	_	GTtags=N,Sem/Inanim,Sg,Nom|SpaceAfter=No
+33	,	,	PUNCT	CLB	_	34	punct	_	GTtags=CLB
+34	чериалі	чериавны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1	9	conj	_	GTtags=V,Ind,Prt1,Sg1|SpaceAfter=No
+35	.	.	PUNCT	CLB	_	9	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:6.1
 # text = Ме татӧн не ӧтнам.
 # text_kpv = Тані ме абу ӧтнам.
-1	Ме	ме	_	Pron	Pers|Sg1|Nom	_	_	_	GTtags=Pron,Pers,Sg1,Nom
-2	татӧн	татӧн	_	Adv	_	_	_	_	GTtags=Adv
-3	не	не	_	Pcle	_	_	_	_	GTtags=Pcle
-4	ӧтнам	ӧтнам	_	Adv	_	_	_	_	GTtags=Adv
-5	.	.	_	CLB	_	_	_	_	GTtags=CLB
+1	Ме	ме	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:cop	_	GTtags=Pron,Pers,Sg1,Nom
+2	татӧн	татӧн	ADV	Adv	_	4	advmod:lmod	_	GTtags=Adv
+3	не	не	AUX	Pcle	_	4	aux:neg	_	GTtags=Pcle
+4	ӧтнам	ӧтнам	ADV	Adv	_	0	root	_	GTtags=Adv|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:6.2 
 # text = Ордчӧн мекӧт пукалӧ сьӧд тошока и гардчӧмкодь уссэза мужик.
 # text_kpv = Мекӧд орччӧн пукалӧ сьӧд тошка да тӧрӧканлӧн кодь кузь уска мужик.
-1	Ордчӧн	ордчӧн	_	Adv	_	_	_	_	GTtags=Adv
-2	мекӧт	ме	_	Pron	Pers|Sg1|Com	_	_	_	GTtags=Pron,Pers,Sg1,Com
-3	пукалӧ	пукавны	_	V	TV|Ind|Prs|Sg3	_	_	_	GTtags=V,TV,Ind,Prs,Sg3
-4	сьӧд	сьӧд	_	A	_	_	_	_	GTtags=A
-5	тошока	тошока	_	N	Sg|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
-6	и	и	_	CC	_	_	_	_	GTtags=CC
-7	гардчӧмкодь	гардчыны	_	V	IV|Ind|Prt2|Sg3|Der|Der/CompMod	_	_	_	GTtags=V,IV,Ind,Prt2,Sg3,Der,Der/CompMod
-8	уссэза	ус	_	N	Pl|Der|Der/ProprietiveMod|A	_	_	_	GTtags=N,Pl,Der,Der/ProprietiveMod,A
-9	мужик	мужик	_	N	Sg|Nom	_	_	_	GTtags=N,Sg,Nom
-10	.	.	_	CLB	_	_	_	_	GTtags=CLB
+1	Ордчӧн	ордчӧн	ADV	Adv	_	3	advmod:lmod	_	GTtags=Adv
+2	мекӧт	ме	PRON	Pron	Case=Com|Number=Sing|Person=1|PronType=Prs	1	nmod	_	GTtags=Pron,Pers,Sg1,Com
+3	пукалӧ	пукавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Valency=2	0	root	_	GTtags=V,TV,Ind,Prs,Sg3
+4	сьӧд	сьӧд	ADJ	A	_	5	amod	_	GTtags=A
+5	тошока	тошока	NOUN	N	Derivation=ProprietiveMod|Der|Number=Sing	9	amod	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
+6	и	и	CCONJ	CC	_	8	cc	_	GTtags=CC
+7	гардчӧмкодь	гардчыны	VERB	V	Derivation=CompMod|Der|Mood=Ind|Number=Sing|Person=3|Tense=Prt2|Valency=1	8	advcl	_	GTtags=V,IV,Ind,Prt2,Sg3,Der,Der/CompMod
+8	уссэза	ус	NOUN	N	Derivation=ProprietiveMod|Der|Number=Plur	5	conj	_	GTtags=N,Pl,Der,Der/ProprietiveMod,A
+9	мужик	мужик	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:11.5
 # text = Талун, кӧр пантасим ю дорас, сія медперво кыскис бадь кусттэз коласісь ыджыт лагун и нюжӧтіс меным.
