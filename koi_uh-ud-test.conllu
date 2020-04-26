@@ -538,7 +538,7 @@
 # sent_id = koi_four_battles.299
 # text = Быд лaдopcянь Ворошилов дынӧ ӧні кoтӧpтіcӧ oтиp.
 # text_rus = Со всех сторон к Ворошилову бежали теперь люди.
-1	Быд	быд	DET	_	Case=Nom|Number=Sing	2	det	_	GTtags=Sg,Nom
+1	Быд	быд	DET	_	Case=Nom|Number=Sing|PronType=Tot	2	det	_	GTtags=Sg,Nom
 2	лaдopcянь	лaдopcянь	NOUN	_	Case=Egr|Number=Sing	6	obl:lmod	_	GTtags=Sg,Egr
 3	Ворошилов	Ворошилов	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	6	obl:lmod	_	GTtags=Prop,Sem/Sur,Sem/Mal,Sg,Nom
 4	дынӧ	дынӧ	ADP	_	AdpType=Post|AdvType=Loc|Case=Ill|Number=Sing	3	case	_	GTtags=Po,Spat,Sg,Ill
@@ -800,7 +800,7 @@
 24	киссьӧм	киссьӧм	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	25	advcl	_	GTtags=N,Sem/Inanim,Sg,Nom
 25	сарайын	сарай	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=N,Sg,Ine|SpaceAfter=No
 26	,	,	PUNCT	CLB	_	29	punct	_	GTtags=CLB
-27	быд	быд	PRON	Pron	_	28	det	_	GTtags=Pron,Qnt
+27	быд	быд	PRON	Pron	PronType=Tot	28	det	_	GTtags=Pron,Qnt
 28	лун	лун	NOUN	N	Case=Nom|Number=Sing	29	obl:tmod	_	GTtags=N,Sg,Nom
 29	кошши	кошшыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Prt1|Valency=2	9	conj	_	GTtags=V,TV,Ind,Prt1,Sg1
 30	тшаккез	тшак	NOUN	N	Case=Nom|Number=Plur	29	obj	_	GTtags=N,Pl,Nom
