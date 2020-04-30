@@ -37,12 +37,16 @@ Development repository:
 * Kanjukov V. Larec, 1994 (‒ Канюков В. И.) Ларец (висьт) // Чарӧтӧм пу. Кудымкар, 1994.
 * Minjin I. A. (Минин И. А.) 1968. Panyt yjis tӧlisj(Паныт уйис тӧлісь) (повесть). Кудымкар, 1968.
 * Minjin I. A. (Минин И. А.) 1988. Kydz shynjnjalӧ apostol (Кыдз шыннялӧ апостол) (повесть) // Оча морос: повесттез, рассказзэз, пьеса. Кудымкар: Пермское кн. изд-во, Коми-Перм. отделение, 1988.
+* Minjin I. A. (Минин И. А.) 1988. Ojsja cvettez (Ойся цветтэз) (повесть) // Оча морос: повесттез, рассказзэз, пьеса. Кудымкар: Пермское кн. изд-во, Коми-Перм. отделение, 1988. (http://komikyv.org/kpv/node/31062?rezhim=parralel&lang=koi)
 * Ponomareva, L.G. (Пономарева. Л. Г.) Речь северных коми-пермяков. М.: Языки Народов Мира, 2016. 514 с.
 * Shadrin I. A. (Шадрин И. А.) 1959. Djoma (Дёма) (висьт) // Тулысся ваэз. Литературно-художественный сборник. Кудымкар, 1959.
 
 
 # Changelog
 
+* 2020-05-15 v2.6
+  * Parallel sentences from Minjin shared with Komi_Zyrian-Latice.
+  * Expanding advmod:mmod, :lmod, :tmod and adding NameType.
 * 2019-11-15 v2.5
   * Initial release in Universal Dependencies.
 
