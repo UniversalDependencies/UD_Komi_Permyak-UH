@@ -45,7 +45,7 @@ Development repository:
 # Changelog
 
 * 2020-05-15 v2.6
-  * Parallel sentences from Minjin shared with Komi_Zyrian-Latice.
+  * Parallel sentences from Minjin shared with Komi_Zyrian-Lattice.
   * Expanding advmod:mmod, :lmod, :tmod and adding NameType.
 * 2019-11-15 v2.5
   * Initial release in Universal Dependencies.
