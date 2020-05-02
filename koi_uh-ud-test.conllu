@@ -335,7 +335,7 @@
 # text_mdf = Синь мялезост-ка ашезь кунда, кие тянь сёрмадозе.
 1	Нія	сія	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	GTtags=Pers,Pl3,Nom
 2	озӧ	оз	AUX	_	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	3	aux:neg	_	GTtags=Neg,Ind,Prs,Pl3
-3	тӧдӧ	тӧдны	VERB	_	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ConNegPl|SpaceAfter=No
+3	тӧдӧ	тӧдны	VERB	_	Connegative=Yes|Number=Plur	0	root	_	GTtags=Ind,Prs,ConNegPl|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	кин	кин	PRON	_	Case=Nom|Number=Sing|PronType=Int	7	nsubj	_	GTtags=Interr,Sg,Nom
 6	этӧ	эта	PRON	_	Case=Acc|Number=Sing|PronType=Dem	7	obj	_	GTtags=Dem,Sg,Nom
@@ -462,7 +462,7 @@
 # text_mdf = Мондейне сон ашезь сатов, сяс мес ласьксь пяк вишкста.
 1	Ме	ме	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	GTtags=Pers,Sg1,Nom
 2	эг	оз	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	5	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg1
-3	вермы	вермыны	AUX	_	Connegative=Yes|Mood=Ind|Tense=Pres	5	aux	_	GTtags=Ind,Prs,ConNeg
+3	вермы	вермыны	AUX	_	Connegative=Yes	5	aux	_	GTtags=Ind,Prs,ConNeg
 4	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	GTtags=Pers,Sg3,Acc
 5	вӧтны	вӧтны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	GTtags=CLB
@@ -603,7 +603,7 @@
 5	,	,	PUNCT	CLB	_	8	punct	_	_
 6	что	что	SCONJ	_	_	8	mark	_	_
 7	эз	оз	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	8	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg3
-8	тӧд	тӧдны	VERB	_	Connegative=Yes|Number=Sing	4	ccomp	_	SpaceAfter=No
+8	тӧд	тӧдны	VERB	_	Connegative=Yes	4	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	12	punct	_	_
 10	мый	мый	PRON	_	Animacy=NHum|Case=Nom|PronType=Rel	12	obl:lmod	_	GTtags=Sem/NonHum,Nom,Rel
 11	бердӧ	бердӧ	ADP	_	AdpType=Post|AdvType=Loc|Case=Ill|Number=Sing	10	case	_	GTtags=Po,Spat,Sg,Ill
