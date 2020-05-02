@@ -14,9 +14,10 @@ Komi-Permyak language, and the text_id with additional letters indicates
 this variation.
 
 The translation were made by Larisa Ponomareva based on the Finnish, Russian and Komi-Zyrian texts:
-http://ilazki.thinkgeek.co.uk/brat/#/uralic/fin
-http://ilazki.thinkgeek.co.uk/brat/#/uralic/rus
-http://ilazki.thinkgeek.co.uk/brat/#/uralic/kpv
+
+* http://ilazki.thinkgeek.co.uk/brat/#/uralic/fin
+* http://ilazki.thinkgeek.co.uk/brat/#/uralic/rus
+* http://ilazki.thinkgeek.co.uk/brat/#/uralic/kpv
 
 
 # Acknowledgments
@@ -24,6 +25,10 @@ http://ilazki.thinkgeek.co.uk/brat/#/uralic/kpv
 UH = University of Helsinki
 Development repository:
 [https://github.com/rueter/erme-ud-komi-permyak](https://github.com/rueter/erme-ud-komi-permyak)
+
+Work connected to this treebank is described in following publication. If you use this treebank in your work, please cite:
+
+* Rueter, Jack; Partanen, Niko and Ponomareva, Larisa 2020: [On the questions in developing computational infrastructure for Komi-Permyak](https://www.aclweb.org/anthology/2020.iwclul-1.3.pdf). Proceedings of the Sixth International Workshop on Computational Linguistics of Uralic Languages (pp. 15-25).
 
 ## References
 
