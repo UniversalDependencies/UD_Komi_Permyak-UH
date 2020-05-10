@@ -14,9 +14,10 @@ Komi-Permyak language, and the text_id with additional letters indicates
 this variation.
 
 The translation were made by Larisa Ponomareva based on the Finnish, Russian and Komi-Zyrian texts:
-http://ilazki.thinkgeek.co.uk/brat/#/uralic/fin
-http://ilazki.thinkgeek.co.uk/brat/#/uralic/rus
-http://ilazki.thinkgeek.co.uk/brat/#/uralic/kpv
+
+* http://ilazki.thinkgeek.co.uk/brat/#/uralic/fin
+* http://ilazki.thinkgeek.co.uk/brat/#/uralic/rus
+* http://ilazki.thinkgeek.co.uk/brat/#/uralic/kpv
 
 
 # Acknowledgments
@@ -24,6 +25,10 @@ http://ilazki.thinkgeek.co.uk/brat/#/uralic/kpv
 UH = University of Helsinki
 Development repository:
 [https://github.com/rueter/erme-ud-komi-permyak](https://github.com/rueter/erme-ud-komi-permyak)
+
+Work connected to this treebank is described in following publication. If you use this treebank in your work, please cite:
+
+* Rueter, Jack; Partanen, Niko and Ponomareva, Larisa 2020: [On the questions in developing computational infrastructure for Komi-Permyak](https://www.aclweb.org/anthology/2020.iwclul-1.3.pdf). Proceedings of the Sixth International Workshop on Computational Linguistics of Uralic Languages (pp. 15-25).
 
 ## References
 
@@ -37,12 +42,16 @@ Development repository:
 * Kanjukov V. Larec, 1994 (‒ Канюков В. И.) Ларец (висьт) // Чарӧтӧм пу. Кудымкар, 1994.
 * Minjin I. A. (Минин И. А.) 1968. Panyt yjis tӧlisj(Паныт уйис тӧлісь) (повесть). Кудымкар, 1968.
 * Minjin I. A. (Минин И. А.) 1988. Kydz shynjnjalӧ apostol (Кыдз шыннялӧ апостол) (повесть) // Оча морос: повесттез, рассказзэз, пьеса. Кудымкар: Пермское кн. изд-во, Коми-Перм. отделение, 1988.
+* Minjin I. A. (Минин И. А.) 1964. Ojsja cvettez (Ойся цветтэз) (висьт) // Оча морос: повесттез, рассказзэз, пьеса. Кудымкар: Пермское кн. изд-во, Коми-Перм. отделение, 1964. (http://komikyv.org/koi/node/31063)
 * Ponomareva, L.G. (Пономарева. Л. Г.) Речь северных коми-пермяков. М.: Языки Народов Мира, 2016. 514 с.
 * Shadrin I. A. (Шадрин И. А.) 1959. Djoma (Дёма) (висьт) // Тулысся ваэз. Литературно-художественный сборник. Кудымкар, 1959.
 
 
 # Changelog
 
+* 2020-05-15 v2.6
+  * Parallel sentences from Minjin shared with Komi_Zyrian-Lattice.
+  * Expanding advmod:mmod, :lmod, :tmod and adding NameType.
 * 2019-11-15 v2.5
   * Initial release in Universal Dependencies.
 
