@@ -1192,7 +1192,7 @@
 7	звездаэз	звезда	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	GTtags=Pl,Nom|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	9	punct	_	_
 9	вӧйсасис	вӧйсасьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	conj	_	GTtags=Ind,Prt1,Sg3
-10	тӧлісь	тӧв	NOUN	N	Case=Ela|Number=Sing	9	obl	_	GTtags=Sg,Ela|SpaceAfter=No
+10	тӧлісь	тӧлісь	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	GTtags=Sg,Ela|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = Minin:OjsjaCvettez:74.1
