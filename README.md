@@ -25,6 +25,7 @@ The translation were made by Larisa Ponomareva based on the Finnish, Russian and
 UH = University of Helsinki
 Development repository:
 [https://github.com/rueter/erme-ud-komi-permyak](https://github.com/rueter/erme-ud-komi-permyak)
+Annotation work is simultaneous to finite-state transducer development by Larisa Ponomareva, Niko Partanen and Jack Rueter in the [GiellaLT](https://giellalt.uit.no/lang-koi) infrastucture, which also works with Constraint Grammar disambiguation of the morphological analysis.
 
 Work connected to this treebank is described in following publication. If you use this treebank in your work, please cite:
 
@@ -50,7 +51,7 @@ Work connected to this treebank is described in following publication. If you us
 # Changelog
 
 * 2020-11-15 v2.7
-  * Additional parallel sentences from Minjin shared with Komi_Zyrian-Lattice.
+  * Additional parallel sentences from Minjin shared with [Komi-Zyrian](https://github.com/UniversalDependencies/UD_Komi_Zyrian-Lattice) treebank.
   * Expanding compound:prt, xcomp:ds and adding VerbForm.
 * 2020-05-15 v2.6
   * Parallel sentences from Minjin shared with Komi_Zyrian-Lattice.
