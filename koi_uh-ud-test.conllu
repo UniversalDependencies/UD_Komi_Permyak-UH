@@ -760,7 +760,7 @@
 5	,	,	PUNCT	CLB	_	8	punct	_	GTtags=CLB
 6	кӧр	кӧр	ADV	Adv	_	8	mark	_	GTtags=Adv
 7	сія	сія	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	GTtags=Pron,Pers,Sg3,Nom
-8	локтас	локны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	4	advcl:tmod	_	GTtags=V,Ind,Fut,Sg3
+8	локтас	локны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	4	advcl:tcl	_	GTtags=V,Ind,Fut,Sg3
 9	сэтшӧм	сэтшӧм	ADJ	Adn	PronType=Dem	10	amod	_	GTtags=Adn,Dem
 10	пельӧсокӧ	пельӧс	NOUN	N	Case=Ill|Derivation=Dimin|Number=Sing	8	obl:lmod	_	GTtags=N,Der/Ок,Der/Dimin,N,Sg,Ill|SpaceAfter=No
 11	,	,	PUNCT	CLB	_	13	punct	_	GTtags=CLB
@@ -839,7 +839,7 @@
 1	Талун	талун	ADV	Adv	_	10	advmod	_	GTtags=Adv|SpaceAfter=No
 2	,	,	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 3	кӧр	кӧр	ADV	Adv	_	4	advmod	_	GTtags=Adv
-4	пантасим	пантасьны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past	1	advcl:tmod	_	GTtags=V,IV,Ind,Prt1,Pl1
+4	пантасим	пантасьны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past	1	advcl:tcl	_	GTtags=V,IV,Ind,Prt1,Pl1
 5	ю	ю	NOUN	N	Case=Nom|Number=Sing	4	obl	_	GTtags=N,Sg,Nom
 6	дорас	дор	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	case	_	GTtags=N,Sg,Ine,PxSg3|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	GTtags=CLB
@@ -1142,7 +1142,7 @@
 6	понды	пондыны	VERB	V	Connegative=Yes	0	root	_	GTtags=ConNeg|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	9	punct	_	_
 8	кӧр	кӧр	ADV	Adv	_	9	mark	_	_
-9	дугда	дугдыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	advcl:tmod	_	GTtags=Ind,Prs,Sg1
+9	дугда	дугдыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	advcl:tcl	_	GTtags=Ind,Prs,Sg1
 10	боньгыныт	боньгыны	VERB	V	Person[psor]=2|VerbForm=Inf	9	xcomp	_	GTtags=Inf,Px2|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	6	punct	_	_
 
