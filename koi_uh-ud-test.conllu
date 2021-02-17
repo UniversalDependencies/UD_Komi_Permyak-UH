@@ -744,7 +744,7 @@
 # text_kpv = А юрын думъяс кыпыдӧсь, гажаӧсь.
 1	А	а	CCONJ	CC	_	4	cc	_	GTtags=CC
 2	юрын	юр	NOUN	N	Case=Ine|Number=Sing	4	obl:lmod	_	GTtags=N,Sg,Ine
-3	думаэз	дума	NOUN	N	Case=Nom|Derivation=ProprietiveMod|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
+3	думаэз	дума	NOUN	N	Case=Nom|Number=Plur	4	nsubj:cop	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A,Der,Der/MWN,N,Pl,Nom
 4	кокнитӧсь	кокнит	ADJ	A	Number=Plur	0	root	_	GTtags=A,Cop,Pl|SpaceAfter=No
 5	,	,	PUNCT	CLB	_	6	punct	_	GTtags=CLB
 6	гажаӧсь	гажа	ADJ	A	Number=Plur	4	conj	_	GTtags=A,Cop,Pl|SpaceAfter=No
@@ -781,7 +781,7 @@
 5	кадӧ	кад	NOUN	N	Animacy=Inan|Case=Ill|Number=Sing	1	appos	_	GTtags=N,Sem/Inanim,Sg,Ill|SpaceAfter=No
 6	,	,	PUNCT	CLB	_	5	punct	_	GTtags=CLB
 7	неделяся	неделяся	NOUN	A	_	8	nmod	_	GTtags=A
-8	дыржык	дыр	ADV	Adv	Degree=Cmp|Derivation=Zhyk	9	advmod:tmod	_	GTtags=Adv,Der/жык,Comp
+8	дыржык	дыр	ADV	Adv	Degree=Cmp	9	advmod:tmod	_	GTtags=Adv,Der/жык,Comp
 9	ветлӧті	ветлӧтны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	GTtags=V,IV,Ind,Prt1,Sg1
 10	эна	эна	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	11	det	_	GTtags=Pcle
 11	местаэзӧт	места	NOUN	N	Case=Prl|Number=Plur	9	obl:lmod	_	GTtags=N,Pl,Prl|SpaceAfter=No
@@ -826,7 +826,7 @@
 2	мекӧт	ме	PRON	Pron	Case=Com|Number=Sing|Person=1|PronType=Prs	1	nmod	_	GTtags=Pron,Pers,Sg1,Com
 3	пукалӧ	пукавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=V,TV,Ind,Prs,Sg3
 4	сьӧд	сьӧд	ADJ	A	_	5	amod	_	GTtags=A
-5	тошока	тошока	NOUN	N	Derivation=ProprietiveMod|Number=Sing	9	amod	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
+5	тошока	тошок	NOUN	N	Derivation=ProprietiveMod|Number=Sing	9	amod	_	GTtags=N,Sg,Der,Der/ProprietiveMod,A
 6	и	и	CCONJ	CC	_	8	cc	_	GTtags=CC
 7	гардчӧмкодь	гардчыны	VERB	V	Derivation=CompMod|Mood=Ind|Number=Sing|Person=3|Tense=Prt2	8	advcl	_	GTtags=V,IV,Ind,Prt2,Sg3,Der,Der/CompMod
 8	уссэза	ус	NOUN	N	Derivation=ProprietiveMod|Number=Plur	5	conj	_	GTtags=N,Pl,Der,Der/ProprietiveMod,A
@@ -870,7 +870,7 @@
 9	,	,	PUNCT	CLB	_	11	punct	_	GTtags=CLB
 10	и	и	CCONJ	CC	_	11	cc	_	GTtags=CC
 11	шынняліс	шыннявны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	GTtags=V,Ind,Prt1,Sg3
-12	довольнӧя	довольнӧя	ADV	Adv	Derivation=A	11	advmod	_	GTtags=A,Der,Der/A,Adv|SpaceAfter=No
+12	довольнӧя	довольнӧя	ADV	Adv	_	11	advmod	_	GTtags=A,Der,Der/A,Adv|SpaceAfter=No
 13	.	.	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:17.3
