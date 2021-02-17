@@ -448,8 +448,8 @@
 7	сідз	сідз	ADV	_	_	12	mark	_	_
 8	кыдз	кыдз	ADV	_	_	7	fixed	_	_
 9	сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	GTtags=Pers,Sg3,Nom
-10	ӧддьӧн	ӧддьӧн	ADV	_	_	12	advmod:mmod	_	_
-11	чожа	чожа	ADV	_	_	12	advmod:mmod	_	_
+10	ӧддьӧн	ӧддьӧн	ADV	_	_	12	advmod:tmod	_	_
+11	чожа	чожа	ADV	_	_	12	advmod:tmod	_	_
 12	котӧртіс	котӧртны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	ccomp	_	GTtags=Ind,Prt1,Sg3|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -466,8 +466,8 @@
 4	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	GTtags=Pers,Sg3,Acc
 5	вӧтны	вӧтны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	GTtags=CLB
-7	ӧддьӧн	ӧддьӧн	ADV	_	_	9	advmod:mmod	_	_
-8	чожа	чожа	ADV	_	_	9	advmod:mmod	_	_
+7	ӧддьӧн	ӧддьӧн	ADV	_	_	9	advmod:tmod	_	_
+8	чожа	чожа	ADV	_	_	9	advmod:tmod	_	_
 9	котӧртіс	котӧртны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	ccomp	_	GTtags=Ind,Prt1,Sg3
 10	да	да	SCONJ	_	_	9	mark	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	GTtags=CLB
@@ -605,7 +605,7 @@
 7	эз	оз	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	8	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg3
 8	тӧд	тӧдны	VERB	_	Connegative=Yes	4	ccomp	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	12	punct	_	_
-10	мый	мый	PRON	_	Animacy=NHum|Case=Nom|PronType=Rel	12	obl:lmod	_	GTtags=Sem/NonHum,Nom,Rel
+10	мый	мый	PRON	_	Animacy=Nhum|Case=Nom|PronType=Rel	12	obl:lmod	_	GTtags=Sem/NonHum,Nom,Rel
 11	бердӧ	бердӧ	ADP	_	AdpType=Post|AdvType=Loc|Case=Ill|Number=Sing	10	case	_	GTtags=Po,Spat,Sg,Ill
 12	кутчыны	кутчыны	VERB	_	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
 13	,	,	PUNCT	CLB	_	15	punct	_	_
@@ -1075,7 +1075,7 @@
 # text = — Мый татӧн оз гленитчы?
 # text_kpv = — Мый тані оз во сьӧлӧм вылад?
 1	—	—	PUNCT	PUNCT	_	5	punct	_	GTtags=PUNCT
-2	Мый	мый	PRON	Pron	Animacy=NHum|Case=Nom|PronType=Int	5	nsubj	_	GTtags=Pron,Sem/NonHum,Nom,Interr
+2	Мый	мый	PRON	Pron	Animacy=Nhum|Case=Nom|PronType=Int	5	nsubj	_	GTtags=Pron,Sem/NonHum,Nom,Interr
 3	татӧн	татӧн	ADV	Adv	_	5	advmod:lmod	_	GTtags=Adv
 4	оз	оз	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	5	aux:neg	_	GTtags=V,Neg,Ind,Prs,Sg3
 5	гленитчы	гленитчыны	VERB	V	Connegative=Yes	0	root	_	GTtags=V,IV,ConNeg|SpaceAfter=No
@@ -1248,7 +1248,7 @@
 # text = — Мый нӧ дыр эн лок? — инькасӧ ас бердас жмитікӧ юаліс сія.
 # text_kpv =  — Мый нӧ татшӧм дыр эн лок? — нывбабасӧ ас бердӧ топӧдігмоз юаліс сійӧ.
 1	—	—	PUNCT	PUNCT	_	6	punct	_	_
-2	Мый	мый	PRON	Pron	Animacy=NHum|Case=Nom|PronType=Int	6	obl	_	GTtags=Sem/NonHum,Nom,Interr
+2	Мый	мый	PRON	Pron	Animacy=Nhum|Case=Nom|PronType=Int	6	obl	_	GTtags=Sem/NonHum,Nom,Interr
 3	нӧ	нӧ	PART	Pcle	_	2	discourse	_	_
 4	дыр	дыр	ADV	Adv	_	6	advmod	_	_
 5	эн	оз	AUX	V	Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Past	6	aux:neg	_	GTtags=Neg,Ind,Prt1,Sg2
