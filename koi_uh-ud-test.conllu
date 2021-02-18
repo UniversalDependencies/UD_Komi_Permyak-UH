@@ -1092,7 +1092,7 @@
 6	а	а	CCONJ	CC	_	7	cc	_	GTtags=CC
 7	пӧриссес	пӧрысь	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	GTtags=N,Pl,Nom,PxSg3
 8	—	—	PUNCT	PUNCT	_	9	punct	_	GTtags=PUNCT
-9	кокаласӧ	кокны	VERB	V	Derivation=Al|Mood=Ind|Number=Plur|Person=3|Tense=Fut	4	conj	_	GTtags=V,IV,Der/Al,Ind,Fut,Pl3|SpaceAfter=No
+9	кокаласӧ	кокавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut	4	conj	_	GTtags=V,IV,Der/Al,Ind,Fut,Pl3|SpaceAfter=No
 10	...	...	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:61.1
