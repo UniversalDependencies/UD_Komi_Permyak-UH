@@ -521,12 +521,12 @@
 # text = Только ылын веськытлань, самӧй горизонт вылын, лэбтіcиcӧ кык ыджыт коричневӧй кымӧp.
 # text_rus = Только далеко вправо, на самом горизонте, расплывались два огромных коричневых облака.
 1	Только	только	ADV	_	_	3	advmod	_	_
-2	ылын	ылын	ADV	_	AdvType=Loc|Case=Ine	3	advmod:lmod	_	GTtags=Spat,Ine
+2	ылын	ыв	NOUN	N	Case=Ine|NounType=Relat	3	obl:lmod	_	GTtags=Spat,Ine
 3	веськытлань	веськыт	ADJ	_	Case=Apr|Number=Sing	9	obl:lmod	_	SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	самӧй	самӧй	ADV	_	_	6	advmod	_	_
-6	горизонт	горизонт	NOUN	_	Case=Nom|Number=Sing	3	appos	_	GTtags=Sg,Nom
-7	вылын	вылын	ADP	_	AdpType=Post|AdvType=Loc|Case=Ine|Number=Sing	6	case	_	SpaceAfter=No
+6	горизонт	горизонт	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	GTtags=Sg,Nom
+7	вылын	выв	NOUN	N	AdvType=Loc|Case=Ine|NounType=Relat|Number=Sing	3	appos	_	SpaceAfter=No
 8	,	,	PUNCT	CLB	_	6	punct	_	_
 9	лэбтіcиcӧ	лэбтіcьны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Pl3
 10	кык	кык	NUM	_	Case=Nom|Number=Sing|NumType=Card	13	nummod	_	GTtags=Card,Sg,Nom
@@ -554,8 +554,8 @@
 3	кыкнаннысӧ	кык	PRON	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Tot	1	obj	_	GTtags=Coll,Der/MWN,N,Sg,PxPl3,Acc
 4	да	да	CCONJ	_	_	5	cc	_	_
 5	пуксьӧтіс	пуксьӧтны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	conj	_	GTtags=Ind,Prt1,Sg3
-6	пызан	пызан	NOUN	_	Case=Nom|Number=Sing	5	obl:lmod	_	GTtags=Sg,Nom
-7	сайӧ	сай	ADP	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	case	_	SpaceAfter=No
+6	пызан	пызан	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	GTtags=Sg,Nom
+7	сайӧ	сай	NOUN	N	Case=Nom|NounType=Relat|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obl:lmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = FadeevTP_1970:2
@@ -648,7 +648,7 @@
 3	,	,	PUNCT	CLB	_	8	punct	_	_
 4	бур	бур	ADJ	_	Case=Nom|Number=Sing	5	amod	_	GTtags=Sg,Nom
 5	олан	олан	NOUN	_	Case=Nom|Number=Sing	8	obj	_	GTtags=Sg,Nom
-6	ӧтикӧ	ӧтик	ADV	_	Case=Ill|Number=Sing|NumType=Card	8	advmod	_	GTtags=Card,Der/MWN,N,Sg,Ill
+6	ӧтикӧ	ӧтикӧ	ADV	Num	Case=Ill|Number=Sing|NumType=Card	8	advmod	_	GTtags=Card,Der/MWN,N,Sg,Ill
 7	эг	оз	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Past	8	aux:neg	_	GTtags=Neg,Ind,Prt1,Pl1
 8	адззыв	адззывны	VERB	_	Connegative=Yes	1	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	CLB	_	1	punct	_	_
@@ -894,7 +894,7 @@
 1	Веськытланьын	Веськытланьын	ADV	_	_	12	advmod:lmod	_	SpaceAfter=No
 2	,	,	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 3	кытӧн	кытӧн	ADV	Pron	Case=Ine|PronType=Int	4	advmod:lmod	_	GTtags=Pron,Spat,Ine,Interr
-4	тыдалӧны	тыдавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	advcl:lmod	_	GTtags=V,IV,Ind,Prs,Pl3
+4	тыдалӧны	тыдавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	advcl:lcl	_	GTtags=V,IV,Ind,Prs,Pl3
 5	шутёммез	шутём	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	GTtags=N,Pl,Nom
 6	и	и	CCONJ	CC	_	7	cc	_	GTtags=CC
 7	видзоккез	видз	NOUN	N	Animacy=Inan|Case=Nom|Derivation=Dimin|Number=Plur	5	conj	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Pl,Nom|SpaceAfter=No
