@@ -51,6 +51,9 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2021-04-29
+  * Auxiliary, feature and deprel documentation
+  * Language tag systematization.
 * 2020-11-15 v2.7
   * Additional parallel sentences from Minjin shared with [Komi-Zyrian](https://github.com/UniversalDependencies/UD_Komi_Zyrian-Lattice) treebank.
   * Expanding compound:prt, xcomp:ds and adding VerbForm.
