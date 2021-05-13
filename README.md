@@ -41,6 +41,7 @@ Work connected to this treebank is described in following publication. If you us
 * Fadejev T. Goradzulj, 1993 (Фадеев Т. П.) Горадзуль. Сизим картинаа драма // Коми-пермяцкӧй национальнӧӥ драматургия. Уна акта пьесаэз. Кудымкар, 1993
 * Fedosejev S. Vilj gortyn, 1985 (Федосеев С. А.) Виль гортын (повесть) // Пармаын югыт: бӧрйӧм коми-пермяцкӧй проза. Кудымкар: Пермскӧӥ книжнӧй изд-во, Коми-Пермяцкӧй отделеннё, 1985.
 * Kanjukov V. Larec, 1994 (‒ Канюков В. И.) Ларец (висьт) // Чарӧтӧм пу. Кудымкар, 1994.
+* Lytkin V. I. (chief ed.) 1961 Коми-пермяцкий язык, введение, фонетика, лексика и морфология.  
 * Minjin I. A. (Минин И. А.) 1968. Panyt yjis tӧlisj(Паныт уйис тӧлісь) (повесть). Кудымкар, 1968.
 * Minjin I. A. (Минин И. А.) 1988. Kydz shynjnjalӧ apostol (Кыдз шыннялӧ апостол) (повесть) // Оча морос: повесттез, рассказзэз, пьеса. Кудымкар: Пермское кн. изд-во, Коми-Перм. отделение, 1988.
 * Minjin I. A. (Минин И. А.) 1964. Ojsja cvettez (Ойся цветтэз) (висьт) // Оча морос: повесттез, рассказзэз, пьеса. Кудымкар: Пермское кн. изд-во, Коми-Перм. отделение, 1964. (http://komikyv.org/koi/node/31063)
@@ -50,6 +51,9 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2021-04-29
+  * Auxiliary, feature and deprel documentation
+  * Language tag systematization.
 * 2020-11-15 v2.7
   * Additional parallel sentences from Minjin shared with [Komi-Zyrian](https://github.com/UniversalDependencies/UD_Komi_Zyrian-Lattice) treebank.
   * Expanding compound:prt, xcomp:ds and adding VerbForm.
