@@ -1,10 +1,10 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Komi_Permyak-UH:
-commit ce096e3939f4b02ec385087152c1b3cb7d95a7cf
-Merge: 5c933ef f7d7b2b
+commit 9733091d8046d6b5deda9d7889f327f8b2568faa
+Merge: 2eb7739 9cb6c26
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 839 of 839 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
@@ -15,11 +15,13 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 504 out of 839 total words have one or more features.
+Features: 503 out of 839 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 127 bugs.
+Udapi:
+               TOTAL        126
+Udapi: found 126 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 839 words.
 Genres: found 1 out of 17 known.
 validate.py --lang koi --max-err=10 UD_Komi_Permyak-UH/koi_uh-ud-test.conllu
