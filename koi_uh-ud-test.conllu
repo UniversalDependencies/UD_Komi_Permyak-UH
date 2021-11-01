@@ -1253,3 +1253,218 @@
 19	ловзисис	ловзисьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	conj	_	GTtags=Ind,Prt1,Sg3|SpaceAfter=No
 20	.	.	PUNCT	CLB	_	2	punct	_	_
 
+# sent_id = NekrasovaSergeeva2018:357:1
+# text_orig = Петя ёртась-ö Маша-кöт
+# text = Петя ёртасьö Машакöт.
+# gloss_ru = Петя дружить-PRS.3 Маша-COM
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя дружит с Машей.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	ёртасьö	ёртасьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	Машакöт	Маша	NOUN	N	Animacy=Hum|Case=Com|Number=Sing	2	obl	_	GTtags=Prop,Sem/Ant-Fem,Sg,Com|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:357:2
+# text_orig = Петя дружит-ö Маша-кöт
+# text = Петя дружитö Машакöт.
+# gloss_ru = Петя дружить-PRS.3 Маша-COM
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя дружит с Машей.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	дружитö	дружитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	Машакöт	Маша	NOUN	N	Animacy=Hum|Case=Com|Number=Sing	2	obl	_	GTtags=Prop,Sem/Ant-Fem,Sg,Com|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:357:3
+# text_orig = Петя высьт-і-с мöс-öс
+# text = Петя высьтіс мöсöс.
+# gloss_ru = Петя доить-PRT-3 корова-ACC
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя подоил корову.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	высьтіс	высьтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
+3	мöсöс	мӧс	NOUN	N	Animacy=Anim|Case=Acc|Number=Sing	2	obj	_	GTtags=Sem/Ani,Sg,Acc|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:360:4
+# text_orig = Петя чилькöт-і-с мöс
+# text = Петя чилькöтіс мöс.
+# gloss_ru = Петя доить-PRT-3 корова
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя подоил корову.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	чилькöтіс	чилькӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
+3	мöс	мӧс	NOUN	N	Animacy=Anim|Case=Nom|Number=Sing	2	obj	_	GTtags=Sem/Ani,Sg,Nom|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:360:5
+# text_orig = Петя адзз-ö керку
+# text = Петя адззö керку.
+# gloss_ru = Петя видеть-PRS.3 дом
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя видит дом
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	адззö	адззыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	керку	керку	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	2	obj	_	GTtags=Sem/Inanim,Sg,Nom|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:360:6
+# text_orig = Петя адзз-и-с ключ-чез
+# text = Петя адззис ключчез.
+# gloss_ru = Петя найти-PRT-3 ключ-PL
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя нашел ключи
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	адззис	адззыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
+3	ключчез	ключ	NOUN	N	Animacy=Inan|Case=Nom|Number=Plur	2	obj	_	GTtags=Sem/Inanim,Pl,Nom|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:360:7
+# text_orig = Петя верит-ö Маша-вö
+# text = Петя веритö Машалö.
+# gloss_ru = Петя верить-PRS.3 Маша-DAT
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя верит/доверяет Маше
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	веритö	веритны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	Машалö	Маша	NOUN	N	Animacy=Hum|Case=Dat|Number=Sing	2	obl	_	GTtags=Prop,Sem/Ant-Fem,Sg,Dat|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:360:8
+# text_orig = Петя мун-ö Маша бöрсянь
+# text = Петя мунö Маша бöрсянь.
+# gloss_ru = Петя идти-PRS.3 Маша за
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя следует за Машей (букв. ‘идет за Машей’)
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	мунö	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	Маша	Маша	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	obl	_	GTtags=Prop,Sem/Ant-Fem,Sg,Nom
+4	бöрсянь	бӧрсянь	ADP	Adp	AdpType=Post|AdvType=Loc|Case=Egr|Number=Sing	3	case	_	GTtags=Po,Spat,Sg,Egr|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:360:9
+# text_orig = Петя кольчч-и-с керку-тöг
+# text = Петя кольччис керкутöг.
+# gloss_ru = Петя оставить-PRT-3 дом-ABE
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя лишился дома (букв. ‘остался без дома’)
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	кольччис	кольччыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
+3	керкутöг	керку	NOUN	N	Animacy=Inan|Case=Car|Number=Sing	2	xcomp	_	GTtags=Sem/Inanim,Sg,Car|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:361:10
+# text_orig = Город гöгöр суав-ö стена
+# text = Город гöгöр суавö стена.
+# gloss_ru = Город вокруг стоять-PRS.3 стена
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Стены окружают город. (букв. ‘стоят вокруг города’)
+1	Город	город	NOUN	N	Case=Nom|Number=Sing	3	obl:lmod	_	GTtags=Sg,Nom
+2	гöгöр	гӧгӧр	ADP	Adp	AdpType=Post	1	case	_	GTtags=Po
+3	суавö	сулавны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Err/Orth,Ind,Prs,Sg3
+4	стена	стена	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	GTtags=Sg,Nom|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:361:11
+# text_orig = Менам йöрнöс не сэтшöм кыдз тэнат
+# text = Менам йöрнöс не сэтшöм кыдз тэнат.
+# gloss_ru = я.GEN рубашка NEG такой как ты.GEN
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Моя рубашка отличается от твоей. (букв. ‘не такая, как твоя’)
+1	Менам	ме	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	GTtags=Pers,Sg1,Gen
+2	йöрнöс	йӧрнӧс	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	GTtags=Sg,Nom
+3	не	не	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg
+4	сэтшöм	сэтшӧм	ADJ	A	Case=Nom|Number=Sing|PronType=Dem	0	root	_	GTtags=Adn,Dem,Der/MWN,Sg,Nom
+5	кыдз	кыдз	ADV	Adv	_	6	mark	_	_
+6	тэнат	тэ	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	conj	_	GTtags=Pers,Sg2,Gen|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:363:12
+# text_orig = Петя брезгуйт-ö миськав-тöм посуда-öн
+# text = Петя брезгуйтö миськавтöм посудаöн.
+# gloss_ru = Петя брезговать-PRS.3 мыть-PTCP.NEG посуда-INS
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя брезгует грязной (букв. ‘немытой’) посудой
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	брезгуйтö	брезгуйтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	миськавтöм	миськавтӧм	ADJ	A	_	4	amod	_	_
+4	посудаöн	посуда	NOUN	N	Case=Ins|Number=Sing	2	obl	_	GTtags=Sg,Ins|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:364:13
+# text_orig = Петя пасьта-и-с вешьян 
+# text = Петя пасьтаис вешьян.
+# gloss_ru = Петя надеть-PRT-3 брюки
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя надел брюки.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	пасьтаис	пасьтаис	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
+3	вешьян	вешьян	NOUN	N	Animacy=Inan|Case=Nom|Number=Sing	2	obj	_	GTtags=Sem/Inanim,Sg,Nom|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:364:14
+# text_orig = Петя вашöт-ö мöс
+# text = Петя вашöтö мöс.
+# gloss_ru = Петя гнать-PRS.3 корова
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = (Что делает Петя?) ‘Петя гонит корову’
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	вашöтö	вашӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	мöс	мӧс	NOUN	N	Animacy=Anim|Case=Nom|Number=Sing	2	obj	_	GTtags=Sem/Ani,Sg,Nom|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:364:15
+# text_orig = Петя вашöт-ö мöс-öс
+# text = Петя вашöтö мöсöс.
+# gloss_ru = Петя гнать-PRS.3 корова-ACC
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = (Кого гонит Петя?) ‘Петя гонит корову’
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	вашöтö	вашӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	мöсöс	мӧс	NOUN	N	Animacy=Anim|Case=Acc|Number=Sing	2	obj	_	GTtags=Sem/Ani,Sg,Acc|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:364:16
+# text_orig = Петя высьт-і-с мöс-сö
+# text = Петя высьтіс мöссö.
+# gloss_ru = Петя доить-PRT-3 корова-ACC.POSS.3 
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя подоил корову
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	высьтіс	высьтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
+3	мöссö	мӧс	NOUN	N	Animacy=Anim|Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	GTtags=Sem/Ani,Sg,Acc,PxSg3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:364:17
+# text_orig = Петя чегöт-i-с бедь-сö
+# text = Петя чегöтiс бедьсö.
+# gloss_ru = Петя сломать-PRT-3 палка-ACC.POSS.3
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя сломал палку.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	чегöтiс	чегӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
+3	бедьсö	бедь	NOUN	N	Animacy=Inan|Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	GTtags=Sem/Inanim,Sg,Acc,PxSg3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:364:18
+# text_orig = Петя любит-ö Маша-öс 
+# text = Петя любитö Машаöс.
+# gloss_ru = Петя любить-PRS.3 Маша-ACC
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя любит Машу.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	любитö	любитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
+3	Машаöс	Маша	NOUN	N	Animacy=Hum|Case=Acc|Number=Sing	2	obj	_	GTtags=Prop,Sem/Ant-Fem,Sg,Acc|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = NekrasovaSergeeva2018:364:19
+# text_orig = Петя кага вöдит-і-с 
+# text = Петя кага вöдитіс.
+# gloss_ru = Петя ребенок нянчить-PRT-3 
+# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# text_ru = Петя нянчил ребенка.
+1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	3	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
+2	кага	кага	NOUN	N	Animacy=Anim|Case=Nom|Number=Sing	3	obj	_	GTtags=Sem/Ani,Sg,Nom
+3	вöдитіс	вӧдитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	3	punct	_	_
+
