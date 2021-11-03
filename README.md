@@ -47,10 +47,16 @@ Work connected to this treebank is described in following publication. If you us
 * Minjin I. A. (Минин И. А.) 1964. Ojsja cvettez (Ойся цветтэз) (висьт) // Оча морос: повесттез, рассказзэз, пьеса. Кудымкар: Пермское кн. изд-во, Коми-Перм. отделение, 1964. (http://komikyv.org/koi/node/31063)
 * Ponomareva, L.G. (Пономарева. Л. Г.) Речь северных коми-пермяков. М.: Языки Народов Мира, 2016. 514 с.
 * Shadrin I. A. (Шадрин И. А.) 1959. Djoma (Дёма) (висьт) // Тулысся ваэз. Литературно-художественный сборник. Кудымкар, 1959.
+* Nekrasova G. A. (Г. А. Некрасова), Sergeeva E. N. (Е. Н. Сергеева) 2018. МАРКИРОВАНИЕ АКТАНТОВ ДВУХМЕСТНЫХ ПРЕДИКАТОВ В КУДЫМКАРСКО-ИНЬВЕНСКОМ ДИАЛЕКТЕ КОМИ-ПЕРМЯЦКОГО ЯЗЫКА. Валентностные классы двухместных предикатов в разноструктурных языках [Valency classes of two-place predicates].  Отв. ред. С. С. Сай: Сборник статей. с. 354–375. СПб.: ИЛИ РАН, 2018. 624 с. ИЯЛИ КНЦ УрО РАН, Сыктывкар, Колледж метрополитена, Санкт-Петербург.
+
 
 
 # Changelog
 
+* 2021-10-31
+  * Auxiliary, feature and deprel documentation
+  * Language tag systematization.
+  * Example sentences from Nekrasova, G. A.; Sergeeva, E. N. 2018.
 * 2021-04-29
   * Auxiliary, feature and deprel documentation
   * Language tag systematization.
