@@ -485,7 +485,7 @@
 
 # sent_id = koi_four_battles.196
 # text = Только ылын веськытлань, самӧй горизонт вылын, лэбтіcиcӧ кык ыджыт коричневӧй кымӧp.
-# text_rus = Только далеко вправо, на самом горизонте, расплывались два огромных коричневых облака.
+# text_ru = Только далеко вправо, на самом горизонте, расплывались два огромных коричневых облака.
 1	Только	только	ADV	_	_	3	advmod	_	_
 2	ылын	ыв	NOUN	N	Case=Ine|NounType=Relat	3	obl:lmod	_	GTtags=Spat,Ine
 3	веськытлань	веськыт	ADJ	_	Case=Apr|Number=Sing	9	obl:lmod	_	SpaceAfter=No
@@ -503,7 +503,7 @@
 
 # sent_id = koi_four_battles.299
 # text = Быд лaдopcянь Ворошилов дынӧ ӧні кoтӧpтіcӧ oтиp.
-# text_rus = Со всех сторон к Ворошилову бежали теперь люди.
+# text_ru = Со всех сторон к Ворошилову бежали теперь люди.
 1	Быд	быд	DET	_	Case=Nom|Number=Sing|PronType=Tot	2	det	_	GTtags=Sg,Nom
 2	лaдopcянь	лaдopcянь	NOUN	_	Case=Egr|Number=Sing	6	obl:lmod	_	GTtags=Sg,Egr
 3	Ворошилов	Ворошилов	PROPN	_	Animacy=Hum|Case=Nom|NameType=Sur|Number=Sing	6	obl:lmod	_	GTtags=Prop,Sem/Sur,Sem/Mal,Sg,Nom
