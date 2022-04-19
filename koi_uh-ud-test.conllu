@@ -80,10 +80,10 @@
 1	Сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	пондыліс	пондывны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
 3	овны	овны	AUX	_	VerbForm=Inf	4	cop	_	GTtags=Inf
-4	куриттӧг	куритны	VERB	_	Derivation=VCar|VerbForm=Conv	2	xcomp	_	GTtags=Conv,Car
+4	куриттӧг	куритны	VERB	_	Derivation=VAbe|VerbForm=Conv	2	xcomp	_	GTtags=Conv,Car
 5	да	да	CCONJ	_	_	7	cc	_	_
 6	вина	вина	NOUN	_	Case=Nom|Number=Sing	7	obj	_	GTtags=Sg,Nom
-7	ютӧг	юны	VERB	_	Derivation=VCar|VerbForm=Conv	4	conj	_	GTtags=Conv,Car|SpaceAfter=No
+7	ютӧг	юны	VERB	_	Derivation=VAbe|VerbForm=Conv	4	conj	_	GTtags=Conv,Car|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:4
@@ -699,7 +699,7 @@
 9	сё	сё	ADV	Adv	AdvType=Deg	11	advmod	_	GTtags=Adv,AdA
 10	эшӧ	эшӧ	ADV	Adv	_	11	advmod:tmod	_	GTtags=Adv
 11	пӧжӧ	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=V,IV,Ind,Prs,Sg3
-12	жалейттӧг	жалейтны	VERB	V	Derivation=VCar|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
+12	жалейттӧг	жалейтны	VERB	V	Derivation=VAbe|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	GTtags=CLB
 14	визывтӧ	визывтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	conj	_	GTtags=V,IV,Ind,Prs,Sg3
 15	ньылӧм	ньылӧм	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
@@ -851,7 +851,7 @@
 7	овны	овны	VERB	V	Valency=1|VerbForm=Inf	9	xcomp	_	GTtags=V,IV,Inf
 8	ог	оз	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	9	aux:neg	_	GTtags=V,Neg,Ind,Prs,Sg1
 9	вермы	вермыны	VERB	V	Connegative=Yes	0	root	_	GTtags=V,IV,ConNeg
-10	Льӧмваыстӧг	Льӧмва	NOUN	N	Case=Car|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=N,Prop,Sem/Plc,Sg,Car,PxSg3,So/PC|SpaceAfter=No
+10	Льӧмваыстӧг	Льӧмва	NOUN	N	Case=Abe|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=N,Prop,Sem/Plc,Sg,Car,PxSg3,So/PC|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	9	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:18.1
@@ -1350,7 +1350,7 @@
 # text_ru = Петя лишился дома (букв. ‘остался без дома’)
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	кольччис	кольччыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
-3	керкутöг	керку	NOUN	N	Animacy=Inan|Case=Car|Number=Sing	2	xcomp	_	GTtags=Sem/Inanim,Sg,Car|SpaceAfter=No
+3	керкутöг	керку	NOUN	N	Animacy=Inan|Case=Abe|Number=Sing	2	xcomp	_	GTtags=Sem/Inanim,Sg,Car|SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = NekrasovaSergeeva2018:361:10
