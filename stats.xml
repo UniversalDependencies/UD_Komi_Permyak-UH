@@ -41,9 +41,9 @@
     <feat name="Animacy" value="Hum" upos="NOUN,PROPN">42</feat><!-- Петя, Петялӧн, Мери, Питер, Машакöт, Сэм, соседыс, oтиp, Браунӧс, Ворошилов -->
     <feat name="Animacy" value="Inan" upos="ADJ,NOUN">15</feat><!-- керку, бадь, бедьсö, вешьян, видзоккез, кадӧ, касьтылӧм, керкуокыс, керкутöг, ключчез -->
     <feat name="Animacy" value="Nhum" upos="PRON">3</feat><!-- мый -->
+    <feat name="Case" value="Abe" upos="NOUN">2</feat><!-- Льӧмваыстӧг, керкутöг -->
     <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">29</feat><!-- йӧрсӧ, сійӧ, мöсöс, ӧшынсӧ, Браунӧс, Машаöс, Смитӧс, бедьсö, инькасӧ, квартираэсӧ -->
     <feat name="Case" value="Apr" upos="ADJ,PRON">2</feat><!-- веськытлань, мелань -->
-    <feat name="Case" value="Car" upos="NOUN">2</feat><!-- Льӧмваыстӧг, керкутöг -->
     <feat name="Case" value="Cmp" upos="NOUN">3</feat><!-- айся, айытся -->
     <feat name="Case" value="Com" upos="NOUN,PRON">3</feat><!-- Машакöт, мекӧт -->
     <feat name="Case" value="Dat" upos="NOUN,PRON">12</feat><!-- меным, сылӧ, Машалö, Мортлӧ, айкаыслӧ, семьялӧ, ёртыслӧ, ӧтамӧдлӧ -->
@@ -64,7 +64,7 @@
     <feat name="Derivation" value="Ik" upos="VERB">2</feat><!-- жмитікӧ, лӧсьӧтікӧ -->
     <feat name="Derivation" value="Omon" upos="VERB">1</feat><!-- сайӧвтӧмӧн -->
     <feat name="Derivation" value="ProprietiveMod" upos="NOUN">4</feat><!-- Сеня, тошока, уссэза, ӧшына -->
-    <feat name="Derivation" value="VCar" upos="VERB">3</feat><!-- жалейттӧг, куриттӧг, ютӧг -->
+    <feat name="Derivation" value="VAbe" upos="VERB">3</feat><!-- жалейттӧг, куриттӧг, ютӧг -->
     <feat name="Evident" value="Nfh" upos="VERB">7</feat><!-- краситӧм, краситӧма, вӧвдӧм, чужӧма, ылӧстӧма -->
     <feat name="Mood" value="Imp" upos="VERB">2</feat><!-- осьт -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">141</feat><!-- зэрӧ, оз, эг, босьтіс, быдмис, вашöтö, высьтіс, вӧлі, гижис, котӧртіс -->
@@ -127,7 +127,7 @@
     <dep name="cc:preconj">1</dep>
     <dep name="ccomp">9</dep>
     <dep name="compound:prt">1</dep>
-    <dep name="conj">53</dep>
+    <dep name="conj">52</dep>
     <dep name="cop">5</dep>
     <dep name="csubj">4</dep>
     <dep name="det">10</dep>
@@ -145,7 +145,7 @@
     <dep name="nummod">5</dep>
     <dep name="obj">47</dep>
     <dep name="obl">33</dep>
-    <dep name="obl:lmod">31</dep>
+    <dep name="obl:lmod">32</dep>
     <dep name="obl:tmod">7</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">6</dep>
