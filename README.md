@@ -53,6 +53,10 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2022-04-29
+  * Feature development
+  * Deprel correction and documentation
+  * Trouble shooting in dependencies
 * 2021-10-31
   * Auxiliary, feature and deprel documentation
   * Language tag systematization.

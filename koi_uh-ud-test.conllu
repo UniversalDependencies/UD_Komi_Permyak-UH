@@ -80,10 +80,10 @@
 1	Сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	пондыліс	пондывны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
 3	овны	овны	AUX	_	VerbForm=Inf	4	cop	_	GTtags=Inf
-4	куриттӧг	куритны	VERB	_	Derivation=VCar|VerbForm=Conv	2	xcomp	_	GTtags=Conv,Car
+4	куриттӧг	куритны	VERB	_	Derivation=VAbe|VerbForm=Conv	2	xcomp	_	GTtags=Conv,Car
 5	да	да	CCONJ	_	_	7	cc	_	_
 6	вина	вина	NOUN	_	Case=Nom|Number=Sing	7	obj	_	GTtags=Sg,Nom
-7	ютӧг	юны	VERB	_	Derivation=VCar|VerbForm=Conv	4	conj	_	GTtags=Conv,Car|SpaceAfter=No
+7	ютӧг	юны	VERB	_	Derivation=VAbe|VerbForm=Conv	4	conj	_	GTtags=Conv,Car|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:4
@@ -485,7 +485,7 @@
 
 # sent_id = koi_four_battles.196
 # text = Только ылын веськытлань, самӧй горизонт вылын, лэбтіcиcӧ кык ыджыт коричневӧй кымӧp.
-# text_rus = Только далеко вправо, на самом горизонте, расплывались два огромных коричневых облака.
+# text_ru = Только далеко вправо, на самом горизонте, расплывались два огромных коричневых облака.
 1	Только	только	ADV	_	_	3	advmod	_	_
 2	ылын	ыв	NOUN	N	Case=Ine|NounType=Relat	3	obl:lmod	_	GTtags=Spat,Ine
 3	веськытлань	веськыт	ADJ	_	Case=Apr|Number=Sing	9	obl:lmod	_	SpaceAfter=No
@@ -503,7 +503,7 @@
 
 # sent_id = koi_four_battles.299
 # text = Быд лaдopcянь Ворошилов дынӧ ӧні кoтӧpтіcӧ oтиp.
-# text_rus = Со всех сторон к Ворошилову бежали теперь люди.
+# text_ru = Со всех сторон к Ворошилову бежали теперь люди.
 1	Быд	быд	DET	_	Case=Nom|Number=Sing|PronType=Tot	2	det	_	GTtags=Sg,Nom
 2	лaдopcянь	лaдopcянь	NOUN	_	Case=Egr|Number=Sing	6	obl:lmod	_	GTtags=Sg,Egr
 3	Ворошилов	Ворошилов	PROPN	_	Animacy=Hum|Case=Nom|NameType=Sur|Number=Sing	6	obl:lmod	_	GTtags=Prop,Sem/Sur,Sem/Mal,Sg,Nom
@@ -699,7 +699,7 @@
 9	сё	сё	ADV	Adv	AdvType=Deg	11	advmod	_	GTtags=Adv,AdA
 10	эшӧ	эшӧ	ADV	Adv	_	11	advmod:tmod	_	GTtags=Adv
 11	пӧжӧ	пӧжны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=V,IV,Ind,Prs,Sg3
-12	жалейттӧг	жалейтны	VERB	V	Derivation=VCar|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
+12	жалейттӧг	жалейтны	VERB	V	Derivation=VAbe|VerbForm=Conv	11	advcl	_	GTtags=V,IV,Der/тӧг,Car,Ger|SpaceAfter=No
 13	,	,	PUNCT	CLB	_	14	punct	_	GTtags=CLB
 14	визывтӧ	визывтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	conj	_	GTtags=V,IV,Ind,Prs,Sg3
 15	ньылӧм	ньылӧм	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	GTtags=N,Sg,Nom|SpaceAfter=No
@@ -756,15 +756,15 @@
 14	,	,	PUNCT	CLB	_	15	punct	_	GTtags=CLB
 15	кытӧн	кытӧн	PRON	Pron	Case=Ine|PronType=Int	13	obl:lmod	_	GTtags=Pron,Spat,Ine,Interr
 16	шедас	шедны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	15	fixed	_	GTtags=V,IV,Ind,Fut,Sg3|SpaceAfter=No
-17	:	:	PUNCT	CLB	_	15	punct	_	GTtags=CLB
+17	:	:	PUNCT	CLB	_	29	punct	_	GTtags=CLB
 18	кӧз	кӧз	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	GTtags=N,Sg,Nom
-19	увтын	увт	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=Sg,Ine|SpaceAfter=No
+19	увтын	увт	NOUN	N	Case=Ine|Number=Sing	29	obl:lmod	_	GTtags=Sg,Ine|SpaceAfter=No
 20	,	,	PUNCT	CLB	_	22	punct	_	GTtags=CLB
 21	ю	ю	NOUN	N	Case=Ine|Number=Sing	22	nmod	_	GTtags=N,Sg,Ine
-22	дорын	дор	NOUN	_	_	15	conj	_	SpaceAfter=No
+22	дорын	дор	NOUN	_	_	19	conj	_	SpaceAfter=No
 23	,	,	PUNCT	CLB	_	25	punct	_	GTtags=CLB
 24	киссьӧм	киссьӧм	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	GTtags=N,Sem/Inanim,Sg,Nom
-25	сарайын	сарай	NOUN	N	Case=Ine|Number=Sing	15	conj	_	GTtags=N,Sg,Ine|SpaceAfter=No
+25	сарайын	сарай	NOUN	N	Case=Ine|Number=Sing	19	conj	_	GTtags=N,Sg,Ine|SpaceAfter=No
 26	,	,	PUNCT	CLB	_	29	punct	_	GTtags=CLB
 27	быд	быд	PRON	Pron	PronType=Tot	28	det	_	GTtags=Pron,Qnt
 28	лун	лун	NOUN	N	Case=Nom|Number=Sing	29	obl:tmod	_	GTtags=N,Sg,Nom
@@ -851,7 +851,7 @@
 7	овны	овны	VERB	V	Valency=1|VerbForm=Inf	9	xcomp	_	GTtags=V,IV,Inf
 8	ог	оз	AUX	V	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	9	aux:neg	_	GTtags=V,Neg,Ind,Prs,Sg1
 9	вермы	вермыны	VERB	V	Connegative=Yes	0	root	_	GTtags=V,IV,ConNeg
-10	Льӧмваыстӧг	Льӧмва	NOUN	N	Case=Car|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=N,Prop,Sem/Plc,Sg,Car,PxSg3,So/PC|SpaceAfter=No
+10	Льӧмваыстӧг	Льӧмва	NOUN	N	Case=Abe|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=N,Prop,Sem/Plc,Sg,Car,PxSg3,So/PC|SpaceAfter=No
 11	.	.	PUNCT	CLB	_	9	punct	_	GTtags=CLB
 
 # sent_id = Minin:OjsjaCvettez:18.1
@@ -1257,7 +1257,7 @@
 # text_orig = Петя ёртась-ö Маша-кöт
 # text = Петя ёртасьö Машакöт.
 # gloss_ru = Петя дружить-PRS.3 Маша-COM
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя дружит с Машей.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	ёртасьö	ёртасьны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1268,7 +1268,7 @@
 # text_orig = Петя дружит-ö Маша-кöт
 # text = Петя дружитö Машакöт.
 # gloss_ru = Петя дружить-PRS.3 Маша-COM
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя дружит с Машей.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	дружитö	дружитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1279,7 +1279,7 @@
 # text_orig = Петя высьт-і-с мöс-öс
 # text = Петя высьтіс мöсöс.
 # gloss_ru = Петя доить-PRT-3 корова-ACC
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя подоил корову.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	высьтіс	высьтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
@@ -1290,7 +1290,7 @@
 # text_orig = Петя чилькöт-і-с мöс
 # text = Петя чилькöтіс мöс.
 # gloss_ru = Петя доить-PRT-3 корова
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя подоил корову.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	чилькöтіс	чилькӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
@@ -1301,7 +1301,7 @@
 # text_orig = Петя адзз-ö керку
 # text = Петя адззö керку.
 # gloss_ru = Петя видеть-PRS.3 дом
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя видит дом
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	адззö	адззыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1312,7 +1312,7 @@
 # text_orig = Петя адзз-и-с ключ-чез
 # text = Петя адззис ключчез.
 # gloss_ru = Петя найти-PRT-3 ключ-PL
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя нашел ключи
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	адззис	адззыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
@@ -1323,7 +1323,7 @@
 # text_orig = Петя верит-ö Маша-вö
 # text = Петя веритö Машалö.
 # gloss_ru = Петя верить-PRS.3 Маша-DAT
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя верит/доверяет Маше
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	веритö	веритны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1334,7 +1334,7 @@
 # text_orig = Петя мун-ö Маша бöрсянь
 # text = Петя мунö Маша бöрсянь.
 # gloss_ru = Петя идти-PRS.3 Маша за
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя следует за Машей (букв. ‘идет за Машей’)
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	мунö	мунны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1346,18 +1346,18 @@
 # text_orig = Петя кольчч-и-с керку-тöг
 # text = Петя кольччис керкутöг.
 # gloss_ru = Петя оставить-PRT-3 дом-ABE
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя лишился дома (букв. ‘остался без дома’)
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	кольччис	кольччыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
-3	керкутöг	керку	NOUN	N	Animacy=Inan|Case=Car|Number=Sing	2	xcomp	_	GTtags=Sem/Inanim,Sg,Car|SpaceAfter=No
+3	керкутöг	керку	NOUN	N	Animacy=Inan|Case=Abe|Number=Sing	2	xcomp	_	GTtags=Sem/Inanim,Sg,Car|SpaceAfter=No
 4	.	.	PUNCT	CLB	_	2	punct	_	_
 
 # sent_id = NekrasovaSergeeva2018:361:10
 # text_orig = Город гöгöр суав-ö стена
 # text = Город гöгöр суавö стена.
 # gloss_ru = Город вокруг стоять-PRS.3 стена
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Стены окружают город. (букв. ‘стоят вокруг города’)
 1	Город	город	NOUN	N	Case=Nom|Number=Sing	3	obl:lmod	_	GTtags=Sg,Nom
 2	гöгöр	гӧгӧр	ADP	Adp	AdpType=Post	1	case	_	GTtags=Po
@@ -1369,7 +1369,7 @@
 # text_orig = Менам йöрнöс не сэтшöм кыдз тэнат
 # text = Менам йöрнöс не сэтшöм кыдз тэнат.
 # gloss_ru = я.GEN рубашка NEG такой как ты.GEN
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Моя рубашка отличается от твоей. (букв. ‘не такая, как твоя’)
 1	Менам	ме	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	GTtags=Pers,Sg1,Gen
 2	йöрнöс	йӧрнӧс	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	GTtags=Sg,Nom
@@ -1383,7 +1383,7 @@
 # text_orig = Петя брезгуйт-ö миськав-тöм посуда-öн
 # text = Петя брезгуйтö миськавтöм посудаöн.
 # gloss_ru = Петя брезговать-PRS.3 мыть-PTCP.NEG посуда-INS
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя брезгует грязной (букв. ‘немытой’) посудой
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	брезгуйтö	брезгуйтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1395,7 +1395,7 @@
 # text_orig = Петя пасьта-и-с вешьян 
 # text = Петя пасьтаис вешьян.
 # gloss_ru = Петя надеть-PRT-3 брюки
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя надел брюки.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	пасьтаис	пасьтаис	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
@@ -1406,7 +1406,7 @@
 # text_orig = Петя вашöт-ö мöс
 # text = Петя вашöтö мöс.
 # gloss_ru = Петя гнать-PRS.3 корова
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = (Что делает Петя?) ‘Петя гонит корову’
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	вашöтö	вашӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1417,7 +1417,7 @@
 # text_orig = Петя вашöт-ö мöс-öс
 # text = Петя вашöтö мöсöс.
 # gloss_ru = Петя гнать-PRS.3 корова-ACC
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = (Кого гонит Петя?) ‘Петя гонит корову’
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	вашöтö	вашӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1428,7 +1428,7 @@
 # text_orig = Петя высьт-і-с мöс-сö
 # text = Петя высьтіс мöссö.
 # gloss_ru = Петя доить-PRT-3 корова-ACC.POSS.3 
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя подоил корову
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	высьтіс	высьтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
@@ -1439,7 +1439,7 @@
 # text_orig = Петя чегöт-i-с бедь-сö
 # text = Петя чегöтiс бедьсö.
 # gloss_ru = Петя сломать-PRT-3 палка-ACC.POSS.3
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя сломал палку.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	чегöтiс	чегӧтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
@@ -1450,7 +1450,7 @@
 # text_orig = Петя любит-ö Маша-öс 
 # text = Петя любитö Машаöс.
 # gloss_ru = Петя любить-PRS.3 Маша-ACC
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя любит Машу.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	любитö	любитны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg3
@@ -1461,7 +1461,7 @@
 # text_orig = Петя кага вöдит-і-с 
 # text = Петя кага вöдитіс.
 # gloss_ru = Петя ребенок нянчить-PRT-3 
-# comment =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
+# source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Петя нянчил ребенка.
 1	Петя	Петя	NOUN	N	Animacy=Hum|Case=Nom|Number=Sing	3	nsubj	_	GTtags=Prop,Sem/Ant-Mal,Sg,Nom
 2	кага	кага	NOUN	N	Animacy=Anim|Case=Nom|Number=Sing	3	obj	_	GTtags=Sem/Ani,Sg,Nom
