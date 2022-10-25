@@ -11,7 +11,7 @@ This includes 30 sentences originally presented as 20 at
 http://ilazki.thinkgeek.co.uk/brat/#/uralic/fin with UD v1 dependencies.
 The additional sentences stem from variation in expression within the
 Komi-Permyak language, and the text_id with additional letters indicates
-this variation.
+this variation. Additionally other sentences have been added in the later releases. 
 
 The translation were made by Larisa Ponomareva based on the Finnish, Russian and Komi-Zyrian texts:
 
