@@ -53,6 +53,8 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2022-10-31
+  * Grammar research and dictionary input
 * 2022-04-29
   * Feature development
   * Deprel correction and documentation
