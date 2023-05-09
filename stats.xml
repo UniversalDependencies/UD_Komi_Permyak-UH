@@ -32,7 +32,7 @@
     <tag name="VERB">177</tag><!-- мунны, локны, зэрны, краситны, юавны, адззыны, быдмыны, видзӧтны, петны, тшӧктыны -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="73">
+  <feats unique="72">
     <feat name="AdpType" value="Post" upos="ADP">14</feat><!-- дынӧ, бöрсянь, бердас, бердӧ, бокӧ, бӧрсянь, вылö, вылын, вылӧ, гöгöр -->
     <feat name="AdvType" value="Deg" upos="ADV">4</feat><!-- сё, дзик -->
     <feat name="AdvType" value="Loc" upos="ADP,ADV">14</feat><!-- дынӧ, бöрсянь, бердас, бердӧ, бокын, бокӧ, бӧрсянь, вылö, вылын, вылӧ -->
@@ -58,9 +58,9 @@
     <feat name="Connegative" value="Yes" upos="AUX,VERB">16</feat><!-- вермы, адззыв, вöрзьöт, вежӧртӧ, вӧв, гленитчы, ков, лок, мун, позь -->
     <feat name="Definite" value="Ind" upos="ADV">1</feat><!-- мылякӧ -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">6</feat><!-- буржык, дыржык -->
+    <feat name="Degree" value="Dim" upos="NOUN">3</feat><!-- видзоккез, керкуокыс, пельӧсокӧ -->
     <feat name="Derivation" value="Ana" upos="VERB">1</feat><!-- дрӧжитана -->
     <feat name="Derivation" value="CompMod" upos="VERB">1</feat><!-- гардчӧмкодь -->
-    <feat name="Derivation" value="Dimin" upos="NOUN">3</feat><!-- видзоккез, керкуокыс, пельӧсокӧ -->
     <feat name="Derivation" value="Ik" upos="VERB">2</feat><!-- жмитікӧ, лӧсьӧтікӧ -->
     <feat name="Derivation" value="Omon" upos="VERB">1</feat><!-- сайӧвтӧмӧн -->
     <feat name="Derivation" value="ProprietiveMod" upos="NOUN">4</feat><!-- Сеня, тошока, уссэза, ӧшына -->
@@ -99,7 +99,6 @@
     <feat name="Tense" value="Fut" upos="VERB">6</feat><!-- петас, кокаласӧ, локтас, сетас, шедас -->
     <feat name="Tense" value="Past" upos="AUX,VERB">106</feat><!-- эз, быдмис, эг, босьтіс, высьтіс, вӧлі, гижис, котӧртіс, краситӧм, краситӧма -->
     <feat name="Tense" value="Pres" upos="AUX,NUM,VERB">48</feat><!-- зэрӧ, оз, вашöтö, озӧ, тыдалӧ, Висьтала, Кылӧ, Мунан, адззö, адзза -->
-    <feat name="Valency" value="1" upos="VERB">2</feat><!-- овны, тӧдны -->
     <feat name="Variant" value="Nomin" upos="NOUN">1</feat><!-- крышатӧм -->
     <feat name="Variant" value="Vclause" upos="NOUN">3</feat><!-- Льӧмваыстӧг, айтöг, керкутöг -->
     <feat name="VerbForm" value="Conv" upos="VERB">6</feat><!-- жалейттӧг, жмитікӧ, куриттӧг, лӧсьӧтікӧ, сайӧвтӧмӧн, ютӧг -->
