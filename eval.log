@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Komi_Permyak-UH:
-commit 380af58bf95b7941594d5b1192ec401e4b1724e7
-Merge: 6f262aa f8201cc
+commit acda88b07514e796c89d3048c6f6b69e2ac2df1d
+Merge: 6ba6e44 d30fa20
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 1003 of 1003 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.00599101795959667.
@@ -25,6 +25,8 @@ Udapi: found 159 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1003 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang koi --max-err=10 UD_Komi_Permyak-UH/koi_uh-ud-test.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang koi --max-err=10 UD_Komi_Permyak-UH/koi_uh-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
