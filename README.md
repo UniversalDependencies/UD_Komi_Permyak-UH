@@ -53,6 +53,8 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2023-04-29
+  * Add example sentences
 * 2023-10-29
   * Add CCC variant to train.conllu for minimal data split
 * 2023-04-29
