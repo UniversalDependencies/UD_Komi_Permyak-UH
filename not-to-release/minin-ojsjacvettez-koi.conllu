@@ -1,0 +1,6 @@
+# sent_id = vk.com.lokta.bora.tulys20220413:Galina.Gedoseeva
+# text = Асыв лунсӧ вердӧ.
+1	Асыв	асыв	NOUN	_	Sg|Nom	3	nsubj	_	_
+2	лунсӧ	лун	NOUN	_	Sg|Acc|PxSg3	3	obj	_	_
+3	вердӧ	вердны	VERB	_	TV|Ind|Prs|Sg3	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
