@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Komi_Permyak-UH:
-commit acda88b07514e796c89d3048c6f6b69e2ac2df1d
-Merge: 6ba6e44 d30fa20
+commit 4d78698d099a6d81cb4729d09ff16d567016e2ff
+Merge: dfc7d61 5e5ae70
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 1003 of 1003 words (nodes).
-Size: min(0, log((N/1000)**2)) = 0.00599101795959667.
+Size: counted 1081 of 1081 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.155773077314142.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 615 out of 1003 total words have one or more features.
+Features: 667 out of 1081 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        159
-Udapi: found 159 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 1003 words.
+               TOTAL        175
+Udapi: found 175 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 1081 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang koi --max-err=10 UD_Komi_Permyak-UH/koi_uh-ud-test.conllu
 *** PASSED ***
@@ -32,11 +32,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.000433644340139352) = 0.000111190856445988
+(weight=0.256410256410256) * (score{size}=0.0112752313177701) = 0.00289108495327439
 (weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.238823840157331) * (availability=1) * (validity=1) = 0.238823840157331
+(TOTAL score=0.241603734254159) * (availability=1) * (validity=1) = 0.241603734254159
 STARS = 1
-UD_Komi_Permyak-UH	0.238823840157331	1
+UD_Komi_Permyak-UH	0.241603734254159	1
