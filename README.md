@@ -55,6 +55,7 @@ Work connected to this treebank is described in following publication. If you us
 
 * 2024-11-01
   * Correction to features, Degree
+  * nmod:poss with possessive pronouns
   * Add Proprietive case
 * 2024-04-29
   * Add  dictionary input as example sentences

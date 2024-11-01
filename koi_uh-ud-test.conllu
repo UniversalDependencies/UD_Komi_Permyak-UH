@@ -887,7 +887,7 @@
 # gloss_ru = я.GEN рубашка NEG такой как ты.GEN
 # source =  Nekrasova, G. A.; Sergeeva, E. N. 2018.
 # text_ru = Моя рубашка отличается от твоей. (букв. ‘не такая, как твоя’)
-1	Менам	ме	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	GTtags=Pers,Sg1,Gen
+1	Менам	ме	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	GTtags=Pers,Sg1,Gen
 2	йöрнöс	йӧрнӧс	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	GTtags=Sg,Nom
 3	не	не	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg
 4	сэтшöм	сэтшӧм	ADJ	A	Case=Nom|Number=Sing|PronType=Dem	0	root	_	GTtags=Adn,Dem,Der/MWN,Sg,Nom
@@ -1087,7 +1087,7 @@
 # sent_id = koirus.aj.1
 # text = Сылöн зоныс и нылыс айыс сьöрьяöсь.
 # text_ru = У неё сын и дочь пошли в отца.
-1	Сылöн	сія	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	det	_	GTtags=Pers,Sg3,Gen
+1	Сылöн	сія	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	GTtags=Pers,Sg3,Gen
 2	зоныс	зон	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nsubj:cop	_	GTtags=Sg,Nom,PxSg3
 3	и	и	CCONJ	_	_	4	cc	_	_
 4	нылыс	ныв	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	GTtags=Sg,Nom,PxSg3
