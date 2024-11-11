@@ -53,7 +53,11 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
-* 2023-04-29
+* 2024-11-01
+  * Correction to features, Degree
+  * nmod:poss with possessive pronouns
+  * Add Proprietive case
+* 2024-04-29
   * Add  dictionary input as example sentences
 * 2023-10-29
   * Add CCC variant to train.conllu for minimal data split
