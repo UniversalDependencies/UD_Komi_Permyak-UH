@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Komi_Permyak-UH:
-commit 4d78698d099a6d81cb4729d09ff16d567016e2ff
-Merge: dfc7d61 5e5ae70
+commit 9669833b153997db69d12ff02689f6cf4453df37
+Merge: e542219 39b72a9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 1081 of 1081 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.155773077314142.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        175
-Udapi: found 175 bugs.
+               TOTAL        176
+Udapi: found 176 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 1081 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang koi --max-err=10 UD_Komi_Permyak-UH/koi_uh-ud-test.conllu
