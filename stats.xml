@@ -55,15 +55,15 @@
     <feat name="Case" value="Ins" upos="NOUN,PRON">10</feat><!-- ойнас, Тулыснас, арнас, голосӧн, кинас, мознас, посудаöн, пӧввезӧн, сылöн -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">245</feat><!-- сія, Петя, ме, тэ, айӧ, мый, Мери, Питер, Сiя, керку -->
     <feat name="Case" value="Prl" upos="NOUN">1</feat><!-- местаэзӧт -->
+    <feat name="Case" value="Prp" upos="NOUN">3</feat><!-- тошока, уссэза, ӧшына -->
     <feat name="Connegative" value="Yes" upos="AUX,VERB">19</feat><!-- вермы, адззыв, аркмы, артав, артась, вöрзьöт, вежӧртӧ, вӧв, гленитчы, ков -->
     <feat name="Definite" value="Ind" upos="ADV">1</feat><!-- мылякӧ -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">6</feat><!-- буржык, дыржык -->
-    <feat name="Degree" value="Dim" upos="NOUN">3</feat><!-- видзоккез, керкуокыс, пельӧсокӧ -->
+    <feat name="Degree" value="Dim" upos="NOUN">4</feat><!-- видзоккез, керкуокыс, пельӧсокӧ, чериок -->
     <feat name="Derivation" value="Ana" upos="VERB">1</feat><!-- дрӧжитана -->
     <feat name="Derivation" value="CompMod" upos="VERB">1</feat><!-- гардчӧмкодь -->
     <feat name="Derivation" value="Ik" upos="VERB">2</feat><!-- жмитікӧ, лӧсьӧтікӧ -->
     <feat name="Derivation" value="Omon" upos="VERB">1</feat><!-- сайӧвтӧмӧн -->
-    <feat name="Derivation" value="ProprietiveMod" upos="NOUN">4</feat><!-- Сеня, тошока, уссэза, ӧшына -->
     <feat name="Derivation" value="VAbe" upos="VERB">3</feat><!-- жалейттӧг, куриттӧг, ютӧг -->
     <feat name="Evident" value="Nfh" upos="VERB">9</feat><!-- краситӧм, краситӧма, велöтчылöма, вӧвдӧм, чужӧма, шедöмась, ылӧстӧма -->
     <feat name="Mood" value="Imp" upos="VERB">3</feat><!-- осьт, кольччы -->
@@ -121,9 +121,9 @@
     <dep name="advmod:tmod">31</dep>
     <dep name="amod">21</dep>
     <dep name="appos">7</dep>
-    <dep name="aux">5</dep>
+    <dep name="aux">25</dep>
     <dep name="aux:cnd">1</dep>
-    <dep name="aux:neg">26</dep>
+    <dep name="aux:neg">6</dep>
     <dep name="aux:pot">1</dep>
     <dep name="case">22</dep>
     <dep name="cc">42</dep>
@@ -133,7 +133,7 @@
     <dep name="conj">57</dep>
     <dep name="cop">5</dep>
     <dep name="csubj">4</dep>
-    <dep name="det">13</dep>
+    <dep name="det">11</dep>
     <dep name="discourse">7</dep>
     <dep name="dislocated">2</dep>
     <dep name="expl">1</dep>
@@ -143,7 +143,7 @@
     <dep name="mark">14</dep>
     <dep name="nmod">38</dep>
     <dep name="nmod:lmod">1</dep>
-    <dep name="nmod:poss">3</dep>
+    <dep name="nmod:poss">5</dep>
     <dep name="nsubj">114</dep>
     <dep name="nsubj:cop">15</dep>
     <dep name="nummod">5</dep>
