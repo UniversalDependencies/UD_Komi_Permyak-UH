@@ -322,8 +322,8 @@
 2	,	,	PUNCT	CLB	_	3	punct	_	GTtags=CLB
 3	кӧр	кӧр	ADV	Adv	_	4	advmod	_	GTtags=Adv
 4	пантасим	пантасьны	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past	1	advcl:tcl	_	GTtags=V,IV,Ind,Prt1,Pl1
-5	ю	ю	NOUN	N	Case=Nom|Number=Sing	4	obl	_	GTtags=N,Sg,Nom
-6	дорас	дор	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	case	_	GTtags=N,Sg,Ine,PxSg3|SpaceAfter=No
+5	ю	ю	NOUN	N	Case=Nom|Number=Sing	6	nmod	_	GTtags=N,Sg,Nom
+6	дорас	дор	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl:lmod	_	GTtags=N,Sg,Ine,PxSg3|SpaceAfter=No
 7	,	,	PUNCT	CLB	_	8	punct	_	GTtags=CLB
 8	сія	сія	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	GTtags=Pron,Pers,Sg3,Nom
 9	медперво	медперво	ADV	Adv	_	10	advmod	_	GTtags=Adv
@@ -382,8 +382,8 @@
 7	видзоккез	видз	NOUN	N	Animacy=Inan|Case=Nom|Degree=Dim|Number=Plur	5	conj	_	GTtags=N,Sem/Inanim,Der/Ок,Der/Dimin,N,Pl,Nom|SpaceAfter=No
 8	,	,	PUNCT	CLB	_	4	punct	_	GTtags=CLB
 9	пыдын	пыдын	ADV	Adv	Case=Ine	12	advmod:lmod	_	GTtags=Adv,Ine
-10	лог	лог	NOUN	N	Case=Nom|Number=Sing	12	obl:lmod	_	GTtags=N,Sg,Nom
-11	дорын	дор	NOUN	N	Case=Ine|Number=Sing	10	case	_	GTtags=Adp,Po,Spat,Sg,Ine
+10	лог	лог	NOUN	N	Case=Nom|Number=Sing	11	nmod	_	GTtags=N,Sg,Nom
+11	дорын	дорын	NOUN	N	Case=Ine|Number=Sing	12	obl:lmod	_	GTtags=Adp,Po,Spat,Sg,Ine
 12	сулалӧны	сулавны	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	GTtags=V,IV,Ind,Prs,Pl3
 13	куим	куим	NUM	Num	NumType=Card	15	nummod	_	GTtags=Num,Card,Cmpl
 14	пӧліньтчӧм	пӧліньтчыны	VERB	V	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	GTtags=V,IV,Ind,Prt2,Sg3
