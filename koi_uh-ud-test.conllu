@@ -270,7 +270,7 @@
 12	,	,	PUNCT	CLB	_	13	punct	_	GTtags=CLB
 13	узьлі	узьлыны	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	9	conj	_	GTtags=V,IV,Ind,Prt1,Sg1|SpaceAfter=No
 14	,	,	PUNCT	CLB	_	15	punct	_	GTtags=CLB
-15	кытӧн	кытӧн	PRON	Pron	Case=Ine|PronType=Int	13	obl:lmod	_	GTtags=Pron,Spat,Ine,Interr
+15	кытӧн	кытӧн	ADV	Adv	Case=Ine|ExtPos=ADV|PronType=Int	13	obl:lmod	_	GTtags=Pron,Spat,Ine,Interr
 16	шедас	шедны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut	15	fixed	_	GTtags=V,IV,Ind,Fut,Sg3|SpaceAfter=No
 17	:	:	PUNCT	CLB	_	29	punct	_	GTtags=CLB
 18	кӧз	кӧз	NOUN	N	Case=Nom|Number=Sing	19	nmod	_	GTtags=N,Sg,Nom
@@ -1020,7 +1020,7 @@
 # sent_id = koirus.abu.1
 # text = Абу ни сія морт, а зверь.
 # text_ru = Он не человек, а зверь.
-1	Абу	абу	AUX	_	Polarity=Neg	4	aux:neg	_	GTtags=CC,Neg
+1	Абу	абу	AUX	_	ExtPos=AUX|Polarity=Neg	4	aux:neg	_	GTtags=CC,Neg
 2	ни	ни	ADV	_	Polarity=Neg	1	fixed	_	_
 3	сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj:cop	_	GTtags=Pers,Sg3,Nom
 4	морт	морт	NOUN	_	Animacy=Anim|Case=Nom|Number=Sing	0	root	_	GTtags=Sem/Ani,Sg,Nom|SpaceAfter=No

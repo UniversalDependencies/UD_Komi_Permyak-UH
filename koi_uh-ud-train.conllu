@@ -415,7 +415,7 @@
 4	сійӧ	сія	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	GTtags=Pers,Sg3,Acc
 5	вӧтны	вӧтны	VERB	_	VerbForm=Inf	0	root	_	GTtags=Inf|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
-7	сідз	сідз	ADV	_	_	12	mark	_	_
+7	сідз	сідз	ADV	_	ExtPos=ADV	12	mark	_	_
 8	кыдз	кыдз	ADV	_	_	7	fixed	_	_
 9	сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	GTtags=Pers,Sg3,Nom
 10	ӧддьӧн	ӧддьӧн	ADV	_	_	12	advmod:tmod	_	_
