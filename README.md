@@ -53,6 +53,8 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2025-04-30
+  * Correct NumType OrdMult and MultDist to values Mult,Ord and Dist,Mult, respectively
 * 2024-11-01
   * Correction to features, Degree
   * nmod:poss with possessive pronouns

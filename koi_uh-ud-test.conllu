@@ -112,7 +112,7 @@
 2	лунас	лун	NOUN	_	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl:tmod	_	GTtags=Sg,Ill,PxSg3
 3	вовліс	вовлыны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
 4	гортас	горт	NOUN	_	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl:lmod	_	GTtags=Sg,Ill,PxSg3
-5	кыкисьӧн-куимисьӧн	кыкисьӧн-куимисьӧн	ADV	_	NumType=MultDist	3	advmod	_	GTtags=Mult,Distr
+5	кыкисьӧн-куимисьӧн	кыкисьӧн-куимисьӧн	ADV	_	NumType=Dist,Mult	3	advmod	_	GTtags=Mult,Distr
 6	и	и	CCONJ	_	_	11	cc	_	_
 7	чожа	чожа	ADV	_	_	11	advmod	_	_
 8	сылӧн	сія	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	GTtags=Pers,Sg3,Gen
@@ -155,7 +155,7 @@
 8	и	и	CCONJ	_	_	12	cc	_	_
 9	ӧтамӧдлӧ	ӧтамӧд	PRON	_	Case=Dat|Number=Sing	12	obl	_	GTtags=Sg,All
 10	только	только	ADV	_	_	12	advmod	_	_
-11	кыкисьӧн	кыкисьӧн	ADV	_	NumType=MultDist	12	advmod	_	GTtags=Mult,Distr
+11	кыкисьӧн	кыкисьӧн	ADV	_	NumType=Dist,Mult	12	advmod	_	GTtags=Mult,Distr
 12	шыасисӧ	шыасьны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	conj	_	SpaceAfter=No
 13	.	.	PUNCT	CLB	_	4	punct	_	_
 
@@ -171,7 +171,7 @@
 8	—	—	PUNCT	_	_	14	punct	_	_
 9	натьтö	натьтö	ADV	_	_	14	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	CLB	_	9	punct	_	_
-11	дасöтiсь	дасöтiсь	ADV	_	Case=Ela|NumType=OrdMult	14	advmod:tmod	_	GTtags=Ord,Ela,Mult
+11	дасöтiсь	дасöтiсь	ADV	_	Case=Ela|NumType=Mult,Ord	14	advmod:tmod	_	GTtags=Ord,Ela,Mult
 12	ни	ни	ADV	_	_	11	advmod:tmod	_	_
 13	талун	талун	ADV	_	_	14	advmod:tmod	_	_
 14	юалiс	юавны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	parataxis	_	GTtags=Ind,Prt1,Sg3
@@ -189,7 +189,7 @@
 7	—	—	PUNCT	_	_	8	punct	_	_
 8	натьтö	натьтö	ADV	_	_	12	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	CLB	_	8	punct	_	_
-10	дасöтiсь	дасöтiсь	ADV	_	Case=Ela|NumType=OrdMult	12	advmod:tmod	_	GTtags=Ord,Ela,Mult
+10	дасöтiсь	дасöтiсь	ADV	_	Case=Ela|NumType=Mult,Ord	12	advmod:tmod	_	GTtags=Ord,Ela,Mult
 11	ни	ни	ADV	_	_	12	advmod:tmod	_	_
 12	юöртiс	юӧртны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	parataxis	_	GTtags=Ind,Prt1,Sg3
 13	старуха	старуха	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	GTtags=Sg,Nom
