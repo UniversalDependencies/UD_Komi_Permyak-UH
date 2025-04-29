@@ -376,7 +376,7 @@
 4	кутчисисӧ	кутчисьны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Pl3
 5	да	да	CCONJ	_	_	6	cc	_	_
 6	петісӧ	петны	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	4	conj	_	GTtags=Ind,Prt1,Pl3
-7	жырись	жыр	NOUN	_	Case=Ela|Number=Sing	6	obl:lmod	_	GTtags=Sg,Ela|SpaceAfter=No
+7	жырись	жыр	NOUN	_	Case=Ela|Number=Sing	6	obl	_	GTtags=Sg,Ela|SpaceAfter=No
 8	.	.	PUNCT	CLB	_	4	punct	_	_
 
 # sent_id = PonomarevaLarisa_brat_2018:17
@@ -464,7 +464,7 @@
 # text_mdf = Сон кассь Парижса. Парижсь – тя Франциять ине ошец.
 1	Сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	быдмис	быдмыны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
-3	Парижын	Париж	PROPN	_	Case=Ine|NameType=Geo|Number=Sing	2	obl:lmod	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
+3	Парижын	Париж	PROPN	_	Case=Ine|NameType=Geo|Number=Sing	2	obl	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Франция	Франция	PROPN	_	Case=Nom|NameType=Geo|Number=Sing	6	nmod	_	GTtags=Prop,Sg,Nom
 6	юркарын	юркар	NOUN	_	Case=Ine|Number=Sing	3	appos	_	GTtags=Sg,Ine|SpaceAfter=No
@@ -477,7 +477,7 @@
 # text_mdf = Сон кассь Парижса. Парижсь – тя Франциять ине ошец.
 1	Сія	сія	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
 2	быдмис	быдмыны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	GTtags=Ind,Prt1,Sg3
-3	Парижын	Париж	PROPN	_	Case=Ine|NameType=Geo|Number=Sing	2	obl:lmod	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
+3	Парижын	Париж	PROPN	_	Case=Ine|NameType=Geo|Number=Sing	2	obl	_	GTtags=Prop,Sg,Ine|SpaceAfter=No
 4	,	,	PUNCT	CLB	_	6	punct	_	_
 5	Франциялӧн	Франция	PROPN	_	Case=Gen|NameType=Geo|Number=Sing	6	nmod	_	GTtags=Prop,Sg,Gen
 6	юркарын	юркар	NOUN	_	Case=Ine|Number=Sing	3	appos	_	GTtags=Sg,Ine|SpaceAfter=No
