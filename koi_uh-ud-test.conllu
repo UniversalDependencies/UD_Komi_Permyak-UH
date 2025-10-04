@@ -122,7 +122,7 @@
 12	.	.	PUNCT	CLB	_	3	punct	_	_
 
 # sent_id = PonomarevaLG_2016:205:1
-# text_orig = ви·с'тала тай, бур ола·н ӧ·тикӧ эг адздзы·л.
+# text_orig = ви·с'тала тай, бур ола·н ӧ·тикӧ эг адздзы·л.
 # text = Висьтала тай, бур олан ӧтикӧ эг адззыв.
 # text_ru = Говорю ведь, хорошей жизни совершенно (я) не видела.
 1	Висьтала	висьтавны	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	GTtags=Ind,Prs,Sg1
