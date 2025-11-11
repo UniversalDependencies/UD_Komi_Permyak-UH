@@ -53,6 +53,9 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2025-10-30
+  * Mood and VerbForm=Fin correlation
+  * PronType for DET and PRON
 * 2025-04-30
   * Correct NumType OrdMult and MultDist to values Mult,Ord and Dist,Mult, respectively
   * remove :mmod, :lmod, :mcl, :tcl, :tmod, :cnd; add AdvType=Mod, Mood=Cnd
@@ -94,6 +97,7 @@ Work connected to this treebank is described in following publication. If you us
 Data available since: UD v2.5
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: fiction
 Lemmas: converted from manual
 UPOS: converted from manual
