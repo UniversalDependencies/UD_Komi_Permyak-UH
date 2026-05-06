@@ -53,6 +53,8 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2026-04-30
+  * Add 12 new trees.
 * 2025-10-30
   * Mood and VerbForm=Fin correlation
   * PronType for DET and PRON

@@ -1,0 +1,10 @@
+
+# sent_id = koirus.vozhgajtchyny.1
+# text = Мый тэ сэтчин сыкöт вожгайтчан? 
+# text_ru = Что ты там с ним возишься?
+1	Мый	мый	PRON	Pron	Case=Nom|Sem/NonHum|PronType=Int	5	obj	_	GTtags=Sem/NonHum,Nom,Interr
+2	тэ	тэ	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	GTtags=Pers,Sg2,Nom
+3	сэтчин	сэтчин	ADV	Adv	_	5	advmod	_	_
+4	сыкöт	сія	PRON	Pron	Case=Com|Number=Sing|Person=3|PronType=Prs	5	obl	_	GTtags=Pers,Sg3,Com
+5	вожгайтчан	вожгайтчыны	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	GTtags=Ind,Prs,Sg2|SpaceAfter=No
+6	?	?	PUNCT	CLB	_	5	punct	_	GTtags=CLB
