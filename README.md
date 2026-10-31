@@ -53,6 +53,8 @@ Work connected to this treebank is described in following publication. If you us
 
 # Changelog
 
+* 2026-10-31
+  * Cleansing and testing new tools
 * 2026-04-30
   * Add 12 new trees.
 * 2025-10-30
