@@ -1076,7 +1076,7 @@
 
 # sent_id = koirus.adzzavlyny.1
 # text = Тшаккесӧ сэсся эгӧ пондӧ адззавлыны.
-# text_ru = Мы перестали нахо­дить грибы.
+# text_ru = Мы перестали находить грибы.
 1	Тшаккесӧ	тшак	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	obj	_	GTtags=Pl,Acc,PxSg3
 2	сэсся	сэсся	ADV	Adv	AdvType=Tim	4	advmod	_	_
 3	эгӧ	оз	AUX	_	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	4	aux	_	GTtags=Neg,Ind,Prt1,Pl1
@@ -1263,7 +1263,7 @@
 
 # sent_id = koirus.vidzotny.1
 # text = Кагасӧ видзӧтлы, мед эз усь.
-# text_ru = Посматривай за ре­бёнком, чтобы не упал.
+# text_ru = Посматривай за ребёнком, чтобы не упал.
 1	Кагасӧ	кага	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	obj	_	GTtags=Prop,Sg,Acc,PxSg3
 2	видзӧтлы	видзӧтлыны	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	GTtags=ConNeg|SpaceAfter=No
 3	,	,	PUNCT	CLB	_	2	punct	_	GTtags=CLB
